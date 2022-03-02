@@ -1,20 +1,15 @@
 
 from distutils.command.config import config
 import os
+import shutil
 import tkinter as tk
-from tkinter import Frame, filedialog
+from tkinter import Frame, Image, filedialog
 from tkinter.constants import END, GROOVE, SUNKEN
 import tkinter.font as tkFont
 from tkinter import ttk
 import threading
 import time
-from turtle import width
 import cv2
-from matplotlib.pyplot import text
-from numpy import pad
-from pyparsing import col
-
-
 
 
 
@@ -42,23 +37,14 @@ class mainpage(object):
         self.root.config(menu=self.filemenu)
         self.menu1 = tk.Menu(self.filemenu)
 
-
-        self.cav1 = tk.Canvas(self.root,state=tk.DISABLED)
-        self.cav1.place(relx=0,rely=0,relwidth=1,relheight=0.9)
-        self.notebook = ttk.Notebook(self.cav1)
-        self.notebook.place(relx=0.005,rely=0.05,relwidth=0.78,relheight=0.98)
-        self.nb_frame1 = tk.Frame(self.notebook,)
-        # self.nb_frame2 = tk.Frame(self.notebook,bg='red')
-        self.nb_frame1.pack(fill='both',expand=1)
-        # self.nb_frame2.pack(fill='both',expand=1)
-        self.notebook.add(self.nb_frame1,text='Area Select')
-        # self.notebook.add(self.nb_frame2,text='page2')
-
         #font style
         self.fontStyle = tkFont.Font(family="Terminal", size=10)
         self.fontStyle_run = tkFont.Font(family="Terminal", size=15)
 
-        self.cav1_2 = tk.Canvas(self.cav1,bg='white',bd=3,relief=GROOVE,background="white")
+        self.cav1 = tk.Canvas(self.root,state=tk.DISABLED)
+        self.cav1.place(relx=0,rely=0,relwidth=1,relheight=0.9)
+
+        self.cav1_2 = tk.Canvas(self.cav1,bd=3,relief=GROOVE)
         self.cav1_2.place(relx=0.785,rely=0.05,relwidth=0.21,relheight=0.98)
 
 
@@ -69,50 +55,6 @@ class mainpage(object):
 
         self.filemenu.add_cascade(label='File',menu=self.menu1)
         self.filemenu.add_cascade(label='Reference')
-
-
-        self.img_cav_test = tk.PhotoImage(file='./demo2.png')
-        self.cav1_1 = tk.Canvas(self.nb_frame1,width=700,height=700)
-        self.cav1_right = tk.Canvas(self.nb_frame1,width=700,height=700)
-        self.cav1_bottom = tk.Canvas(self.nb_frame1,width=1450,height=60,bg="white")
-
-
-        self.cav1_1.create_image(0, 0, anchor='nw', image=self.img_cav_test)
-        self.cav1_1.grid(row=0,column=0,rowspan=1,columnspan=1,padx=20)
-        # self.cav1_1.pack(fill='both',expand=1)
-
-        self.cav1_right.create_image(0, 0, anchor='nw', image=self.img_cav_test)
-        self.cav1_right.grid(row=0,column=1,rowspan=1,columnspan=1,padx=20)
-
-        self.cav1_bottom.grid(row=1,column=0,columnspan=2,padx=20,pady=15)
-
-
-        self.cav1_1.bind('<Button-1>', self.onLeftButtonDown)
-        self.cav1_1.bind('<B1-Motion>', self.onLeftButtonMove) # 按下左鍵
-        self.cav1_1.bind('<ButtonRelease-1>', self.onLeftButtonUp) 
-
-        self.cav1_right.bind('<Button-1>', self.onLeftButtonDown_right)
-        self.cav1_right.bind('<B1-Motion>', self.onLeftButtonMove_right) # 按下左鍵
-        self.cav1_right.bind('<ButtonRelease-1>', self.onLeftButtonUp_right) 
-
-        self.label_left_selec_TL = tk.Label(self.cav1_bottom,text=u'Left (Top Left Corner (c,r):',font=self.fontStyle)
-        self.label_left_selec_BR = tk.Label(self.cav1_bottom,text=u'Left (Bottom Right Corner (c,r):',font=self.fontStyle)
-        self.entry_left_selec_TL = tk.Entry(self.cav1_bottom)
-        self.entry_left_selec_BR = tk.Entry(self.cav1_bottom)
-        self.label_right_selec_TL = tk.Label(self.cav1_bottom,text=u'Right (Top Left Corner (c,r):',font=self.fontStyle)
-        self.label_right_selec_BR = tk.Label(self.cav1_bottom,text=u'Right (Bottom Right Corner (c,r):',font=self.fontStyle)
-        self.entry_right_selec_TL = tk.Entry(self.cav1_bottom)
-        self.entry_right_selec_BR = tk.Entry(self.cav1_bottom)
-        self.btn_selec_confirm = tk.Button(self.cav1_bottom,text=u'Confirm',font=self.fontStyle_run)
-        self.label_left_selec_TL.grid(row=0,column=0,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
-        self.label_left_selec_BR.grid(row=1,column=0,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
-        self.entry_left_selec_TL.grid(row=0,column=1,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
-        self.entry_left_selec_BR.grid(row=1,column=1,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
-        self.label_right_selec_TL.grid(row=0,column=2,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
-        self.label_right_selec_BR.grid(row=1,column=2,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
-        self.entry_right_selec_TL.grid(row=0,column=3,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
-        self.entry_right_selec_BR.grid(row=1,column=3,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
-        self.btn_selec_confirm.grid(row=0,column=4,rowspan=2,columnspan=1,padx=5,pady=5,sticky="w")
 
         # self.label2 = tk.Label(self.cav1_1,text=u'canvas 1_1')
         # self.label2.place(x=10,y=10)
@@ -141,34 +83,33 @@ class mainpage(object):
         self.third_confirm_btn = 0
 
         self.label_menu = tk.Label(self.cav1_2,image=self.img_menu,)
-        self.sep = tk.Label(self.cav1_2,image=self.sep_img)
 
         # progress bar style
         self.s = ttk.Style()
         self.s.theme_use('clam')
         self.s.configure("orange.Horizontal.TProgressbar", foreground='orange', background='orange')
 
-        self.label_cam_cali = tk.Label(self.cav1_2,text=u'Camera  Calibration : ',font=self.fontStyle,fg='orange')
-        self.rdio_run_calib = tk.Radiobutton(self.cav1_2, text=u'Import',variable=self.rdio_calib_value, value= 1,font=self.fontStyle,fg='orange',command=self.activeImporCaliImage)
-        self.rdio_skip_calib = tk.Radiobutton(self.cav1_2,text=u'Skip',variable=self.rdio_calib_value,value= 0,font=self.fontStyle,fg='orange',command=self.activeImporCaliImage)
-        self.btn_import_cali_img = tk.Button(self.cav1_2,text=u' Import ... ',font=self.fontStyle,fg='orange',state=tk.DISABLED,command=self.fileImportCali)
+        self.label_cam_cali = tk.Label(self.cav1_2,text=u'Camera  Calibration : ',font=self.fontStyle,fg=self._from_rgb((212,106,0)))
+        self.rdio_run_calib = tk.Radiobutton(self.cav1_2, text=u'Import',variable=self.rdio_calib_value, value= 1,font=self.fontStyle,fg=self._from_rgb((212,106,0)),command=self.activeImporCaliImage)
+        self.rdio_skip_calib = tk.Radiobutton(self.cav1_2,text=u'Skip',variable=self.rdio_calib_value,value= 0,font=self.fontStyle,fg=self._from_rgb((212,106,0)),command=self.activeImporCaliImage)
+        self.btn_import_cali_img = tk.Button(self.cav1_2,text=u' Import ... ',font=self.fontStyle,fg=self._from_rgb((212,106,0)),state=tk.DISABLED,command=self.fileImportCali)
         # self.combo_cali_slip = ttk.Combobox(self.cav1_2,values=["Last one","import"],state=tk.DISABLED)
-        self.label_path_cali_img = tk.Label(self.cav1_2,text=u'Path : ',font=self.fontStyle,fg='orange',state=tk.DISABLED)
+        self.label_path_cali_img = tk.Label(self.cav1_2,text=u'Path : ',font=self.fontStyle,fg=self._from_rgb((212,106,0)),state=tk.DISABLED)
         self.entry_calib_path = tk.Entry(self.cav1_2,bg='AntiqueWhite1',state=tk.DISABLED)
-        self.btn_path_comfirm_cail = tk.Button(self.cav1_2,text=u' Confirm ',font=self.fontStyle,fg='orange',state=tk.DISABLED,command=self.comfirImporCalib)
-        self.label_cali_opt = tk.Label(self.cav1_2,text=u'Calibration Option : ',font=self.fontStyle,fg='orange',state=tk.DISABLED)
-        self.rdio_skip_priv = tk.Radiobutton(self.cav1_2, text=u' Previous ',variable=self.rdio_skip_value, value= 0,font=self.fontStyle,fg='orange',state=tk.DISABLED,command=self.activateSkipPathCaliImg)
-        self.rdio_skip_import = tk.Radiobutton(self.cav1_2,text=u' Import ',variable=self.rdio_skip_value,value= 1,font=self.fontStyle,fg='orange',state=tk.DISABLED,command=self.activateSkipPathCaliImg)
-        self.btn_skip_import = tk.Button(self.cav1_2,text=u' Import ... ',font=self.fontStyle,fg='orange',state=tk.DISABLED,command=self.fileImportCaliParam)
-        self.label_path_skip_cali_import = tk.Label(self.cav1_2,text=u'Path : ',font=self.fontStyle,fg='orange',state=tk.DISABLED)
+        self.btn_path_comfirm_cail = tk.Button(self.cav1_2,text=u' Confirm ',font=self.fontStyle,fg=self._from_rgb((212,106,0)),state=tk.DISABLED,command=self.comfirImporCalib)
+        self.label_cali_opt = tk.Label(self.cav1_2,text=u'Calibration Option : ',font=self.fontStyle,fg=self._from_rgb((212,106,0)),state=tk.DISABLED)
+        self.rdio_skip_priv = tk.Radiobutton(self.cav1_2, text=u' Previous ',variable=self.rdio_skip_value, value= 0,font=self.fontStyle,fg=self._from_rgb((212,106,0)),state=tk.DISABLED,command=self.activateSkipPathCaliImg)
+        self.rdio_skip_import = tk.Radiobutton(self.cav1_2,text=u' Import ',variable=self.rdio_skip_value,value= 1,font=self.fontStyle,fg=self._from_rgb((212,106,0)),state=tk.DISABLED,command=self.activateSkipPathCaliImg)
+        self.btn_skip_import = tk.Button(self.cav1_2,text=u' Import ... ',font=self.fontStyle,fg=self._from_rgb((212,106,0)),state=tk.DISABLED,command=self.fileImportCaliParam)
+        self.label_path_skip_cali_import = tk.Label(self.cav1_2,text=u'Path : ',font=self.fontStyle,fg=self._from_rgb((212,106,0)),state=tk.DISABLED)
         self.entry_skip_cali_import_path = tk.Entry(self.cav1_2,bg='AntiqueWhite1',state=tk.DISABLED)
-        self.btn_path_comfirm_skip_cail = tk.Button(self.cav1_2,text=u' Confirm ',font=self.fontStyle,fg='orange',state=tk.DISABLED,command=self.comfirSkipImporCalib)
-        self.label_img_correction = tk.Label(self.cav1_2,text=u'Image  Correction : ',font=self.fontStyle,fg='orange')
-        self.btn_path_img_corr_import = tk.Button(self.cav1_2,text=u' Import ... ',font=self.fontStyle,fg='orange',command=self.fileImportImgCorr)
-        self.label_path_img_corr = tk.Label(self.cav1_2,text=u'Path : ',font=self.fontStyle,fg='orange')
+        self.btn_path_comfirm_skip_cail = tk.Button(self.cav1_2,text=u' Confirm ',font=self.fontStyle,fg=self._from_rgb((212,106,0)),state=tk.DISABLED,command=self.comfirSkipImporCalib)
+        self.label_img_correction = tk.Label(self.cav1_2,text=u'Image  Correction : ',font=self.fontStyle,fg=self._from_rgb((212,106,0)))
+        self.btn_path_img_corr_import = tk.Button(self.cav1_2,text=u' Import ... ',font=self.fontStyle,fg=self._from_rgb((212,106,0)),command=self.fileImportImgCorr)
+        self.label_path_img_corr = tk.Label(self.cav1_2,text=u'Path : ',font=self.fontStyle,fg=self._from_rgb((212,106,0)))
         self.entry_path_img_corr = tk.Entry(self.cav1_2,bg='AntiqueWhite1')
-        self.btn_path_path_img_corr = tk.Button(self.cav1_2,text=u' Confirm ',font=self.fontStyle,fg='orange',command=self.comfirImporImgCorr)
-        self.btn_run = tk.Button(self.cav1_2,text=u' Run ',font=self.fontStyle_run,fg='orange',command=self.thread_control_run)
+        self.btn_path_path_img_corr = tk.Button(self.cav1_2,text=u' Confirm ',font=self.fontStyle,fg=self._from_rgb((212,106,0)),command=self.comfirImporImgCorr)
+        self.btn_run = tk.Button(self.cav1_2,text=u' Run ',font=self.fontStyle_run,fg=self._from_rgb((212,106,0)),command=self.thread_control_run)
         self.progressbar = ttk.Progressbar(self.cav1_2,length=280,style="orange.Horizontal.TProgressbar",mode='indeterminate',maximum=20,value=0,orient=tk.HORIZONTAL)
         # self.progressbar.step(1)
 
@@ -204,11 +145,82 @@ class mainpage(object):
     def _from_rgb(self,rgb):
         return "#%02x%02x%02x" % rgb
 
+    def area_selec(self):
+
+        
+        self.notebook = ttk.Notebook(self.cav1)
+        self.notebook.place(relx=0.005,rely=0.05,relwidth=0.78,relheight=0.98)
+        self.nb_frame1 = tk.Frame(self.notebook,)
+        # self.nb_frame2 = tk.Frame(self.notebook,bg='red')
+        self.nb_frame1.pack(fill='both',expand=1)
+        # self.nb_frame2.pack(fill='both',expand=1)
+        self.notebook.add(self.nb_frame1,text='Area Select')
+        # self.notebook.add(self.nb_frame2,text='page2')
+
+        # get path of img of 1st frame
+        import method.getFirstFrame
+        path_1st_cam0=method.getFirstFrame.cam0()
+        path_1st_cam1=method.getFirstFrame.cam1()
+
+        # import img of 1st frame
+        # png_path_1st_cam0 = path_1st_cam0.replace('.bmp','.png')
+        # png_path_1st_cam1 = path_1st_cam1.replace('.bmp','.png')
+        # shutil.copyfile(path_1st_cam0,png_path_1st_cam0)
+        # shutil.copyfile(path_1st_cam1,png_path_1st_cam1)
+        path_img_left=tk.PhotoImage(file=path_1st_cam0)
+        path_img_right=tk.PhotoImage(file=path_1st_cam1)
+
+
+
+        # generate 3 canvas in tab of Area Select
+        self.cav1_1 = tk.Canvas(self.nb_frame1,width=700,height=700)
+        self.cav1_right = tk.Canvas(self.nb_frame1,width=700,height=700)
+        self.cav1_bottom = tk.Canvas(self.nb_frame1,width=1450,height=60,bg="white")
+
+        # generate img on cav left
+        self.cav1_1.create_image(0, 0, anchor='nw', image=path_img_left)
+        self.cav1_1.grid(row=0,column=0,rowspan=1,columnspan=1,padx=20)
+        # self.cav1_1.pack(fill='both',expand=1)
+
+        # generate img on cav right
+        self.cav1_right.create_image(0, 0, anchor='nw', image=path_img_right)
+        self.cav1_right.grid(row=0,column=1,rowspan=1,columnspan=1,padx=20)
+
+        # generate a canvas param display
+        self.cav1_bottom.grid(row=1,column=0,columnspan=2,padx=20,pady=15)
+
+        # mouse click event bind for the left canvas
+        self.cav1_1.bind('<Button-1>', self.onLeftButtonDown)
+        self.cav1_1.bind('<B1-Motion>', self.onLeftButtonMove) # 按下左鍵
+        self.cav1_1.bind('<ButtonRelease-1>', self.onLeftButtonUp) 
+
+        # mouse click event bind for the right canvas
+        self.cav1_right.bind('<Button-1>', self.onLeftButtonDown_right)
+        self.cav1_right.bind('<B1-Motion>', self.onLeftButtonMove_right) # 按下左鍵
+        self.cav1_right.bind('<ButtonRelease-1>', self.onLeftButtonUp_right) 
+
+        # widget build inside the tab of Area Select(canvas bottom)
+        self.label_left_selec_TL = tk.Label(self.cav1_bottom,text=u'Left (Top Left Corner (c,r):',font=self.fontStyle)
+        self.label_left_selec_BR = tk.Label(self.cav1_bottom,text=u'Left (Bottom Right Corner (c,r):',font=self.fontStyle)
+        self.entry_left_selec_TL = tk.Entry(self.cav1_bottom)
+        self.entry_left_selec_BR = tk.Entry(self.cav1_bottom)
+        self.label_right_selec_TL = tk.Label(self.cav1_bottom,text=u'Right (Top Left Corner (c,r):',font=self.fontStyle)
+        self.label_right_selec_BR = tk.Label(self.cav1_bottom,text=u'Right (Bottom Right Corner (c,r):',font=self.fontStyle)
+        self.entry_right_selec_TL = tk.Entry(self.cav1_bottom)
+        self.entry_right_selec_BR = tk.Entry(self.cav1_bottom)
+        self.btn_selec_confirm = tk.Button(self.cav1_bottom,text=u'Confirm',font=self.fontStyle_run)
+        self.label_left_selec_TL.grid(row=0,column=0,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
+        self.label_left_selec_BR.grid(row=1,column=0,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
+        self.entry_left_selec_TL.grid(row=0,column=1,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
+        self.entry_left_selec_BR.grid(row=1,column=1,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
+        self.label_right_selec_TL.grid(row=0,column=2,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
+        self.label_right_selec_BR.grid(row=1,column=2,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
+        self.entry_right_selec_TL.grid(row=0,column=3,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
+        self.entry_right_selec_BR.grid(row=1,column=3,rowspan=1,columnspan=1,padx=5,pady=5,sticky="w")
+        self.btn_selec_confirm.grid(row=0,column=4,rowspan=2,columnspan=1,padx=5,pady=5,sticky="w")
+
 #---------some btn action(left)--------------------------------------------------------------------------
-    def getImgSize(self):
-        img=cv2.imread('./demo.png')
-        r,c,no_use = img.shape
-        return r,c
+
     
     def onLeftButtonDown(self,event):
         self.X.set(event.x)
@@ -300,7 +312,7 @@ class mainpage(object):
 
     def run(self):
         # title change
-        root.title('[Calibration Loading] TIRI_000')
+        root.title('[Running] TIRI_000')
         # 
         self.class01=interface.interface.interfaceCalibration()
         # camera calibration import mode
@@ -327,6 +339,12 @@ class mainpage(object):
         self.list_max_frame = interface.interface.interfaceCalulation().doCal()
         # DBScan
         interface.interface.interfaceDBScan().doDBScan(self.list_max_frame[0],self.list_max_frame[1])
+        
+        # stop progress bar
+        self.progressbar.stop()
+        
+        # generate Area Select
+        self.area_selec()
 
 
 
