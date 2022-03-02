@@ -10,7 +10,7 @@ from tkinter import ttk
 import threading
 import time
 import cv2
-
+from PIL import Image, ImageTk
 
 
 import interface.interface
@@ -157,35 +157,36 @@ class mainpage(object):
         self.notebook.add(self.nb_frame1,text='Area Select')
         # self.notebook.add(self.nb_frame2,text='page2')
 
-        # get path of img of 1st frame
-        import method.getFirstFrame
-        path_1st_cam0=method.getFirstFrame.cam0()
-        path_1st_cam1=method.getFirstFrame.cam1()
-
-        # import img of 1st frame
-        # png_path_1st_cam0 = path_1st_cam0.replace('.bmp','.png')
-        # png_path_1st_cam1 = path_1st_cam1.replace('.bmp','.png')
-        # shutil.copyfile(path_1st_cam0,png_path_1st_cam0)
-        # shutil.copyfile(path_1st_cam1,png_path_1st_cam1)
-        path_img_left=tk.PhotoImage(file=path_1st_cam0)
-        path_img_right=tk.PhotoImage(file=path_1st_cam1)
-
-
-
         # generate 3 canvas in tab of Area Select
         self.cav1_1 = tk.Canvas(self.nb_frame1,width=700,height=700)
         self.cav1_right = tk.Canvas(self.nb_frame1,width=700,height=700)
         self.cav1_bottom = tk.Canvas(self.nb_frame1,width=1450,height=60,bg="white")
 
-        # generate img on cav left
-        self.cav1_1.create_image(0, 0, anchor='nw', image=path_img_left)
+        # get path of img of 1st frame
+        import method.getFirstFrame
+        path_1st_cam0=method.getFirstFrame.cam0()
+        path_1st_cam1=method.getFirstFrame.cam1()
+
+        #--------------------left---------------------------------------
+        img_impt = cv2.imread(path_1st_cam0)
+        img_cv = cv2.cvtColor(img_impt, cv2.COLOR_BGR2RGBA)
+        c_img = Image.fromarray(img_cv)
+        img_TK = ImageTk.PhotoImage(image=c_img)
+        self.cav1_1.create_image(0, 0, anchor=tk.NW, image=img_TK)
+        #_-------------------------------------------------------------
+        #--------------------right---------------------------------------
+        img_impt2 = cv2.imread(path_1st_cam1)
+        img_cv2 = cv2.cvtColor(img_impt2, cv2.COLOR_BGR2RGBA)
+        c_img2 = Image.fromarray(img_cv2)
+        img_TK2 = ImageTk.PhotoImage(image=c_img2)
+        # image = Image.open()
+        self.cav1_right.create_image(0, 0, anchor=tk.NW, image=img_TK2)
+        #_-------------------------------------------------------------
+
+        # generate a canvas-left
         self.cav1_1.grid(row=0,column=0,rowspan=1,columnspan=1,padx=20)
-        # self.cav1_1.pack(fill='both',expand=1)
-
-        # generate img on cav right
-        self.cav1_right.create_image(0, 0, anchor='nw', image=path_img_right)
+        # generate a canvas-right
         self.cav1_right.grid(row=0,column=1,rowspan=1,columnspan=1,padx=20)
-
         # generate a canvas param display
         self.cav1_bottom.grid(row=1,column=0,columnspan=2,padx=20,pady=15)
 
