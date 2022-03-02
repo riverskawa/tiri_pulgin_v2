@@ -1,0 +1,448 @@
+[D 20220109 19:34:23 __init__:241] (private) matplotlib data path: C:\Users\winghingYau\Documents\anaconda3\envs\py368\lib\site-packages\matplotlib\mpl-data
+[D 20220109 19:34:23 __init__:241] matplotlib data path: C:\Users\winghingYau\Documents\anaconda3\envs\py368\lib\site-packages\matplotlib\mpl-data
+[D 20220109 19:34:23 __init__:241] CONFIGDIR=C:\Users\winghingYau\.matplotlib
+[D 20220109 19:34:23 __init__:1480] matplotlib version 3.3.4
+[D 20220109 19:34:23 __init__:1481] interactive is False
+[D 20220109 19:34:23 __init__:1482] platform is win32
+[D 20220109 19:34:23 __init__:1483] loaded modules: ['builtins', 'sys', '_frozen_importlib', '_imp', '_warnings', '_thread', '_weakref', '_frozen_importlib_external', '_io', 'marshal', 'nt', 'winreg', 'zipimport', 'encodings', 'codecs', '_codecs', 'encodings.aliases', 'encodings.utf_8', '_signal', 'encodings.latin_1', 'io', 'abc', '_weakrefset', 'site', 'os', 'errno', 'stat', '_stat', 'ntpath', 'genericpath', 'os.path', '_collections_abc', '_sitebuiltins', 'sysconfig', '_bootlocale', '_locale', 'encodings.cp1252', 'types', 'functools', '_functools', 'collections', 'operator', '_operator', 'keyword', 'heapq', '_heapq', 'itertools', 'reprlib', '_collections', 'weakref', 'collections.abc', 'importlib', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib.util', 'importlib.abc', 'importlib.machinery', 'contextlib', 'mpl_toolkits', 'runpy', 'pkgutil', '__main__', '__future__', 'debugpy', 'debugpy._version', 'json', 'json.decoder', 're', 'enum', 'sre_compile', '_sre', 'sre_parse', 'sre_constants', 'copyreg', 'json.scanner', '_json', 'json.encoder', 'debugpy.common', 'debugpy.common.compat', 'inspect', 'ast', '_ast', 'dis', 'opcode', '_opcode', 'linecache', 'tokenize', 'token', 'debugpy.common.fmt', 'string', '_string', 'debugpy.common.json', 'queue', 'threading', 'time', 'traceback', 'debugpy.server', 'debugpy._vendored', 'debugpy._vendored._util', 'debugpy._vendored.force_pydevd', '_pydevd_bundle', '_pydevd_bundle.pydevd_constants', 'platform', 'subprocess', 'signal', 'msvcrt', '_winapi', 'struct', '_struct', 'encodings.ascii', 'encodings.idna', 'stringprep', 'unicodedata', '_pydevd_bundle.pydevd_vm_type', '_pydev_imps', '_pydev_imps._pydev_saved_modules', 'socket', '_socket', 'selectors', 'math', 'select', 'code', 'argparse', 'copy', 'textwrap', 'gettext', 'locale', 'codeop', 'xmlrpc', 'xmlrpc.client', 'base64', 'binascii', 'datetime', '_datetime', 'decimal', 'numbers', '_decimal', 'http', 'http.client', 'email', 'email.parser', 'email.feedparser', 'email.errors', 'email._policybase', 'email.header', 'email.quoprimime', 'email.base64mime', 'email.charset', 'email.encoders', 'quopri', 'email.utils', 'random', 'hashlib', '_hashlib', '_blake2', '_sha3', 'bisect', '_bisect', '_random', 'urllib', 'urllib.parse', 'email._parseaddr', 'calendar', 'email.message', 'uu', 'email._encoded_words', 'email.iterators', 'ssl', 'ipaddress', '_ssl', 'xml', 'xml.parsers', 'xml.parsers.expat', 'pyexpat.errors', 'pyexpat.model', 'pyexpat', 'xml.parsers.expat.model', 'xml.parsers.expat.errors', 'gzip', 'zlib', '_compression', 'xmlrpc.server', 'http.server', 'html', 'html.entities', 'mimetypes', 'posixpath', 'shutil', 'fnmatch', 'bz2', '_bz2', 'lzma', '_lzma', 'socketserver', 'pydoc', '_pydev_bundle', '_pydev_runfiles', '_pydevd_frame_eval', 'pydev_ipython', 'pydevd_concurrency_analyser', 'pydevd_plugins', 'pkg_resources', 'zipfile', 'plistlib', 'tempfile', 'pkg_resources.extern', 'pkg_resources._vendor', 'pkg_resources._vendor.appdirs', 'ctypes', '_ctypes', 'ctypes._endian', 'pkg_resources.extern.appdirs', 'pkg_resources._vendor.packaging', 'pkg_resources._vendor.packaging.__about__', 'pkg_resources.extern.packaging', 'pkg_resources.extern.packaging.version', 'pkg_resources.extern.packaging._structures', 'pkg_resources.extern.packaging._typing', 'pkg_resources.extern.packaging.specifiers', 'pkg_resources.extern.packaging._compat', 'pkg_resources.extern.packaging.utils', 'pkg_resources.extern.packaging.requirements', 'pkg_resources._vendor.pyparsing', 'pprint', 'pkg_resources.extern.pyparsing', 'pkg_resources.extern.packaging.markers', 'pydevd', 'atexit', 'getpass', 'pydevd_file_utils', '_pydev_bundle.pydev_log', '_pydev_bundle._pydev_filesystem_encoding', '_pydevd_bundle.pydevd_comm_constants', 'ctypes.wintypes', '_pydev_bundle.pydev_imports', '_pydev_imps._pydev_execfile', '_pydevd_bundle.pydevd_exec2', '_pydev_bundle.pydev_is_thread_alive', '_pydev_bundle.pydev_override', '_pydevd_bundle.pydevd_extension_utils', 'pydevd_plugins.extensions', '_pydevd_bundle.pydevd_frame_utils', '_pydevd_bundle.pydevd_filtering', 'glob', '_pydevd_bundle.pydevd_io', '_pydevd_bundle.pydevd_utils', '_pydev_bundle.pydev_console_utils', '_pydev_bundle._pydev_calltip_util', '_pydev_bundle._pydev_imports_tipper', '_pydev_bundle._pydev_tipper_common', '_pydevd_bundle.pydevd_vars', 'pickle', '_compat_pickle', '_pickle', '_pydevd_bundle.pydevd_xml', '_pydevd_bundle.pydevd_resolver', '_pydevd_bundle.pydevd_safe_repr', '_pydevd_bundle.pydevd_extension_api', '_pydevd_bundle.pydevd_thread_lifecycle', '_pydevd_bundle.pydevd_additional_thread_info', '_pydevd_bundle.pydevd_additional_thread_info_regular', '_pydevd_bundle.pydevd_frame', '_pydevd_bundle.pydevd_dont_trace', '_pydevd_bundle.pydevd_bytecode_utils', '_pydevd_frame_eval.vendored', '_pydevd_frame_eval.vendored.bytecode', '_pydevd_frame_eval.vendored.bytecode.flags', '_pydevd_frame_eval.vendored.bytecode.instr', '_pydevd_frame_eval.vendored.bytecode.bytecode', '_pydevd_frame_eval.vendored.bytecode.concrete', '_pydevd_frame_eval.vendored.bytecode.cfg', '_pydevd_bundle.pydevd_save_locals', '_pydevd_bundle.pydevd_timeout', '_pydevd_bundle.pydevd_daemon_thread', 'pydevd_tracing', '_pydev_bundle.pydev_monkey', '_pydevd_bundle.pydevd_defaults', 'pathlib', '_pydevd_bundle.pydevd_breakpoints', '_pydevd_bundle.pydevd_import_class', '_pydevd_bundle.pydevd_custom_frames', '_pydevd_bundle.pydevd_dont_trace_files', '_pydevd_bundle.pydevd_net_command_factory_xml', '_pydevd_bundle.pydevd_net_command', '_pydev_bundle._pydev_completer', 'pydevconsole', '_pydev_bundle.pydev_umd', '_pydevd_bundle.pydevd_trace_dispatch', '_pydevd_bundle.pydevd_trace_dispatch_regular', '_pydevd_frame_eval.pydevd_frame_eval_main', '_pydevd_bundle.pydevd_source_mapping', 'pydevd_concurrency_analyser.pydevd_concurrency_logger', 'pydevd_concurrency_analyser.pydevd_thread_wrappers', '_pydevd_bundle.pydevd_comm', '_pydevd_bundle._debug_adapter', '_pydevd_bundle._debug_adapter.pydevd_schema', '_pydevd_bundle._debug_adapter.pydevd_base_schema', '_pydevd_bundle._debug_adapter.pydevd_schema_log', '_pydevd_bundle.pydevd_reload', '_pydev_bundle.fsnotify', '_pydevd_bundle.pydevd_console', '_pydevd_bundle.pydevd_process_net_command_json', '_pydevd_bundle.pydevd_api', '_pydevd_bundle.pydevd_net_command_factory_json', '_pydevd_bundle.pydevd_collect_bytecode_info', '_pydevd_bundle.pydevd_json_debug_options', '_pydevd_bundle.pydevd_process_net_command', '_pydevd_bundle.pydevd_traceproperty', '_pydevd_bundle.pydevd_suspended_frames', '_pydevd_bundle.pydevd_plugin_utils', '_pydevd_bundle.pydevd_trace_api', 'pydevd_plugins.django_debug', 'pydevd_plugins.jinja2_debug', 'pydevd_plugins.extensions.types', 'pydevd_plugins.extensions.types.pydevd_plugin_numpy_types', 'pydevd_plugins.extensions.types.pydevd_helpers', 'pydevd_plugins.extensions.types.pydevd_plugins_django_form_str', 'debugpy.server.cli', 'debugpy.common.log', 'debugpy.common.timestamp', 'debugpy.common.util', 'debugpy.server.api', 'debugpy.adapter', 'debugpy.common.sockets', 'pydev_ipython.matplotlibtools', 'pydev_ipython.inputhook', 'logging', 'ui', 'ui.home', 'tkinter', '_tkinter', 'tkinter.constants', 'tkinter.filedialog', 'tkinter.dialog', 'tkinter.commondialog', 'interface', 'interface.interface', 'method', 'method.calibration', 'cv2', 'numpy', 'numpy._globals', 'numpy.__config__', 'numpy.version', 'numpy._distributor_init', 'numpy.core', 'numpy.core.multiarray', 'numpy.core.overrides', 'numpy.core._multiarray_umath', 'numpy.compat', 'numpy.compat._inspect', 'numpy.compat.py3k', 'numpy.core.umath', 'numpy.core.numerictypes', 'numpy.core._string_helpers', 'numpy.core._type_aliases', 'numpy.core._dtype', 'numpy.core.numeric', 'numpy.core.shape_base', 'numpy.core._asarray', 'numpy.core.fromnumeric', 'numpy.core._methods', 'numpy.core._exceptions', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core.machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._add_newdocs', 'numpy.core._multiarray_tests', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.lib', 'numpy.lib.mixins', 'numpy.lib.scimath', 'numpy.lib.type_check', 'numpy.lib.ufunclike', 'numpy.lib.index_tricks', 'numpy.matrixlib', 'numpy.matrixlib.defmatrix', 'numpy.linalg', 'numpy.linalg.linalg', 'numpy.lib.twodim_base', 'numpy.linalg.lapack_lite', 'numpy.linalg._umath_linalg', 'numpy.lib.function_base', 'numpy.lib.histograms', 'numpy.lib.stride_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.npyio', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.financial', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.fft', 'numpy.fft._pocketfft', 'numpy.fft._pocketfft_internal', 'numpy.fft.helper', 'numpy.polynomial', 'numpy.polynomial.polynomial', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.random', 'numpy.random._pickle', 'numpy.random.mtrand', 'cython_runtime', 'numpy.random.bit_generator', '_cython_0_29_21', 'numpy.random._common', 'secrets', 'hmac', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.ctypeslib', 'numpy.ma', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.testing', 'unittest', 'unittest.result', 'unittest.util', 'unittest.case', 'difflib', 'unittest.suite', 'unittest.loader', 'unittest.main', 'unittest.runner', 'unittest.signals', 'numpy.testing._private', 'numpy.testing._private.utils', 'gc', 'numpy.testing._private.decorators', 'numpy.testing._private.nosetester', 'cv2.Error', 'cv2.cuda', 'cv2.detail', 'cv2.dnn', 'cv2.fisheye', 'cv2.flann', 'cv2.gapi', 'cv2.gapi.core', 'cv2.gapi.core.cpu', 'cv2.gapi.core.fluid', 'cv2.gapi.core.ocl', 'cv2.gapi.ie', 'cv2.gapi.ie.detail', 'cv2.gapi.onnx', 'cv2.gapi.own', 'cv2.gapi.own.detail', 'cv2.gapi.render', 'cv2.gapi.render.ocv', 'cv2.gapi.streaming', 'cv2.gapi.video', 'cv2.gapi.wip', 'cv2.gapi.wip.draw', 'cv2.ipp', 'cv2.ml', 'cv2.ocl', 'cv2.ogl', 'cv2.parallel', 'cv2.samples', 'cv2.segmentation', 'cv2.utils', 'cv2.utils.fs', 'cv2.videoio_registry', 'cv2.cv2', 'cv2.data', 'cv2.version', 'method.imageProcessing', 'method.imgToVid', 'method.opticalFlow', 'method.moveObj', 'method.findMaxFeatureNum', 'method.findFeatureInfo', 'method.plot', 'matplotlib', 'distutils', 'distutils.version', 'matplotlib.cbook', 'shlex', 'matplotlib.cbook.deprecation', 'matplotlib.rcsetup', 'matplotlib.animation', 'uuid', 'ctypes.util', 'matplotlib._animation_data', 'matplotlib.fontconfig_pattern', 'pyparsing', 'matplotlib.colors', 'matplotlib.docstring', 'matplotlib._color_data', 'cycler', 'six', 'six.moves', 'matplotlib._version', 'matplotlib.ft2font', 'dateutil', 'dateutil._version', 'kiwisolver']
+[D 20220109 19:34:23 __init__:241] CACHEDIR=C:\Users\winghingYau\.matplotlib
+[D 20220109 19:34:23 font_manager:1436] Using fontManager instance from C:\Users\winghingYau\.matplotlib\fontlist-v330.json
+[D 20220109 19:34:23 pyplot:290] Loaded backend tkagg version unknown.
+[D 20220109 19:34:23 pyplot:290] Loaded backend TkAgg version unknown.
+[I 20220109 19:34:36 interface:34] the path already exited: ./cali-board-0
+[I 20220109 19:34:36 interface:40] the path already exited: ./cali-board-1
+[I 20220109 19:34:36 calibration:9] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637332C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output0_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637412C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output1_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637432C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output2_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637472C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output3_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637492C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output4_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637532C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output5_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637552C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output6_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637592C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output7_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637612C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output8_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637652C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output9_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637692C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output10_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637712C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output11_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640232C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output12_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640272C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output13_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640292C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output14_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640332C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output15_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640372C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output16_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640412C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output17_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640432C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output18_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640472C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output19_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640512C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output20_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640552C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output21_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640572C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output22_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640612C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output23_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640632C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output24_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645211C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output25_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645231C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output26_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645271C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output27_0.jpg
+[I 20220109 19:34:36 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645291C_0.bmp
+[I 20220109 19:34:36 calibration:63] imwrite: ./cali-board-0/output28_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645331C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output29_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645351C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output30_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645391C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output31_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645431C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output32_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645471C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output33_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645491C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output34_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645531C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output35_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645571C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output36_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645591C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output37_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645631C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output38_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645651C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output39_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645691C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output40_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645731C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output41_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645751C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output42_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645791C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output43_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648291C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output44_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648331C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output45_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648351C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output46_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648391C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output47_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648431C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output48_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648471C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output49_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648491C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output50_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648531C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output51_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648571C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output52_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648611C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output53_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648631C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output54_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648671C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output55_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648711C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output56_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648751C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output57_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648771C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output58_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648811C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output59_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648831C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output60_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648871C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output61_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648891C_0.bmp
+[I 20220109 19:34:37 calibration:63] imwrite: ./cali-board-0/output62_0.jpg
+[I 20220109 19:34:37 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648931C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output63_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648971C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output64_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141649011C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output65_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652191C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output66_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652211C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output67_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652251C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output68_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652271C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output69_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652311C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output70_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652351C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output71_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652371C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output72_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652411C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output73_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652451C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output74_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652511C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output75_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652531C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output76_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652591C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output77_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652631C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output78_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652651C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output79_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652691C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output80_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652731C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output81_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652771C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output82_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652791C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output83_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652831C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output84_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652851C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output85_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652891C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output86_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652911C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output87_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141654931C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output88_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141654971C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output89_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655011C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output90_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655031C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output91_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655071C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output92_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655091C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output93_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655111C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output94_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655151C_0.bmp
+[I 20220109 19:34:38 calibration:63] imwrite: ./cali-board-0/output95_0.jpg
+[I 20220109 19:34:38 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655171C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output96_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655231C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output97_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655251C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output98_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655291C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output99_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655331C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output100_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655371C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output101_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655411C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output102_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655431C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output103_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655491C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output104_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655531C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output105_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655571C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output106_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655591C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output107_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655631C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output108_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655651C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output109_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655671C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output110_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655711C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output111_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655731C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output112_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655771C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output113_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659411C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output114_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659471C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output115_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659511C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output116_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659551C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output117_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659571C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output118_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659611C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output119_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659651C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output120_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659691C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output121_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659711C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output122_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659751C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output123_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659771C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output124_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659811C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output125_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659831C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output126_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659871C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output127_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659891C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output128_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659931C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output129_0.jpg
+[I 20220109 19:34:39 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659951C_0.bmp
+[I 20220109 19:34:39 calibration:63] imwrite: ./cali-board-0/output130_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659991C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output131_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700011C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output132_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700051C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output133_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700071C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output134_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700111C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output135_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700131C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output136_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702711C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output137_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702731C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output138_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702771C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output139_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702811C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output140_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702831C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output141_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702871C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output142_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702891C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output143_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702931C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output144_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702971C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output145_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703011C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output146_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703031C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output147_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703071C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output148_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703091C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output149_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703131C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output150_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703151C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output151_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703191C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output152_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703211C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output153_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703251C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output154_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703271C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output155_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703311C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output156_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703331C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output157_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703371C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output158_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703391C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output159_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703431C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output160_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703471C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output161_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703511C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output162_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703551C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output163_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703571C_0.bmp
+[I 20220109 19:34:40 calibration:63] imwrite: ./cali-board-0/output164_0.jpg
+[I 20220109 19:34:40 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703611C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output165_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703651C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output166_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703671C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output167_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703711C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output168_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703751C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output169_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703771C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output170_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703811C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output171_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703851C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output172_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709471C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output173_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709511C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output174_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709531C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output175_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709571C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output176_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709591C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output177_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709631C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output178_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709651C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output179_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709691C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output180_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709711C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output181_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709731C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output182_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709771C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output183_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709791C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output184_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709831C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output185_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709851C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output186_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709891C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output187_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709911C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output188_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709951C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output189_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709991C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output190_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141710031C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output191_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141710051C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output192_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141710091C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output193_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141710111C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output194_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712431C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output195_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712451C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output196_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712491C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output197_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712511C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output198_0.jpg
+[I 20220109 19:34:41 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712551C_0.bmp
+[I 20220109 19:34:41 calibration:63] imwrite: ./cali-board-0/output199_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712571C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output200_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712611C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output201_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712631C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output202_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712671C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output203_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712691C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output204_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712731C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output205_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712751C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output206_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712791C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output207_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712811C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output208_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712851C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output209_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712871C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output210_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712911C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output211_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712951C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output212_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712971C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output213_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141713011C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output214_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141713051C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output215_0.jpg
+[I 20220109 19:34:42 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141713091C_0.bmp
+[I 20220109 19:34:42 calibration:63] imwrite: ./cali-board-0/output216_0.jpg

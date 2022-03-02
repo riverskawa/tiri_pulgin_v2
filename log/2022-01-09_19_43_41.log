@@ -1,0 +1,2621 @@
+[D 20220109 19:43:41 __init__:241] (private) matplotlib data path: C:\Users\winghingYau\Documents\anaconda3\envs\py368\lib\site-packages\matplotlib\mpl-data
+[D 20220109 19:43:41 __init__:241] matplotlib data path: C:\Users\winghingYau\Documents\anaconda3\envs\py368\lib\site-packages\matplotlib\mpl-data
+[D 20220109 19:43:41 __init__:241] CONFIGDIR=C:\Users\winghingYau\.matplotlib
+[D 20220109 19:43:41 __init__:1480] matplotlib version 3.3.4
+[D 20220109 19:43:41 __init__:1481] interactive is False
+[D 20220109 19:43:41 __init__:1482] platform is win32
+[D 20220109 19:43:41 __init__:1483] loaded modules: ['builtins', 'sys', '_frozen_importlib', '_imp', '_warnings', '_thread', '_weakref', '_frozen_importlib_external', '_io', 'marshal', 'nt', 'winreg', 'zipimport', 'encodings', 'codecs', '_codecs', 'encodings.aliases', 'encodings.utf_8', '_signal', 'encodings.latin_1', 'io', 'abc', '_weakrefset', 'site', 'os', 'errno', 'stat', '_stat', 'ntpath', 'genericpath', 'os.path', '_collections_abc', '_sitebuiltins', 'sysconfig', '_bootlocale', '_locale', 'encodings.cp1252', 'types', 'functools', '_functools', 'collections', 'operator', '_operator', 'keyword', 'heapq', '_heapq', 'itertools', 'reprlib', '_collections', 'weakref', 'collections.abc', 'importlib', 'importlib._bootstrap', 'importlib._bootstrap_external', 'warnings', 'importlib.util', 'importlib.abc', 'importlib.machinery', 'contextlib', 'mpl_toolkits', 'runpy', 'pkgutil', '__main__', '__future__', 'debugpy', 'debugpy._version', 'json', 'json.decoder', 're', 'enum', 'sre_compile', '_sre', 'sre_parse', 'sre_constants', 'copyreg', 'json.scanner', '_json', 'json.encoder', 'debugpy.common', 'debugpy.common.compat', 'inspect', 'ast', '_ast', 'dis', 'opcode', '_opcode', 'linecache', 'tokenize', 'token', 'debugpy.common.fmt', 'string', '_string', 'debugpy.common.json', 'queue', 'threading', 'time', 'traceback', 'debugpy.server', 'debugpy._vendored', 'debugpy._vendored._util', 'debugpy._vendored.force_pydevd', '_pydevd_bundle', '_pydevd_bundle.pydevd_constants', 'platform', 'subprocess', 'signal', 'msvcrt', '_winapi', 'struct', '_struct', 'encodings.ascii', 'encodings.idna', 'stringprep', 'unicodedata', '_pydevd_bundle.pydevd_vm_type', '_pydev_imps', '_pydev_imps._pydev_saved_modules', 'socket', '_socket', 'selectors', 'math', 'select', 'code', 'argparse', 'copy', 'textwrap', 'gettext', 'locale', 'codeop', 'xmlrpc', 'xmlrpc.client', 'base64', 'binascii', 'datetime', '_datetime', 'decimal', 'numbers', '_decimal', 'http', 'http.client', 'email', 'email.parser', 'email.feedparser', 'email.errors', 'email._policybase', 'email.header', 'email.quoprimime', 'email.base64mime', 'email.charset', 'email.encoders', 'quopri', 'email.utils', 'random', 'hashlib', '_hashlib', '_blake2', '_sha3', 'bisect', '_bisect', '_random', 'urllib', 'urllib.parse', 'email._parseaddr', 'calendar', 'email.message', 'uu', 'email._encoded_words', 'email.iterators', 'ssl', 'ipaddress', '_ssl', 'xml', 'xml.parsers', 'xml.parsers.expat', 'pyexpat.errors', 'pyexpat.model', 'pyexpat', 'xml.parsers.expat.model', 'xml.parsers.expat.errors', 'gzip', 'zlib', '_compression', 'xmlrpc.server', 'http.server', 'html', 'html.entities', 'mimetypes', 'posixpath', 'shutil', 'fnmatch', 'bz2', '_bz2', 'lzma', '_lzma', 'socketserver', 'pydoc', '_pydev_bundle', '_pydev_runfiles', '_pydevd_frame_eval', 'pydev_ipython', 'pydevd_concurrency_analyser', 'pydevd_plugins', 'pkg_resources', 'zipfile', 'plistlib', 'tempfile', 'pkg_resources.extern', 'pkg_resources._vendor', 'pkg_resources._vendor.appdirs', 'ctypes', '_ctypes', 'ctypes._endian', 'pkg_resources.extern.appdirs', 'pkg_resources._vendor.packaging', 'pkg_resources._vendor.packaging.__about__', 'pkg_resources.extern.packaging', 'pkg_resources.extern.packaging.version', 'pkg_resources.extern.packaging._structures', 'pkg_resources.extern.packaging._typing', 'pkg_resources.extern.packaging.specifiers', 'pkg_resources.extern.packaging._compat', 'pkg_resources.extern.packaging.utils', 'pkg_resources.extern.packaging.requirements', 'pkg_resources._vendor.pyparsing', 'pprint', 'pkg_resources.extern.pyparsing', 'pkg_resources.extern.packaging.markers', 'pydevd', 'atexit', 'getpass', 'pydevd_file_utils', '_pydev_bundle.pydev_log', '_pydev_bundle._pydev_filesystem_encoding', '_pydevd_bundle.pydevd_comm_constants', 'ctypes.wintypes', '_pydev_bundle.pydev_imports', '_pydev_imps._pydev_execfile', '_pydevd_bundle.pydevd_exec2', '_pydev_bundle.pydev_is_thread_alive', '_pydev_bundle.pydev_override', '_pydevd_bundle.pydevd_extension_utils', 'pydevd_plugins.extensions', '_pydevd_bundle.pydevd_frame_utils', '_pydevd_bundle.pydevd_filtering', 'glob', '_pydevd_bundle.pydevd_io', '_pydevd_bundle.pydevd_utils', '_pydev_bundle.pydev_console_utils', '_pydev_bundle._pydev_calltip_util', '_pydev_bundle._pydev_imports_tipper', '_pydev_bundle._pydev_tipper_common', '_pydevd_bundle.pydevd_vars', 'pickle', '_compat_pickle', '_pickle', '_pydevd_bundle.pydevd_xml', '_pydevd_bundle.pydevd_resolver', '_pydevd_bundle.pydevd_safe_repr', '_pydevd_bundle.pydevd_extension_api', '_pydevd_bundle.pydevd_thread_lifecycle', '_pydevd_bundle.pydevd_additional_thread_info', '_pydevd_bundle.pydevd_additional_thread_info_regular', '_pydevd_bundle.pydevd_frame', '_pydevd_bundle.pydevd_dont_trace', '_pydevd_bundle.pydevd_bytecode_utils', '_pydevd_frame_eval.vendored', '_pydevd_frame_eval.vendored.bytecode', '_pydevd_frame_eval.vendored.bytecode.flags', '_pydevd_frame_eval.vendored.bytecode.instr', '_pydevd_frame_eval.vendored.bytecode.bytecode', '_pydevd_frame_eval.vendored.bytecode.concrete', '_pydevd_frame_eval.vendored.bytecode.cfg', '_pydevd_bundle.pydevd_save_locals', '_pydevd_bundle.pydevd_timeout', '_pydevd_bundle.pydevd_daemon_thread', 'pydevd_tracing', '_pydev_bundle.pydev_monkey', '_pydevd_bundle.pydevd_defaults', 'pathlib', '_pydevd_bundle.pydevd_breakpoints', '_pydevd_bundle.pydevd_import_class', '_pydevd_bundle.pydevd_custom_frames', '_pydevd_bundle.pydevd_dont_trace_files', '_pydevd_bundle.pydevd_net_command_factory_xml', '_pydevd_bundle.pydevd_net_command', '_pydev_bundle._pydev_completer', 'pydevconsole', '_pydev_bundle.pydev_umd', '_pydevd_bundle.pydevd_trace_dispatch', '_pydevd_bundle.pydevd_trace_dispatch_regular', '_pydevd_frame_eval.pydevd_frame_eval_main', '_pydevd_bundle.pydevd_source_mapping', 'pydevd_concurrency_analyser.pydevd_concurrency_logger', 'pydevd_concurrency_analyser.pydevd_thread_wrappers', '_pydevd_bundle.pydevd_comm', '_pydevd_bundle._debug_adapter', '_pydevd_bundle._debug_adapter.pydevd_schema', '_pydevd_bundle._debug_adapter.pydevd_base_schema', '_pydevd_bundle._debug_adapter.pydevd_schema_log', '_pydevd_bundle.pydevd_reload', '_pydev_bundle.fsnotify', '_pydevd_bundle.pydevd_console', '_pydevd_bundle.pydevd_process_net_command_json', '_pydevd_bundle.pydevd_api', '_pydevd_bundle.pydevd_net_command_factory_json', '_pydevd_bundle.pydevd_collect_bytecode_info', '_pydevd_bundle.pydevd_json_debug_options', '_pydevd_bundle.pydevd_process_net_command', '_pydevd_bundle.pydevd_traceproperty', '_pydevd_bundle.pydevd_suspended_frames', '_pydevd_bundle.pydevd_plugin_utils', '_pydevd_bundle.pydevd_trace_api', 'pydevd_plugins.django_debug', 'pydevd_plugins.jinja2_debug', 'pydevd_plugins.extensions.types', 'pydevd_plugins.extensions.types.pydevd_plugin_numpy_types', 'pydevd_plugins.extensions.types.pydevd_helpers', 'pydevd_plugins.extensions.types.pydevd_plugins_django_form_str', 'debugpy.server.cli', 'debugpy.common.log', 'debugpy.common.timestamp', 'debugpy.common.util', 'debugpy.server.api', 'debugpy.adapter', 'debugpy.common.sockets', 'pydev_ipython.matplotlibtools', 'pydev_ipython.inputhook', 'logging', 'ui', 'ui.home', 'tkinter', '_tkinter', 'tkinter.constants', 'tkinter.filedialog', 'tkinter.dialog', 'tkinter.commondialog', 'interface', 'interface.interface', 'method', 'method.calibration', 'cv2', 'numpy', 'numpy._globals', 'numpy.__config__', 'numpy.version', 'numpy._distributor_init', 'numpy.core', 'numpy.core.multiarray', 'numpy.core.overrides', 'numpy.core._multiarray_umath', 'numpy.compat', 'numpy.compat._inspect', 'numpy.compat.py3k', 'numpy.core.umath', 'numpy.core.numerictypes', 'numpy.core._string_helpers', 'numpy.core._type_aliases', 'numpy.core._dtype', 'numpy.core.numeric', 'numpy.core.shape_base', 'numpy.core._asarray', 'numpy.core.fromnumeric', 'numpy.core._methods', 'numpy.core._exceptions', 'numpy.core._ufunc_config', 'numpy.core.arrayprint', 'numpy.core.defchararray', 'numpy.core.records', 'numpy.core.memmap', 'numpy.core.function_base', 'numpy.core.machar', 'numpy.core.getlimits', 'numpy.core.einsumfunc', 'numpy.core._add_newdocs', 'numpy.core._multiarray_tests', 'numpy.core._dtype_ctypes', 'numpy.core._internal', 'numpy._pytesttester', 'numpy.lib', 'numpy.lib.mixins', 'numpy.lib.scimath', 'numpy.lib.type_check', 'numpy.lib.ufunclike', 'numpy.lib.index_tricks', 'numpy.matrixlib', 'numpy.matrixlib.defmatrix', 'numpy.linalg', 'numpy.linalg.linalg', 'numpy.lib.twodim_base', 'numpy.linalg.lapack_lite', 'numpy.linalg._umath_linalg', 'numpy.lib.function_base', 'numpy.lib.histograms', 'numpy.lib.stride_tricks', 'numpy.lib.nanfunctions', 'numpy.lib.shape_base', 'numpy.lib.polynomial', 'numpy.lib.utils', 'numpy.lib.arraysetops', 'numpy.lib.npyio', 'numpy.lib.format', 'numpy.lib._datasource', 'numpy.lib._iotools', 'numpy.lib.financial', 'numpy.lib.arrayterator', 'numpy.lib.arraypad', 'numpy.lib._version', 'numpy.fft', 'numpy.fft._pocketfft', 'numpy.fft._pocketfft_internal', 'numpy.fft.helper', 'numpy.polynomial', 'numpy.polynomial.polynomial', 'numpy.polynomial.polyutils', 'numpy.polynomial._polybase', 'numpy.polynomial.chebyshev', 'numpy.polynomial.legendre', 'numpy.polynomial.hermite', 'numpy.polynomial.hermite_e', 'numpy.polynomial.laguerre', 'numpy.random', 'numpy.random._pickle', 'numpy.random.mtrand', 'cython_runtime', 'numpy.random.bit_generator', '_cython_0_29_21', 'numpy.random._common', 'secrets', 'hmac', 'numpy.random._bounded_integers', 'numpy.random._mt19937', 'numpy.random._philox', 'numpy.random._pcg64', 'numpy.random._sfc64', 'numpy.random._generator', 'numpy.ctypeslib', 'numpy.ma', 'numpy.ma.core', 'numpy.ma.extras', 'numpy.testing', 'unittest', 'unittest.result', 'unittest.util', 'unittest.case', 'difflib', 'unittest.suite', 'unittest.loader', 'unittest.main', 'unittest.runner', 'unittest.signals', 'numpy.testing._private', 'numpy.testing._private.utils', 'gc', 'numpy.testing._private.decorators', 'numpy.testing._private.nosetester', 'cv2.Error', 'cv2.cuda', 'cv2.detail', 'cv2.dnn', 'cv2.fisheye', 'cv2.flann', 'cv2.gapi', 'cv2.gapi.core', 'cv2.gapi.core.cpu', 'cv2.gapi.core.fluid', 'cv2.gapi.core.ocl', 'cv2.gapi.ie', 'cv2.gapi.ie.detail', 'cv2.gapi.onnx', 'cv2.gapi.own', 'cv2.gapi.own.detail', 'cv2.gapi.render', 'cv2.gapi.render.ocv', 'cv2.gapi.streaming', 'cv2.gapi.video', 'cv2.gapi.wip', 'cv2.gapi.wip.draw', 'cv2.ipp', 'cv2.ml', 'cv2.ocl', 'cv2.ogl', 'cv2.parallel', 'cv2.samples', 'cv2.segmentation', 'cv2.utils', 'cv2.utils.fs', 'cv2.videoio_registry', 'cv2.cv2', 'cv2.data', 'cv2.version', 'method.imageProcessing', 'method.imgToVid', 'method.opticalFlow', 'method.moveObj', 'method.findMaxFeatureNum', 'method.findFeatureInfo', 'method.plot', 'matplotlib', 'distutils', 'distutils.version', 'matplotlib.cbook', 'shlex', 'matplotlib.cbook.deprecation', 'matplotlib.rcsetup', 'matplotlib.animation', 'uuid', 'ctypes.util', 'matplotlib._animation_data', 'matplotlib.fontconfig_pattern', 'pyparsing', 'matplotlib.colors', 'matplotlib.docstring', 'matplotlib._color_data', 'cycler', 'six', 'six.moves', 'matplotlib._version', 'matplotlib.ft2font', 'dateutil', 'dateutil._version', 'kiwisolver']
+[D 20220109 19:43:41 __init__:241] CACHEDIR=C:\Users\winghingYau\.matplotlib
+[D 20220109 19:43:41 font_manager:1436] Using fontManager instance from C:\Users\winghingYau\.matplotlib\fontlist-v330.json
+[D 20220109 19:43:41 pyplot:290] Loaded backend tkagg version unknown.
+[D 20220109 19:43:41 pyplot:290] Loaded backend TkAgg version unknown.
+[I 20220109 19:43:57 interface:34] the path already exited: ./cali-board-0
+[I 20220109 19:43:57 interface:40] the path already exited: ./cali-board-1
+[I 20220109 19:43:57 calibration:9] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB
+[I 20220109 19:43:57 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637332C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output0_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637412C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output1_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637432C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output2_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637472C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output3_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637492C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output4_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637532C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output5_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637552C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output6_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637592C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output7_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637612C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output8_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637652C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output9_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637692C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output10_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637712C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output11_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640232C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output12_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640272C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output13_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640292C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output14_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640332C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output15_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640372C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output16_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640412C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output17_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640432C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output18_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640472C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output19_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640512C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output20_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640552C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output21_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640572C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output22_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640612C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output23_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640632C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output24_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645211C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output25_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645231C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output26_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645271C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output27_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645291C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output28_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645331C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output29_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645351C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output30_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645391C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output31_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645431C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output32_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645471C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output33_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645491C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output34_0.jpg
+[I 20220109 19:43:58 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645531C_0.bmp
+[I 20220109 19:43:58 calibration:63] imwrite: ./cali-board-0/output35_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645571C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output36_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645591C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output37_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645631C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output38_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645651C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output39_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645691C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output40_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645731C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output41_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645751C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output42_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645791C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output43_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648291C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output44_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648331C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output45_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648351C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output46_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648391C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output47_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648431C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output48_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648471C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output49_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648491C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output50_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648531C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output51_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648571C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output52_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648611C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output53_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648631C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output54_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648671C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output55_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648711C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output56_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648751C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output57_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648771C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output58_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648811C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output59_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648831C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output60_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648871C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output61_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648891C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output62_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648931C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output63_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648971C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output64_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141649011C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output65_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652191C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output66_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652211C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output67_0.jpg
+[I 20220109 19:43:59 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652251C_0.bmp
+[I 20220109 19:43:59 calibration:63] imwrite: ./cali-board-0/output68_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652271C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output69_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652311C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output70_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652351C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output71_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652371C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output72_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652411C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output73_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652451C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output74_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652511C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output75_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652531C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output76_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652591C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output77_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652631C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output78_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652651C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output79_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652691C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output80_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652731C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output81_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652771C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output82_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652791C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output83_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652831C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output84_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652851C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output85_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652891C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output86_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652911C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output87_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141654931C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output88_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141654971C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output89_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655011C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output90_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655031C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output91_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655071C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output92_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655091C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output93_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655111C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output94_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655151C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output95_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655171C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output96_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655231C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output97_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655251C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output98_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655291C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output99_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655331C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output100_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655371C_0.bmp
+[I 20220109 19:44:00 calibration:63] imwrite: ./cali-board-0/output101_0.jpg
+[I 20220109 19:44:00 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655411C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output102_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655431C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output103_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655491C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output104_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655531C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output105_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655571C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output106_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655591C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output107_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655631C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output108_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655651C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output109_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655671C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output110_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655711C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output111_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655731C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output112_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655771C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output113_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659411C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output114_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659471C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output115_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659511C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output116_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659551C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output117_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659571C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output118_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659611C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output119_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659651C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output120_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659691C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output121_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659711C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output122_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659751C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output123_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659771C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output124_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659811C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output125_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659831C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output126_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659871C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output127_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659891C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output128_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659931C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output129_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659951C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output130_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659991C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output131_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700011C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output132_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700051C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output133_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700071C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output134_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700111C_0.bmp
+[I 20220109 19:44:01 calibration:63] imwrite: ./cali-board-0/output135_0.jpg
+[I 20220109 19:44:01 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700131C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output136_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702711C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output137_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702731C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output138_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702771C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output139_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702811C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output140_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702831C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output141_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702871C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output142_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702891C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output143_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702931C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output144_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702971C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output145_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703011C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output146_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703031C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output147_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703071C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output148_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703091C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output149_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703131C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output150_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703151C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output151_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703191C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output152_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703211C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output153_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703251C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output154_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703271C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output155_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703311C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output156_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703331C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output157_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703371C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output158_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703391C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output159_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703431C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output160_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703471C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output161_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703511C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output162_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703551C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output163_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703571C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output164_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703611C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output165_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703651C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output166_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703671C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output167_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703711C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output168_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703751C_0.bmp
+[I 20220109 19:44:02 calibration:63] imwrite: ./cali-board-0/output169_0.jpg
+[I 20220109 19:44:02 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703771C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output170_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703811C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output171_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703851C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output172_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709471C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output173_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709511C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output174_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709531C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output175_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709571C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output176_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709591C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output177_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709631C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output178_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709651C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output179_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709691C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output180_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709711C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output181_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709731C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output182_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709771C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output183_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709791C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output184_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709831C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output185_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709851C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output186_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709891C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output187_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709911C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output188_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709951C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output189_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709991C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output190_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141710031C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output191_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141710051C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output192_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141710091C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output193_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141710111C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output194_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712431C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output195_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712451C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output196_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712491C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output197_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712511C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output198_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712551C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output199_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712571C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output200_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712611C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output201_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712631C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output202_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712671C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output203_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712691C_0.bmp
+[I 20220109 19:44:03 calibration:63] imwrite: ./cali-board-0/output204_0.jpg
+[I 20220109 19:44:03 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712731C_0.bmp
+[I 20220109 19:44:04 calibration:63] imwrite: ./cali-board-0/output205_0.jpg
+[I 20220109 19:44:04 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712751C_0.bmp
+[I 20220109 19:44:04 calibration:63] imwrite: ./cali-board-0/output206_0.jpg
+[I 20220109 19:44:04 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712791C_0.bmp
+[I 20220109 19:44:04 calibration:63] imwrite: ./cali-board-0/output207_0.jpg
+[I 20220109 19:44:04 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712811C_0.bmp
+[I 20220109 19:44:04 calibration:63] imwrite: ./cali-board-0/output208_0.jpg
+[I 20220109 19:44:04 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712851C_0.bmp
+[I 20220109 19:44:04 calibration:63] imwrite: ./cali-board-0/output209_0.jpg
+[I 20220109 19:44:04 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712871C_0.bmp
+[I 20220109 19:44:04 calibration:63] imwrite: ./cali-board-0/output210_0.jpg
+[I 20220109 19:44:04 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712911C_0.bmp
+[I 20220109 19:44:04 calibration:63] imwrite: ./cali-board-0/output211_0.jpg
+[I 20220109 19:44:04 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712951C_0.bmp
+[I 20220109 19:44:04 calibration:63] imwrite: ./cali-board-0/output212_0.jpg
+[I 20220109 19:44:04 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712971C_0.bmp
+[I 20220109 19:44:04 calibration:63] imwrite: ./cali-board-0/output213_0.jpg
+[I 20220109 19:44:04 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141713011C_0.bmp
+[I 20220109 19:44:04 calibration:63] imwrite: ./cali-board-0/output214_0.jpg
+[I 20220109 19:44:04 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141713051C_0.bmp
+[I 20220109 19:44:04 calibration:63] imwrite: ./cali-board-0/output215_0.jpg
+[I 20220109 19:44:04 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141713091C_0.bmp
+[I 20220109 19:44:04 calibration:63] imwrite: ./cali-board-0/output216_0.jpg
+[I 20220109 20:05:59 calibration:79] Camera matrix : [[6.57052093e+03 0.00000000e+00 6.17373028e+02]
+ [0.00000000e+00 6.45852728e+03 7.27892666e+02]
+ [0.00000000e+00 0.00000000e+00 1.00000000e+00]]
+[I 20220109 20:06:01 calibration:80] dist : [[-2.91560891e+00  4.81384232e+02 -8.48858416e-03  2.74655011e-02
+   3.12325769e+00]]
+[I 20220109 20:06:07 calibration:81] rvecs : [array([[ 0.20834107],
+       [-0.17857547],
+       [-1.5375667 ]]), array([[ 0.20831088],
+       [-0.17864418],
+       [-1.53762189]]), array([[ 0.20831503],
+       [-0.17856007],
+       [-1.53759343]]), array([[ 0.20840717],
+       [-0.17832446],
+       [-1.53757318]]), array([[ 0.20843506],
+       [-0.17825576],
+       [-1.53755461]]), array([[ 0.20850308],
+       [-0.17831676],
+       [-1.53757656]]), array([[ 0.20853199],
+       [-0.17832768],
+       [-1.53761778]]), array([[ 0.2084018 ],
+       [-0.17857267],
+       [-1.5375928 ]]), array([[ 0.20846959],
+       [-0.17842472],
+       [-1.5375753 ]]), array([[ 0.20863402],
+       [-0.17865097],
+       [-1.53756977]]), array([[ 0.20830674],
+       [-0.17826558],
+       [-1.53758077]]), array([[ 0.20832064],
+       [-0.17850409],
+       [-1.53758536]]), array([[ 0.20822764],
+       [-0.17843795],
+       [-1.53760797]]), array([[ 0.20806705],
+       [-0.17827272],
+       [-1.53761455]]), array([[ 0.20807791],
+       [-0.17849907],
+       [-1.53763829]]), array([[ 0.20821101],
+       [-0.1779674 ],
+       [-1.53762074]]), array([[ 0.20835765],
+       [-0.17817113],
+       [-1.537589  ]]), array([[ 0.20810787],
+       [-0.17831915],
+       [-1.53759762]]), array([[ 0.20805285],
+       [-0.1783316 ],
+       [-1.53759334]]), array([[ 0.20823894],
+       [-0.1783894 ],
+       [-1.53762929]]), array([[ 0.20839261],
+       [-0.17802425],
+       [-1.53763857]]), array([[ 0.20813119],
+       [-0.17821247],
+       [-1.53761946]]), array([[ 0.20860595],
+       [-0.17835829],
+       [-1.53758651]]), array([[ 0.20834708],
+       [-0.17834008],
+       [-1.53758308]]), array([[ 0.20863072],
+       [-0.17814549],
+       [-1.53757004]]), array([[ 0.36122674],
+       [-0.32716896],
+       [-1.51984373]]), array([[ 0.3637979 ],
+       [-0.33015838],
+       [-1.52096191]]), array([[ 0.3697038 ],
+       [-0.33620784],
+       [-1.52246194]]), array([[ 0.36462651],
+       [-0.33081892],
+       [-1.52170754]]), array([[ 0.36385778],
+       [-0.33024975],
+       [-1.52324727]]), array([[ 0.3642876 ],
+       [-0.33052227],
+       [-1.52342768]]), array([[ 0.36591036],
+       [-0.33227948],
+       [-1.52318593]]), array([[ 0.36889247],
+       [-0.33513524],
+       [-1.52285302]]), array([[ 0.3733129 ],
+       [-0.34206342],
+       [-1.5215915 ]]), array([[ 0.37836467],
+       [-0.34433971],
+       [-1.51738985]]), array([[ 0.38182585],
+       [-0.34586691],
+       [-1.50932694]]), array([[ 0.3816621 ],
+       [-0.34571545],
+       [-1.50938306]]), array([[ 0.38242784],
+       [-0.34637881],
+       [-1.50935552]]), array([[ 0.38343272],
+       [-0.34773238],
+       [-1.50981778]]), array([[ 0.38197838],
+       [-0.34625988],
+       [-1.51015788]]), array([[ 0.37896231],
+       [-0.34282566],
+       [-1.51131325]]), array([[ 0.37870717],
+       [-0.34295983],
+       [-1.51229105]]), array([[ 0.37856045],
+       [-0.34297998],
+       [-1.51312278]]), array([[ 0.37851861],
+       [-0.34315982],
+       [-1.51520741]]), array([[ 0.53410821],
+       [-0.5019004 ],
+       [-1.48743285]]), array([[ 0.5366976 ],
+       [-0.50461292],
+       [-1.48683058]]), array([[ 0.53757233],
+       [-0.5055824 ],
+       [-1.48662829]]), array([[ 0.54028932],
+       [-0.50852279],
+       [-1.48608726]]), array([[ 0.54264783],
+       [-0.51082647],
+       [-1.48551277]]), array([[ 0.54405043],
+       [-0.51212948],
+       [-1.48521513]]), array([[ 0.54473297],
+       [-0.51280409],
+       [-1.48504908]]), array([[ 0.54609831],
+       [-0.51428394],
+       [-1.48471919]]), array([[ 0.54862709],
+       [-0.517063  ],
+       [-1.48414754]]), array([[ 0.55511219],
+       [-0.52359017],
+       [-1.48249062]]), array([[ 0.55991434],
+       [-0.52841674],
+       [-1.48139479]]), array([[ 0.56477468],
+       [-0.53333308],
+       [-1.48017672]]), array([[ 0.56711159],
+       [-0.53581305],
+       [-1.47947817]]), array([[ 0.56799241],
+       [-0.53631051],
+       [-1.47925276]]), array([[ 0.56842147],
+       [-0.53721902],
+       [-1.47914811]]), array([[ 0.56916795],
+       [-0.53770828],
+       [-1.47896057]]), array([[ 0.56960477],
+       [-0.53815392],
+       [-1.4788852 ]]), array([[ 0.57072068],
+       [-0.53922006],
+       [-1.47867909]]), array([[ 0.57207882],
+       [-0.54084825],
+       [-1.47857809]]), array([[ 0.57593871],
+       [-0.54517662],
+       [-1.47824679]]), array([[ 0.57804099],
+       [-0.54723063],
+       [-1.47763551]]), array([[ 0.57948527],
+       [-0.54880654],
+       [-1.47776974]]), array([[ 0.51502949],
+       [-0.23643651],
+       [-1.45926175]]), array([[ 0.52232975],
+       [-0.21680452],
+       [-1.45226429]]), array([[ 0.5255358 ],
+       [-0.20287464],
+       [-1.45082153]]), array([[ 0.53146186],
+       [-0.18968802],
+       [-1.44822868]]), array([[ 0.54274545],
+       [-0.21625313],
+       [-1.44622945]]), array([[ 0.54405288],
+       [-0.18511843],
+       [-1.44543827]]), array([[ 0.5397761 ],
+       [-0.1706488 ],
+       [-1.44621509]]), array([[ 0.54236076],
+       [-0.1663999 ],
+       [-1.44591446]]), array([[ 0.54300503],
+       [-0.16505072],
+       [-1.44401831]]), array([[ 0.54257045],
+       [-0.16378206],
+       [-1.43788125]]), array([[ 0.54275228],
+       [-0.16226789],
+       [-1.43345811]]), array([[ 0.5490772 ],
+       [-0.15296824],
+       [-1.42778955]]), array([[ 0.54842735],
+       [-0.17089713],
+       [-1.42632399]]), array([[ 0.55679314],
+       [-0.14212855],
+       [-1.42331042]]), array([[ 0.55840448],
+       [-0.13902594],
+       [-1.42264684]]), array([[ 0.55493085],
+       [-0.14097699],
+       [-1.42183495]]), array([[ 0.54995652],
+       [-0.14009681],
+       [-1.42151601]]), array([[ 0.54466593],
+       [-0.15215884],
+       [-1.41957825]]), array([[ 0.53312026],
+       [-0.16552256],
+       [-1.42110734]]), array([[ 0.52605139],
+       [-0.1743798 ],
+       [-1.42361115]]), array([[ 0.50987492],
+       [-0.1975865 ],
+       [-1.42795245]]), array([[ 0.50112329],
+       [-0.20854088],
+       [-1.42915834]]), array([[ 0.36682863],
+       [-0.33506468],
+       [-1.51868836]]), array([[ 0.36734377],
+       [-0.33469236],
+       [-1.51989556]]), array([[ 0.36867125],
+       [-0.33394046],
+       [-1.52237051]]), array([[ 0.369427  ],
+       [-0.33297104],
+       [-1.52420632]]), array([[ 0.36977639],
+       [-0.33298495],
+       [-1.52418004]]), array([[ 0.36949618],
+       [-0.33234567],
+       [-1.5244592 ]]), array([[ 0.3692421 ],
+       [-0.33240538],
+       [-1.52461018]]), array([[ 0.36907695],
+       [-0.33243386],
+       [-1.52461168]]), array([[ 0.36905678],
+       [-0.33247763],
+       [-1.52463371]]), array([[ 0.36921981],
+       [-0.3323757 ],
+       [-1.52457365]]), array([[ 0.36923045],
+       [-0.33211961],
+       [-1.52456646]]), array([[ 0.36927886],
+       [-0.33223145],
+       [-1.52454527]]), array([[ 0.36917211],
+       [-0.33240075],
+       [-1.52455521]]), array([[ 0.36750531],
+       [-0.33006548],
+       [-1.52477216]]), array([[ 0.36923983],
+       [-0.33222372],
+       [-1.52453136]]), array([[ 0.36914502],
+       [-0.33201088],
+       [-1.52455808]]), array([[ 0.37031288],
+       [-0.33338133],
+       [-1.52433632]]), array([[ 0.3691471 ],
+       [-0.33226603],
+       [-1.52456126]]), array([[ 0.36893015],
+       [-0.33228946],
+       [-1.52458976]]), array([[ 0.3691246 ],
+       [-0.3323373 ],
+       [-1.52454612]]), array([[ 0.36907973],
+       [-0.33243622],
+       [-1.52454031]]), array([[ 0.36105767],
+       [-0.32442649],
+       [-1.52588266]]), array([[ 0.35437008],
+       [-0.31734059],
+       [-1.52697675]]), array([[ 0.33973008],
+       [-0.30325524],
+       [-1.52809097]]), array([[ 0.3237348 ],
+       [-0.28970329],
+       [-1.52718137]]), array([[ 0.29256532],
+       [-0.26745503],
+       [-1.52164844]]), array([[ 0.31187117],
+       [-0.27044107],
+       [-1.47078519]]), array([[ 0.292571  ],
+       [-0.26700527],
+       [-1.46395219]]), array([[ 0.29488402],
+       [-0.2581146 ],
+       [-1.45530203]]), array([[ 0.30378488],
+       [-0.25344756],
+       [-1.44770552]]), array([[ 0.30450674],
+       [-0.24598126],
+       [-1.43846571]]), array([[ 0.30426359],
+       [-0.23819767],
+       [-1.42889536]]), array([[ 0.30346166],
+       [-0.2334665 ],
+       [-1.42343694]]), array([[ 0.30448951],
+       [-0.22564741],
+       [-1.41206524]]), array([[ 0.30211599],
+       [-0.21641132],
+       [-1.40054658]]), array([[ 0.28657585],
+       [-0.24760961],
+       [-1.39468905]]), array([[ 0.30490589],
+       [-0.19585352],
+       [-1.37905563]]), array([[ 0.28433298],
+       [-0.2140117 ],
+       [-1.37421842]]), array([[ 0.29958966],
+       [-0.18204924],
+       [-1.36057035]]), array([[ 0.2992062 ],
+       [-0.17938023],
+       [-1.35350426]]), array([[ 0.29956427],
+       [-0.17426152],
+       [-1.34035779]]), array([[ 0.29938961],
+       [-0.16971393],
+       [-1.33290563]]), array([[ 0.2986409 ],
+       [-0.15224983],
+       [-1.31733378]]), array([[ 0.30260646],
+       [-0.13486271],
+       [-1.30145118]]), array([[ 0.30497002],
+       [-0.12658491],
+       [-1.29349713]]), array([[ 0.31368543],
+       [-0.10431487],
+       [-1.27741508]]), array([[ 0.31972608],
+       [-0.09116954],
+       [-1.26885755]]), array([[ 0.32954431],
+       [-0.06784077],
+       [-1.25353998]]), array([[ 0.33273557],
+       [-0.06013651],
+       [-1.2484607 ]]), array([[ 0.36775462],
+       [-0.33335837],
+       [-1.51801845]]), array([[ 0.36676399],
+       [-0.33455191],
+       [-1.51855011]]), array([[ 0.32844379],
+       [-0.33036852],
+       [-1.52805193]]), array([[ 0.3615265 ],
+       [-0.33988055],
+       [-1.52113654]]), array([[ 0.36879691],
+       [-0.33255479],
+       [-1.51924501]]), array([[ 0.37038905],
+       [-0.33153304],
+       [-1.52033943]]), array([[ 0.37108702],
+       [-0.33086325],
+       [-1.52195646]]), array([[-0.33206466],
+       [-0.37488799],
+       [ 1.55661468]]), array([[-0.33300303],
+       [-0.37603385],
+       [ 1.55456674]]), array([[-0.33321598],
+       [-0.37609741],
+       [ 1.55451722]]), array([[-0.33309823],
+       [-0.37599745],
+       [ 1.55451307]]), array([[-0.33459631],
+       [-0.3771308 ],
+       [ 1.55390764]]), array([[-0.33657185],
+       [-0.37938675],
+       [ 1.55265044]]), array([[-0.33740695],
+       [-0.38072711],
+       [ 1.55364865]]), array([[-0.33681271],
+       [-0.38062083],
+       [ 1.55579332]]), array([[-0.3364044 ],
+       [-0.38027872],
+       [ 1.5569329 ]]), array([[-0.33654744],
+       [-0.38011493],
+       [ 1.55696147]]), array([[-0.33655809],
+       [-0.38034426],
+       [ 1.55688975]]), array([[-0.3362804 ],
+       [-0.38043934],
+       [ 1.55695915]]), array([[-0.3366995 ],
+       [-0.38018432],
+       [ 1.55682044]]), array([[-0.33645445],
+       [-0.38031911],
+       [ 1.55688125]]), array([[-0.33749736],
+       [-0.381073  ],
+       [ 1.55674551]]), array([[-0.3363627 ],
+       [-0.38029218],
+       [ 1.55689785]]), array([[-0.33630916],
+       [-0.38035832],
+       [ 1.55689365]]), array([[-0.33645247],
+       [-0.38040076],
+       [ 1.55689262]]), array([[-0.33650035],
+       [-0.38058905],
+       [ 1.55687008]]), array([[-0.33455558],
+       [-0.37919148],
+       [ 1.5572204 ]]), array([[-0.33624784],
+       [-0.38022978],
+       [ 1.55696167]]), array([[-0.33638192],
+       [-0.38042864],
+       [ 1.55690987]]), array([[-0.33656889],
+       [-0.3802537 ],
+       [ 1.55688577]]), array([[-0.33660061],
+       [-0.38066445],
+       [ 1.55687446]]), array([[-0.33639866],
+       [-0.38031566],
+       [ 1.55692001]]), array([[-0.33642902],
+       [-0.38043696],
+       [ 1.55689059]]), array([[-0.33655585],
+       [-0.38025077],
+       [ 1.55692164]]), array([[-0.33652786],
+       [-0.38030015],
+       [ 1.55685643]]), array([[-0.34540948],
+       [-0.38860773],
+       [ 1.55515655]]), array([[-0.44210244],
+       [-0.41256192],
+       [ 1.5146076 ]]), array([[-0.45628814],
+       [-0.45795249],
+       [ 1.50429762]]), array([[-0.45515525],
+       [-0.46209129],
+       [ 1.49875955]]), array([[-0.42726803],
+       [-0.44797414],
+       [ 1.48969261]]), array([[-0.40961492],
+       [-0.44212315],
+       [ 1.48434247]]), array([[-0.39939827],
+       [-0.41061566],
+       [ 1.47745808]]), array([[-0.35289497],
+       [-0.39084466],
+       [ 1.48451839]]), array([[-0.32775834],
+       [-0.38060331],
+       [ 1.48706214]]), array([[-0.28679947],
+       [-0.36540859],
+       [ 1.4896128 ]]), array([[-0.26592292],
+       [-0.35766636],
+       [ 1.4922918 ]]), array([[-0.21306182],
+       [-0.37021037],
+       [ 1.49102721]]), array([[-0.20199916],
+       [-0.38379962],
+       [ 1.48696022]]), array([[-0.18545389],
+       [-0.40360904],
+       [ 1.47753648]]), array([[-0.16891141],
+       [-0.40723593],
+       [ 1.47522203]]), array([[-0.1560019 ],
+       [-0.39847699],
+       [ 1.47382649]]), array([[-0.15705781],
+       [-0.40185199],
+       [ 1.46871941]]), array([[-0.1425814 ],
+       [-0.40789911],
+       [ 1.45123439]]), array([[-0.13440617],
+       [-0.39987628],
+       [ 1.44268661]]), array([[-0.12376522],
+       [-0.39752262],
+       [ 1.43538609]]), array([[-0.11883035],
+       [-0.39636908],
+       [ 1.42801114]]), array([[-0.09948318],
+       [-0.37081096],
+       [ 1.41484442]]), array([[-0.08159014],
+       [-0.35081426],
+       [ 1.41132158]]), array([[ 0.34333094],
+       [-0.31531481],
+       [-1.50953201]]), array([[ 0.34324491],
+       [-0.31531765],
+       [-1.50955163]]), array([[ 0.34318176],
+       [-0.31501161],
+       [-1.50955115]]), array([[ 0.34324982],
+       [-0.31514105],
+       [-1.50954689]]), array([[ 0.34329411],
+       [-0.31516573],
+       [-1.50954853]]), array([[ 0.34329827],
+       [-0.31535963],
+       [-1.50953509]]), array([[ 0.34315426],
+       [-0.3151706 ],
+       [-1.50955318]]), array([[ 0.34321522],
+       [-0.31524716],
+       [-1.50956296]]), array([[ 0.3433542 ],
+       [-0.31521876],
+       [-1.50954899]]), array([[ 0.34335811],
+       [-0.31504315],
+       [-1.50952676]]), array([[ 0.3432703 ],
+       [-0.31538724],
+       [-1.50954234]]), array([[ 0.34320566],
+       [-0.31523898],
+       [-1.50952607]]), array([[ 0.34316964],
+       [-0.31526381],
+       [-1.50952137]]), array([[ 0.34322607],
+       [-0.31521936],
+       [-1.50952302]]), array([[ 0.3432506 ],
+       [-0.31524084],
+       [-1.50951834]]), array([[ 0.34309342],
+       [-0.31493862],
+       [-1.50955325]]), array([[ 0.34328736],
+       [-0.31514108],
+       [-1.50954238]]), array([[ 0.34277485],
+       [-0.31451122],
+       [-1.50958965]]), array([[ 0.3429836 ],
+       [-0.31531438],
+       [-1.50956487]]), array([[ 0.34328767],
+       [-0.31506932],
+       [-1.50948568]]), array([[ 0.3431624 ],
+       [-0.31515647],
+       [-1.50954075]]), array([[ 0.34313788],
+       [-0.31499082],
+       [-1.50953284]])]
+[I 20220109 20:06:09 calibration:82] tvecs : [array([[ -6.18413639],
+       [  1.28696179],
+       [101.90639087]]), array([[ -6.18412082],
+       [  1.28790783],
+       [101.90649056]]), array([[ -6.18430828],
+       [  1.28706625],
+       [101.90856077]]), array([[ -6.18441785],
+       [  1.28707365],
+       [101.90931638]]), array([[ -6.18471435],
+       [  1.2873615 ],
+       [101.91179554]]), array([[ -6.1844866 ],
+       [  1.28782119],
+       [101.90975023]]), array([[ -6.18444807],
+       [  1.28745392],
+       [101.91248522]]), array([[ -6.18425045],
+       [  1.28738585],
+       [101.90797997]]), array([[ -6.18438937],
+       [  1.2870725 ],
+       [101.91185515]]), array([[ -6.1839708 ],
+       [  1.28750492],
+       [101.90417406]]), array([[ -6.18464817],
+       [  1.28732427],
+       [101.91417559]]), array([[ -6.1843818 ],
+       [  1.2871496 ],
+       [101.91017388]]), array([[ -6.18448856],
+       [  1.28736541],
+       [101.91371709]]), array([[ -6.18473732],
+       [  1.28705956],
+       [101.92004207]]), array([[ -6.18437089],
+       [  1.28725184],
+       [101.91327265]]), array([[ -6.1848094 ],
+       [  1.28757822],
+       [101.91545462]]), array([[ -6.18470528],
+       [  1.28744039],
+       [101.91547154]]), array([[ -6.18463511],
+       [  1.28693006],
+       [101.91335463]]), array([[ -6.18482158],
+       [  1.28693866],
+       [101.91660045]]), array([[ -6.18444239],
+       [  1.28766505],
+       [101.91256627]]), array([[ -6.1848955 ],
+       [  1.28763508],
+       [101.91388694]]), array([[ -6.18483377],
+       [  1.28703528],
+       [101.91723592]]), array([[ -6.1843305 ],
+       [  1.28721844],
+       [101.90814771]]), array([[ -6.18463401],
+       [  1.28743819],
+       [101.90753717]]), array([[ -6.18457123],
+       [  1.28764505],
+       [101.90550703]]), array([[ -5.89414808],
+       [  1.41558064],
+       [101.22669421]]), array([[ -5.87178819],
+       [  1.42154468],
+       [101.21461408]]), array([[ -5.88468738],
+       [  1.42944112],
+       [101.19049473]]), array([[ -5.96697095],
+       [  1.42321961],
+       [101.19673774]]), array([[ -5.98588668],
+       [  1.42847634],
+       [101.19795155]]), array([[ -5.98392944],
+       [  1.42956682],
+       [101.18851107]]), array([[ -5.96440158],
+       [  1.42945072],
+       [101.19460404]]), array([[ -5.93049664],
+       [  1.43001011],
+       [101.18451819]]), array([[ -5.88322524],
+       [  1.42938016],
+       [101.13128049]]), array([[ -5.90265363],
+       [  1.42122731],
+       [101.13572659]]), array([[ -6.01888104],
+       [  1.38779571],
+       [101.11138681]]), array([[ -6.03693381],
+       [  1.38632826],
+       [101.10574831]]), array([[ -6.02880175],
+       [  1.38791073],
+       [101.10445246]]), array([[ -6.02087522],
+       [  1.39164236],
+       [101.09976419]]), array([[ -6.0382615 ],
+       [  1.39153808],
+       [101.10373631]]), array([[ -6.08129499],
+       [  1.39158121],
+       [101.11399208]]), array([[ -6.08711262],
+       [  1.3966042 ],
+       [101.1137535 ]]), array([[ -6.09222165],
+       [  1.40106036],
+       [101.11268623]]), array([[ -6.10443134],
+       [  1.40895768],
+       [101.11101703]]), array([[ -5.86642235],
+       [  1.42810103],
+       [100.41191914]]), array([[ -5.86088848],
+       [  1.42337836],
+       [100.40284054]]), array([[ -5.858521  ],
+       [  1.42376337],
+       [100.3970123 ]]), array([[ -5.85201221],
+       [  1.42750796],
+       [100.3851047 ]]), array([[ -5.84742502],
+       [  1.42711985],
+       [100.37546292]]), array([[ -5.84431121],
+       [  1.42551117],
+       [100.36672416]]), array([[ -5.84301205],
+       [  1.42639375],
+       [100.36504036]]), array([[ -5.84027829],
+       [  1.42859856],
+       [100.35915734]]), array([[ -5.83427507],
+       [  1.42806568],
+       [100.34427401]]), array([[ -5.82305026],
+       [  1.42308275],
+       [100.31900107]]), array([[ -5.81367472],
+       [  1.42085066],
+       [100.29578365]]), array([[ -5.80394687],
+       [  1.41774096],
+       [100.26699861]]), array([[ -5.79998891],
+       [  1.41416977],
+       [100.25745262]]), array([[ -5.79841508],
+       [  1.41461088],
+       [100.24715938]]), array([[ -5.79665174],
+       [  1.41561606],
+       [100.24418781]]), array([[ -5.79547043],
+       [  1.4164771 ],
+       [100.24505372]]), array([[ -5.79437385],
+       [  1.41593514],
+       [100.24327115]]), array([[ -5.79143879],
+       [  1.41374962],
+       [100.24748226]]), array([[ -5.78594313],
+       [  1.41278313],
+       [100.24382446]]), array([[ -5.77025617],
+       [  1.40885058],
+       [100.21991016]]), array([[ -5.76521396],
+       [  1.40236328],
+       [100.21461221]]), array([[ -5.7569113 ],
+       [  1.40217985],
+       [100.20370281]]), array([[ -5.62061967],
+       [  0.56569073],
+       [100.62874363]]), array([[ -5.58796471],
+       [  0.67353757],
+       [100.64511326]]), array([[ -5.58074719],
+       [  0.73908912],
+       [100.66021113]]), array([[ -5.57021293],
+       [  0.83359314],
+       [100.67284764]]), array([[-5.48015564],
+       [ 0.95504057],
+       [99.28126286]]), array([[ -5.53413738],
+       [  1.03357633],
+       [100.20376932]]), array([[ -5.56286087],
+       [  1.08964391],
+       [100.68175022]]), array([[ -5.56123486],
+       [  1.14052181],
+       [100.6857719 ]]), array([[ -5.55402695],
+       [  1.15394042],
+       [100.6890536 ]]), array([[ -5.53019345],
+       [  1.16103152],
+       [100.69677522]]), array([[ -5.51289801],
+       [  1.17610832],
+       [100.70891285]]), array([[ -5.4893379 ],
+       [  1.27171453],
+       [100.71374909]]), array([[ -5.44075458],
+       [  1.33360663],
+       [100.03580743]]), array([[ -5.47238708],
+       [  1.41316612],
+       [100.7097946 ]]), array([[ -5.4718387 ],
+       [  1.48931845],
+       [100.71158927]]), array([[ -5.47020798],
+       [  1.52608435],
+       [100.72191775]]), array([[ -5.47863971],
+       [  1.51641245],
+       [100.92354454]]), array([[ -5.46522105],
+       [  1.48172167],
+       [100.7380608 ]]), array([[ -5.47291979],
+       [  1.38904279],
+       [100.75843432]]), array([[ -5.48427173],
+       [  1.32253542],
+       [100.76576086]]), array([[ -5.5025124 ],
+       [  1.17481183],
+       [100.77700923]]), array([[ -5.50955008],
+       [  1.09304581],
+       [100.80216174]]), array([[ -6.13823418],
+       [  0.84156081],
+       [101.15413282]]), array([[ -6.12973792],
+       [  0.86067646],
+       [101.16163653]]), array([[ -6.11158966],
+       [  0.8909414 ],
+       [101.17743347]]), array([[ -6.09942964],
+       [  0.90947237],
+       [101.19158258]]), array([[ -6.09892761],
+       [  0.90294565],
+       [101.18106419]]), array([[ -6.10166448],
+       [  0.89248021],
+       [101.18634739]]), array([[ -6.10231796],
+       [  0.89610295],
+       [101.1915975 ]]), array([[ -6.10332575],
+       [  0.91555115],
+       [101.19068253]]), array([[ -6.10317427],
+       [  0.92078006],
+       [101.18877716]]), array([[ -6.10228669],
+       [  0.90814161],
+       [101.18671931]]), array([[ -6.1028484 ],
+       [  0.89417043],
+       [101.18719901]]), array([[ -6.10288568],
+       [  0.90779066],
+       [101.18670621]]), array([[ -6.10191919],
+       [  0.91935375],
+       [101.19245113]]), array([[ -6.10932964],
+       [  0.91259525],
+       [101.3148203 ]]), array([[ -6.102507  ],
+       [  0.89993647],
+       [101.19058924]]), array([[ -6.10264142],
+       [  0.90048558],
+       [101.19525975]]), array([[ -6.09767883],
+       [  0.91726676],
+       [101.12331494]]), array([[ -6.10324935],
+       [  0.90631238],
+       [101.19230057]]), array([[ -6.10273829],
+       [  0.89979275],
+       [101.19440247]]), array([[ -6.10138243],
+       [  0.90349075],
+       [101.18815245]]), array([[ -6.10140263],
+       [  0.91045822],
+       [101.18847707]]), array([[ -6.11024006],
+       [  0.94875578],
+       [101.22578162]]), array([[ -6.11669128],
+       [  0.96856056],
+       [101.26155146]]), array([[ -6.13447428],
+       [  0.99565827],
+       [101.31828618]]), array([[ -6.16793038],
+       [  1.01093933],
+       [101.3660797 ]]), array([[ -6.25561912],
+       [  1.01512649],
+       [101.42720611]]), array([[ -5.92388186],
+       [  1.54261185],
+       [101.49206669]]), array([[ -5.88562995],
+       [  1.47926486],
+       [101.71762756]]), array([[ -5.84929542],
+       [  1.45004298],
+       [101.62215046]]), array([[ -5.82025635],
+       [  1.44393337],
+       [101.55707669]]), array([[ -5.78317714],
+       [  1.434322  ],
+       [101.56250857]]), array([[ -5.74638484],
+       [  1.42719528],
+       [101.57181567]]), array([[ -5.72508744],
+       [  1.42404223],
+       [101.57872258]]), array([[ -5.68558889],
+       [  1.41167065],
+       [101.60104329]]), array([[ -5.64491263],
+       [  1.39227828],
+       [101.61254939]]), array([[ -5.5543337 ],
+       [  1.41690329],
+       [100.84145233]]), array([[ -5.58112663],
+       [  1.40344425],
+       [101.65793772]]), array([[ -5.5327974 ],
+       [  1.39109683],
+       [101.46111834]]), array([[ -5.5261696 ],
+       [  1.38340501],
+       [101.71833318]]), array([[ -5.5063351 ],
+       [  1.37824009],
+       [101.7373761 ]]), array([[ -5.46916847],
+       [  1.37251464],
+       [101.76541181]]), array([[ -5.45016196],
+       [  1.38598967],
+       [101.77751518]]), array([[ -5.42159128],
+       [  1.4617839 ],
+       [101.84961515]]), array([[ -5.39721717],
+       [  1.56629875],
+       [101.91879086]]), array([[ -5.38526563],
+       [  1.61935821],
+       [101.94471987]]), array([[ -5.37560211],
+       [  1.76966496],
+       [102.01591035]]), array([[ -5.37562632],
+       [  1.85768547],
+       [102.05854524]]), array([[ -5.37668085],
+       [  2.00968507],
+       [102.13723847]]), array([[ -5.38021724],
+       [  2.06898597],
+       [102.15874539]]), array([[ -6.171207  ],
+       [  3.35975915],
+       [101.01507317]]), array([[ -6.16231079],
+       [  3.3590599 ],
+       [101.00024528]]), array([[ -6.17450719],
+       [  3.32187455],
+       [102.2078943 ]]), array([[ -6.11662131],
+       [  3.29713822],
+       [100.9318111 ]]), array([[ -6.16323912],
+       [  3.38196797],
+       [101.02559884]]), array([[ -6.16066628],
+       [  3.40707698],
+       [101.03185554]]), array([[ -6.1450235 ],
+       [  3.42684594],
+       [101.05323539]]), array([[  0.31191159],
+       [ -1.46186715],
+       [104.00478678]]), array([[  0.31529259],
+       [ -1.45510973],
+       [104.00992959]]), array([[  0.31412224],
+       [ -1.44735839],
+       [104.00310505]]), array([[  0.31470207],
+       [ -1.44228521],
+       [104.01382055]]), array([[  0.31453198],
+       [ -1.40519296],
+       [104.01331099]]), array([[  0.31434936],
+       [ -1.36853936],
+       [104.01596751]]), array([[  0.30100953],
+       [ -1.30538864],
+       [104.01540252]]), array([[  0.28850471],
+       [ -1.26895425],
+       [104.00524693]]), array([[  0.28321831],
+       [ -1.22286032],
+       [104.00249149]]), array([[  0.28355649],
+       [ -1.21811136],
+       [104.00620702]]), array([[  0.28298547],
+       [ -1.22414705],
+       [104.00244625]]), array([[  0.28298325],
+       [ -1.2297827 ],
+       [104.00263947]]), array([[  0.28243845],
+       [ -1.23338335],
+       [103.99773985]]), array([[  0.28332642],
+       [ -1.22854462],
+       [104.00349026]]), array([[  0.28340873],
+       [ -1.22175155],
+       [103.95359541]]), array([[  0.28319507],
+       [ -1.22011412],
+       [104.00073655]]), array([[  0.28287141],
+       [ -1.23188445],
+       [104.00153722]]), array([[  0.28364412],
+       [ -1.23119702],
+       [103.9980782 ]]), array([[  0.28339798],
+       [ -1.22012835],
+       [103.99773643]]), array([[  0.28406169],
+       [ -1.22065694],
+       [104.0801824 ]]), array([[  0.28309529],
+       [ -1.22825406],
+       [104.00771251]]), array([[  0.28341681],
+       [ -1.23175905],
+       [104.00395803]]), array([[  0.28374857],
+       [ -1.22261459],
+       [104.00082421]]), array([[  0.28309856],
+       [ -1.22082734],
+       [103.99256657]]), array([[  0.28294067],
+       [ -1.22669227],
+       [104.00715439]]), array([[  0.28369246],
+       [ -1.23047123],
+       [103.99698368]]), array([[  0.28345085],
+       [ -1.22726239],
+       [104.00402217]]), array([[  0.28334905],
+       [ -1.22312392],
+       [103.99732346]]), array([[  0.28193263],
+       [ -1.19351156],
+       [103.45225976]]), array([[  0.95910399],
+       [ -5.05579072],
+       [101.98134539]]), array([[  1.00376948],
+       [ -5.17441024],
+       [102.14821402]]), array([[  1.12020083],
+       [ -5.21146131],
+       [102.1313805 ]]), array([[  1.30376422],
+       [ -5.24839109],
+       [102.03416995]]), array([[  1.35077713],
+       [ -5.26462334],
+       [101.99425822]]), array([[  1.41645107],
+       [ -5.28525097],
+       [101.9122175 ]]), array([[  1.50392259],
+       [ -5.29834742],
+       [101.5291683 ]]), array([[  1.50171263],
+       [ -5.29876683],
+       [101.46606172]]), array([[  1.49573411],
+       [ -5.31181732],
+       [101.34700552]]), array([[  1.48861767],
+       [ -5.32315372],
+       [101.28138787]]), array([[  1.37983144],
+       [ -5.36282338],
+       [101.65492591]]), array([[  1.31543557],
+       [ -5.39348981],
+       [101.7880834 ]]), array([[  1.22022104],
+       [ -5.43928699],
+       [101.90719676]]), array([[  1.20734521],
+       [ -5.44147188],
+       [102.03515547]]), array([[  1.25635342],
+       [ -5.39197857],
+       [101.91652454]]), array([[  1.26157242],
+       [ -5.38192499],
+       [101.79492211]]), array([[  1.22366803],
+       [ -5.3769037 ],
+       [101.75673098]]), array([[  1.2685876 ],
+       [ -5.34078945],
+       [101.5756582 ]]), array([[  1.35832759],
+       [ -5.34684608],
+       [101.47460106]]), array([[  1.42579494],
+       [ -5.34597341],
+       [101.43821827]]), array([[  1.6607123 ],
+       [ -5.29075264],
+       [101.43210654]]), array([[  1.77915565],
+       [ -5.24919982],
+       [101.58463058]]), array([[ -5.46000931],
+       [  0.56759802],
+       [101.5625814 ]]), array([[ -5.45977962],
+       [  0.56449841],
+       [101.56198261]]), array([[ -5.46039155],
+       [  0.55911906],
+       [101.57262749]]), array([[ -5.46028958],
+       [  0.55889692],
+       [101.56836238]]), array([[ -5.4604257 ],
+       [  0.56490985],
+       [101.5673277 ]]), array([[ -5.46001688],
+       [  0.56917818],
+       [101.55963896]]), array([[ -5.46066297],
+       [  0.56864625],
+       [101.56872873]]), array([[ -5.46016051],
+       [  0.56650593],
+       [101.56244998]]), array([[ -5.46026404],
+       [  0.56114125],
+       [101.56152869]]), array([[ -5.46037168],
+       [  0.56231299],
+       [101.56331223]]), array([[ -5.45994277],
+       [  0.56773564],
+       [101.55922709]]), array([[ -5.46042069],
+       [  0.56876781],
+       [101.56464384]]), array([[ -5.46047315],
+       [  0.56541704],
+       [101.5663248 ]]), array([[ -5.46038035],
+       [  0.56229163],
+       [101.56139095]]), array([[ -5.46022344],
+       [  0.56151959],
+       [101.56334568]]), array([[ -5.46094012],
+       [  0.56300697],
+       [101.57409713]]), array([[ -5.4604159 ],
+       [  0.56775385],
+       [101.56485472]]), array([[ -5.4625048 ],
+       [  0.5651672 ],
+       [101.59891549]]), array([[ -5.46058421],
+       [  0.56355265],
+       [101.57180979]]), array([[ -5.46053871],
+       [  0.56194414],
+       [101.5683069 ]]), array([[ -5.4606516 ],
+       [  0.56586699],
+       [101.56847178]]), array([[ -5.46102021],
+       [  0.5664982 ],
+       [101.57028088]])]
+[I 20220109 20:06:16 calibration:9] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637332C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput0_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637412C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput1_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637432C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput2_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637472C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput3_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637492C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput4_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637532C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput5_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637552C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput6_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637592C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput7_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637612C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput8_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637652C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput9_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637692C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput10_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141637712C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput11_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640232C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput12_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640272C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput13_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640292C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput14_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640332C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput15_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640372C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput16_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640412C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput17_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640432C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput18_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640472C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput19_1.jpg
+[I 20220109 20:06:16 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640512C_1.bmp
+[I 20220109 20:06:16 calibration:63] imwrite: ./cali-board-0/ouput20_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640552C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput21_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640572C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput22_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640612C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput23_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141640632C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput24_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645211C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput25_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645231C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput26_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645271C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput27_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645291C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput28_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645331C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput29_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645351C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput30_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645391C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput31_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645431C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput32_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645471C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput33_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645491C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput34_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645531C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput35_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645571C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput36_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645591C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput37_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645631C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput38_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645651C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput39_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645691C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput40_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645731C_1.bmp
+[I 20220109 20:06:17 calibration:63] imwrite: ./cali-board-0/ouput41_1.jpg
+[I 20220109 20:06:17 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645751C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput42_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141645791C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput43_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648291C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput44_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648331C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput45_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648351C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput46_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648391C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput47_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648431C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput48_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648471C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput49_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648491C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput50_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648531C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput51_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648571C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput52_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648611C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput53_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648631C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput54_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648671C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput55_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648711C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput56_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648751C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput57_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648771C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput58_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648811C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput59_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648831C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput60_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648871C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput61_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648891C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput62_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648931C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput63_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141648971C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput64_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141649011C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput65_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652191C_1.bmp
+[I 20220109 20:06:18 calibration:63] imwrite: ./cali-board-0/ouput66_1.jpg
+[I 20220109 20:06:18 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652211C_1.bmp
+[I 20220109 20:06:19 calibration:63] imwrite: ./cali-board-0/ouput67_1.jpg
+[I 20220109 20:06:19 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652251C_1.bmp
+[I 20220109 20:06:19 calibration:63] imwrite: ./cali-board-0/ouput68_1.jpg
+[I 20220109 20:06:19 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652271C_1.bmp
+[I 20220109 20:06:19 calibration:63] imwrite: ./cali-board-0/ouput69_1.jpg
+[I 20220109 20:06:19 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652311C_1.bmp
+[I 20220109 20:06:19 calibration:63] imwrite: ./cali-board-0/ouput70_1.jpg
+[I 20220109 20:06:19 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652351C_1.bmp
+[I 20220109 20:06:19 calibration:63] imwrite: ./cali-board-0/ouput71_1.jpg
+[I 20220109 20:06:19 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652371C_1.bmp
+[I 20220109 20:06:19 calibration:63] imwrite: ./cali-board-0/ouput72_1.jpg
+[I 20220109 20:06:19 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652411C_1.bmp
+[I 20220109 20:06:19 calibration:63] imwrite: ./cali-board-0/ouput73_1.jpg
+[I 20220109 20:06:19 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652451C_1.bmp
+[I 20220109 20:06:19 calibration:63] imwrite: ./cali-board-0/ouput74_1.jpg
+[I 20220109 20:06:19 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652511C_1.bmp
+[I 20220109 20:06:19 calibration:63] imwrite: ./cali-board-0/ouput75_1.jpg
+[I 20220109 20:06:19 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652531C_1.bmp
+[I 20220109 20:06:19 calibration:63] imwrite: ./cali-board-0/ouput76_1.jpg
+[I 20220109 20:06:19 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652591C_1.bmp
+[I 20220109 20:06:19 calibration:63] imwrite: ./cali-board-0/ouput77_1.jpg
+[I 20220109 20:06:19 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652631C_1.bmp
+[I 20220109 20:06:19 calibration:63] imwrite: ./cali-board-0/ouput78_1.jpg
+[I 20220109 20:06:19 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652651C_1.bmp
+[I 20220109 20:06:19 calibration:63] imwrite: ./cali-board-0/ouput79_1.jpg
+[I 20220109 20:06:19 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652691C_1.bmp
+[I 20220109 20:06:20 calibration:63] imwrite: ./cali-board-0/ouput80_1.jpg
+[I 20220109 20:06:20 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652731C_1.bmp
+[I 20220109 20:06:20 calibration:63] imwrite: ./cali-board-0/ouput81_1.jpg
+[I 20220109 20:06:20 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652771C_1.bmp
+[I 20220109 20:06:20 calibration:63] imwrite: ./cali-board-0/ouput82_1.jpg
+[I 20220109 20:06:20 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652791C_1.bmp
+[I 20220109 20:06:20 calibration:63] imwrite: ./cali-board-0/ouput83_1.jpg
+[I 20220109 20:06:20 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652831C_1.bmp
+[I 20220109 20:06:20 calibration:63] imwrite: ./cali-board-0/ouput84_1.jpg
+[I 20220109 20:06:20 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652851C_1.bmp
+[I 20220109 20:06:20 calibration:63] imwrite: ./cali-board-0/ouput85_1.jpg
+[I 20220109 20:06:20 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652891C_1.bmp
+[I 20220109 20:06:20 calibration:63] imwrite: ./cali-board-0/ouput86_1.jpg
+[I 20220109 20:06:20 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141652911C_1.bmp
+[I 20220109 20:06:20 calibration:63] imwrite: ./cali-board-0/ouput87_1.jpg
+[I 20220109 20:06:20 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141654931C_1.bmp
+[I 20220109 20:06:20 calibration:63] imwrite: ./cali-board-0/ouput88_1.jpg
+[I 20220109 20:06:20 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141654971C_1.bmp
+[I 20220109 20:06:20 calibration:63] imwrite: ./cali-board-0/ouput89_1.jpg
+[I 20220109 20:06:20 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655011C_1.bmp
+[I 20220109 20:06:20 calibration:63] imwrite: ./cali-board-0/ouput90_1.jpg
+[I 20220109 20:06:20 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655031C_1.bmp
+[I 20220109 20:06:20 calibration:63] imwrite: ./cali-board-0/ouput91_1.jpg
+[I 20220109 20:06:20 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655071C_1.bmp
+[I 20220109 20:06:20 calibration:63] imwrite: ./cali-board-0/ouput92_1.jpg
+[I 20220109 20:06:20 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655091C_1.bmp
+[I 20220109 20:06:20 calibration:63] imwrite: ./cali-board-0/ouput93_1.jpg
+[I 20220109 20:06:20 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655111C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput94_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655151C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput95_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655171C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput96_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655231C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput97_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655251C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput98_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655291C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput99_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655331C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput100_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655371C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput101_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655411C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput102_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655431C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput103_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655491C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput104_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655531C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput105_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655571C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput106_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655591C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput107_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655631C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput108_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655651C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput109_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655671C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput110_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655711C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput111_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655731C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput112_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141655771C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput113_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659411C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput114_1.jpg
+[I 20220109 20:06:21 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659471C_1.bmp
+[I 20220109 20:06:21 calibration:63] imwrite: ./cali-board-0/ouput115_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659511C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput116_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659551C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput117_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659571C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput118_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659611C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput119_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659651C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput120_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659691C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput121_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659711C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput122_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659751C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput123_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659771C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput124_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659811C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput125_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659831C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput126_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659871C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput127_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659891C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput128_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659931C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput129_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659951C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput130_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141659991C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput131_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700011C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput132_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700051C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput133_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700071C_1.bmp
+[I 20220109 20:06:22 calibration:63] imwrite: ./cali-board-0/ouput134_1.jpg
+[I 20220109 20:06:22 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700111C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput135_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141700131C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput136_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702711C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput137_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702731C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput138_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702771C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput139_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702811C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput140_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702831C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput141_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702871C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput142_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702891C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput143_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702931C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput144_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141702971C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput145_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703011C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput146_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703031C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput147_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703071C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput148_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703091C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput149_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703131C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput150_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703151C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput151_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703191C_1.bmp
+[I 20220109 20:06:23 calibration:63] imwrite: ./cali-board-0/ouput152_1.jpg
+[I 20220109 20:06:23 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703211C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput153_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703251C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput154_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703271C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput155_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703311C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput156_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703331C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput157_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703371C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput158_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703391C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput159_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703431C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput160_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703471C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput161_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703511C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput162_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703551C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput163_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703571C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput164_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703611C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput165_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703651C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput166_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703671C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput167_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703711C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput168_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703751C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput169_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703771C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput170_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141703811C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput171_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709471C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput172_1.jpg
+[I 20220109 20:06:24 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709511C_1.bmp
+[I 20220109 20:06:24 calibration:63] imwrite: ./cali-board-0/ouput173_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709531C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput174_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709571C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput175_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709591C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput176_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709631C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput177_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709651C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput178_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709691C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput179_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709711C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput180_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709731C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput181_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709771C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput182_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709791C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput183_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709831C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput184_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709851C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput185_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709891C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput186_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709911C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput187_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709951C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput188_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141709991C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput189_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141710031C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput190_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141710051C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput191_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141710091C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput192_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712431C_1.bmp
+[I 20220109 20:06:25 calibration:63] imwrite: ./cali-board-0/ouput193_1.jpg
+[I 20220109 20:06:25 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712451C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput194_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712491C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput195_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712511C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput196_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712551C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput197_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712571C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput198_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712611C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput199_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712631C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput200_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712671C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput201_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712691C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput202_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712731C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput203_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712751C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput204_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712791C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput205_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712811C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput206_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712851C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput207_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712871C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput208_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712911C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput209_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712951C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput210_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141712971C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput211_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141713011C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput212_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141713051C_1.bmp
+[I 20220109 20:06:26 calibration:63] imwrite: ./cali-board-0/ouput213_1.jpg
+[I 20220109 20:06:26 calibration:34] C:/Users/winghingYau/Documents/folder_rqq/local_project/TIRI_/sourceImg/CB\20210727141713091C_1.bmp
+[I 20220109 20:06:27 calibration:63] imwrite: ./cali-board-0/ouput214_1.jpg
+[I 20220109 20:35:07 calibration:79] Camera matrix : [[7.46326659e+03 0.00000000e+00 1.65802155e+02]
+ [0.00000000e+00 7.53374329e+03 6.96759533e+02]
+ [0.00000000e+00 0.00000000e+00 1.00000000e+00]]
+[I 20220109 20:35:08 calibration:80] dist : [[ 4.06830918e-01 -6.84843253e+01  8.75171245e-04  3.06199574e-02
+   9.59748304e-01]]
+[I 20220109 20:35:08 calibration:81] rvecs : [array([[0.52121946],
+       [0.47628902],
+       [1.51945083]]), array([[0.5212711 ],
+       [0.47643702],
+       [1.51949339]]), array([[0.52103517],
+       [0.47630011],
+       [1.5195175 ]]), array([[0.52107071],
+       [0.47626761],
+       [1.51948238]]), array([[0.52108597],
+       [0.47614125],
+       [1.51949706]]), array([[0.52095731],
+       [0.47620759],
+       [1.5195486 ]]), array([[0.52114243],
+       [0.47628088],
+       [1.51945806]]), array([[0.52110821],
+       [0.47637436],
+       [1.51948864]]), array([[0.52125688],
+       [0.4763064 ],
+       [1.5194698 ]]), array([[0.52120457],
+       [0.47638596],
+       [1.51943931]]), array([[0.52106683],
+       [0.47635592],
+       [1.51949633]]), array([[0.52120927],
+       [0.47636927],
+       [1.51948169]]), array([[0.52109354],
+       [0.47627255],
+       [1.51947822]]), array([[0.52114877],
+       [0.47626618],
+       [1.51949332]]), array([[0.52113162],
+       [0.47632718],
+       [1.51947028]]), array([[0.52109301],
+       [0.47630198],
+       [1.51948746]]), array([[0.5211802 ],
+       [0.47628681],
+       [1.51949892]]), array([[0.52116044],
+       [0.47626937],
+       [1.51949517]]), array([[0.52109819],
+       [0.47632053],
+       [1.51950026]]), array([[0.52107871],
+       [0.47639252],
+       [1.51946791]]), array([[0.52105285],
+       [0.47643271],
+       [1.51951656]]), array([[0.521105  ],
+       [0.47628506],
+       [1.51945632]]), array([[0.52124102],
+       [0.47632168],
+       [1.51943564]]), array([[0.52121055],
+       [0.47631072],
+       [1.51944844]]), array([[0.52111996],
+       [0.47633921],
+       [1.51950035]]), array([[-0.28992041],
+       [ 0.3269352 ],
+       [-1.54153357]]), array([[0.32370691],
+       [0.28805996],
+       [1.55475323]]), array([[0.31548298],
+       [0.28245223],
+       [1.55359148]]), array([[0.32231869],
+       [0.28738011],
+       [1.55414017]]), array([[0.32262583],
+       [0.28873467],
+       [1.55274912]]), array([[0.32221496],
+       [0.28867029],
+       [1.55258123]]), array([[0.32030908],
+       [0.28668714],
+       [1.55282712]]), array([[0.31680904],
+       [0.28341551],
+       [1.55318368]]), array([[0.31250816],
+       [0.27804891],
+       [1.55436275]]), array([[0.30791502],
+       [0.27171576],
+       [1.55810402]]), array([[-0.26452052],
+       [ 0.30650316],
+       [-1.5383535 ]]), array([[-0.26504749],
+       [ 0.30704933],
+       [-1.53834122]]), array([[-0.26403007],
+       [ 0.30601737],
+       [-1.53851446]]), array([[-0.26355278],
+       [ 0.30433395],
+       [-1.5392422 ]]), array([[-0.26519818],
+       [ 0.30604941],
+       [-1.53907397]]), array([[-0.26880254],
+       [ 0.30979155],
+       [-1.53921568]]), array([[-0.26927801],
+       [ 0.30942716],
+       [-1.53996843]]), array([[-0.26944456],
+       [ 0.30930567],
+       [-1.54066921]]), array([[-0.27055921],
+       [ 0.30852654],
+       [-1.5425279 ]]), array([[-0.10439033],
+       [ 0.12959404],
+       [-1.56171797]]), array([[-0.10192345],
+       [ 0.12637742],
+       [-1.56181993]]), array([[-0.10121201],
+       [ 0.12578013],
+       [-1.5618868 ]]), array([[-0.09920752],
+       [ 0.12183191],
+       [-1.56209527]]), array([[-0.09584586],
+       [ 0.11961336],
+       [-1.56232371]]), array([[-0.093549  ],
+       [ 0.11780231],
+       [-1.56245306]]), array([[-0.09551394],
+       [ 0.11634092],
+       [-1.5623673 ]]), array([[-0.09145018],
+       [ 0.115558  ],
+       [-1.56251368]]), array([[-0.08916218],
+       [ 0.11253591],
+       [-1.56265648]]), array([[-0.08174653],
+       [ 0.10353452],
+       [-1.56301772]]), array([[-0.07425246],
+       [ 0.09696756],
+       [-1.5634111 ]]), array([[-0.06884353],
+       [ 0.09125787],
+       [-1.56362652]]), array([[-0.06777402],
+       [ 0.08988429],
+       [-1.56361333]]), array([[-0.06828993],
+       [ 0.08867694],
+       [-1.56353949]]), array([[-0.06721216],
+       [ 0.0878028 ],
+       [-1.56365156]]), array([[-0.06630726],
+       [ 0.08595439],
+       [-1.56363565]]), array([[-0.0636351 ],
+       [ 0.08689496],
+       [-1.56379577]]), array([[-0.06258607],
+       [ 0.08374331],
+       [-1.56387813]]), array([[-0.06088616],
+       [ 0.08428257],
+       [-1.56418988]]), array([[-0.05440381],
+       [ 0.08024947],
+       [-1.56494885]]), array([[-0.05344946],
+       [ 0.07737068],
+       [-1.5649054 ]]), array([[-0.05316985],
+       [ 0.07603741],
+       [-1.5653434 ]]), array([[-0.1063971 ],
+       [ 0.42430661],
+       [-1.56106041]]), array([[-0.09524706],
+       [ 0.44501493],
+       [-1.55997906]]), array([[-0.09124086],
+       [ 0.45935957],
+       [-1.56150697]]), array([[-0.08398825],
+       [ 0.47219979],
+       [-1.56309649]]), array([[-0.12478004],
+       [ 0.47132337],
+       [-1.56056206]]), array([[-0.08801468],
+       [ 0.4872565 ],
+       [-1.56583993]]), array([[-0.07493572],
+       [ 0.49068427],
+       [-1.56656115]]), array([[-0.07193296],
+       [ 0.49442194],
+       [-1.56794015]]), array([[-0.07026131],
+       [ 0.49620031],
+       [-1.56655431]]), array([[-0.0685838 ],
+       [ 0.49826114],
+       [-1.56075509]]), array([[-0.06627542],
+       [ 0.50066722],
+       [-1.55705867]]), array([[-0.05737098],
+       [ 0.50997154],
+       [-1.55517904]]), array([[-0.07336752],
+       [ 0.51314555],
+       [-1.55375547]]), array([[-0.04801542],
+       [ 0.5207642 ],
+       [-1.55538543]]), array([[-0.04617682],
+       [ 0.52366663],
+       [-1.55576013]]), array([[-0.04890324],
+       [ 0.522424  ],
+       [-1.55336878]]), array([[-0.04666166],
+       [ 0.53269328],
+       [-1.55231417]]), array([[-0.05885755],
+       [ 0.51297255],
+       [-1.54603411]]), array([[-0.07087995],
+       [ 0.50063993],
+       [-1.54132889]]), array([[-0.07938328],
+       [ 0.49184447],
+       [-1.53980637]]), array([[-0.09740399],
+       [ 0.46935615],
+       [-1.53489283]]), array([[-0.10670198],
+       [ 0.45889363],
+       [-1.53129132]]), array([[0.31971417],
+       [0.28336735],
+       [1.557095  ]]), array([[0.31960321],
+       [0.28314116],
+       [1.55584779]]), array([[0.31920723],
+       [0.28301673],
+       [1.55302309]]), array([[0.31981112],
+       [0.28264343],
+       [1.55091486]]), array([[0.32007036],
+       [0.28285268],
+       [1.55077876]]), array([[0.32055847],
+       [0.28283447],
+       [1.55038876]]), array([[0.32067998],
+       [0.28295561],
+       [1.55036251]]), array([[0.32049449],
+       [0.28322377],
+       [1.55041605]]), array([[0.32030496],
+       [0.28320439],
+       [1.5504695 ]]), array([[0.32060705],
+       [0.28349822],
+       [1.55037353]]), array([[0.32074678],
+       [0.2830314 ],
+       [1.55038368]]), array([[0.32062498],
+       [0.28303963],
+       [1.55044415]]), array([[0.3205923 ],
+       [0.28317061],
+       [1.55050117]]), array([[0.31737558],
+       [0.28034015],
+       [1.5509562 ]]), array([[0.32083778],
+       [0.2829678 ],
+       [1.55038924]]), array([[0.32064538],
+       [0.28291792],
+       [1.55038155]]), array([[0.32206035],
+       [0.28460941],
+       [1.55031529]]), array([[0.32046997],
+       [0.28336557],
+       [1.55040675]]), array([[0.32083015],
+       [0.28310399],
+       [1.55038584]]), array([[0.32100649],
+       [0.28285909],
+       [1.55038253]]), array([[0.32060153],
+       [0.2830361 ],
+       [1.55041739]]), array([[0.32952663],
+       [0.29200284],
+       [1.54910357]]), array([[0.33714332],
+       [0.29945426],
+       [1.54793949]]), array([[0.35391178],
+       [0.31564108],
+       [1.54645065]]), array([[0.37071633],
+       [0.33274532],
+       [1.54726185]]), array([[-0.36393054],
+       [ 0.39873528],
+       [-1.52073843]]), array([[-0.32245293],
+       [ 0.40359833],
+       [-1.48272017]]), array([[-0.31760298],
+       [ 0.41998136],
+       [-1.47451774]]), array([[-0.318141  ],
+       [ 0.42797021],
+       [-1.46672977]]), array([[-0.32096896],
+       [ 0.42917824],
+       [-1.46060581]]), array([[-0.31629204],
+       [ 0.43950007],
+       [-1.45336109]]), array([[-0.31225982],
+       [ 0.45098002],
+       [-1.44572502]]), array([[-0.31026177],
+       [ 0.45786555],
+       [-1.44118652]]), array([[-0.30451733],
+       [ 0.46862188],
+       [-1.432111  ]]), array([[-0.30143418],
+       [ 0.48273808],
+       [-1.42203555]]), array([[-0.3083541 ],
+       [ 0.51529249],
+       [-1.41251403]]), array([[-0.28741469],
+       [ 0.51015277],
+       [-1.40654661]]), array([[-0.2885775 ],
+       [ 0.53028145],
+       [-1.39919748]]), array([[-0.28383753],
+       [ 0.53099316],
+       [-1.38937033]]), array([[-0.28037075],
+       [ 0.53538264],
+       [-1.38351779]]), array([[-0.27345158],
+       [ 0.54327847],
+       [-1.37229439]]), array([[-0.27011986],
+       [ 0.55027801],
+       [-1.36615097]]), array([[-0.26182557],
+       [ 0.57250374],
+       [-1.35407799]]), array([[-0.24811543],
+       [ 0.59324196],
+       [-1.34373555]]), array([[-0.24094235],
+       [ 0.60336321],
+       [-1.33856401]]), array([[-0.2212004 ],
+       [ 0.62784814],
+       [-1.33055333]]), array([[-0.20952081],
+       [ 0.64184104],
+       [-1.32681281]]), array([[-0.19004945],
+       [ 0.66588551],
+       [-1.31940657]]), array([[-0.18345672],
+       [ 0.6738655 ],
+       [-1.31707743]]), array([[-0.29013638],
+       [ 0.31438622],
+       [-1.53924337]]), array([[-0.29021988],
+       [ 0.31347061],
+       [-1.5393882 ]]), array([[-0.27904407],
+       [ 0.26646189],
+       [-1.53942262]]), array([[-0.29667382],
+       [ 0.30770103],
+       [-1.53892667]]), array([[-0.28841596],
+       [ 0.31584124],
+       [-1.54113926]]), array([[-0.28774496],
+       [ 0.31663027],
+       [-1.54286379]]), array([[-0.2873954 ],
+       [ 0.31669872],
+       [-1.54476858]]), array([[0.31576158],
+       [0.28696222],
+       [1.54908806]]), array([[0.31383975],
+       [0.28636841],
+       [1.54759054]]), array([[0.31404064],
+       [0.28614924],
+       [1.54759475]]), array([[0.31369987],
+       [0.2864175 ],
+       [1.54768426]]), array([[0.31190347],
+       [0.28513469],
+       [1.54753985]]), array([[0.30932531],
+       [0.28313993],
+       [1.5470285 ]]), array([[0.30867792],
+       [0.2813272 ],
+       [1.54817944]]), array([[0.30979501],
+       [0.28113728],
+       [1.54993913]]), array([[0.31098535],
+       [0.28156234],
+       [1.5508125 ]]), array([[0.31082782],
+       [0.28155777],
+       [1.55089439]]), array([[0.31077392],
+       [0.28138761],
+       [1.5508552 ]]), array([[-0.28113066],
+       [ 0.31096211],
+       [-1.54996216]]), array([[0.31140923],
+       [0.28142923],
+       [1.55070477]]), array([[-0.28137907],
+       [ 0.31105134],
+       [-1.54997163]]), array([[0.31208976],
+       [0.28290888],
+       [1.55059338]]), array([[-0.28134315],
+       [ 0.31102429],
+       [-1.54992761]]), array([[-0.28136678],
+       [ 0.31101815],
+       [-1.54998397]]), array([[-0.28114213],
+       [ 0.3110471 ],
+       [-1.54998678]]), array([[0.31063592],
+       [0.28158369],
+       [1.55085426]]), array([[-0.27978915],
+       [ 0.30856155],
+       [-1.5501122 ]]), array([[-0.28134722],
+       [ 0.310862  ],
+       [-1.55001195]]), array([[0.3112345 ],
+       [0.28144968],
+       [1.55072504]]), array([[-0.28154675],
+       [ 0.31094332],
+       [-1.54993658]]), array([[-0.28155528],
+       [ 0.31109443],
+       [-1.54997283]]), array([[-0.28125101],
+       [ 0.31084447],
+       [-1.54998892]]), array([[-0.28128086],
+       [ 0.31108271],
+       [-1.54999325]]), array([[-0.28118303],
+       [ 0.31101659],
+       [-1.55000964]]), array([[0.31092062],
+       [0.28177218],
+       [1.55076703]]), array([[0.197867  ],
+       [0.23875519],
+       [1.54951119]]), array([[0.17993166],
+       [0.18958714],
+       [1.54067774]]), array([[0.17985437],
+       [0.18611737],
+       [1.53476712]]), array([[0.20499   ],
+       [0.20655047],
+       [1.51659623]]), array([[0.22042565],
+       [0.21553839],
+       [1.50528956]]), array([[0.2009787 ],
+       [0.2788219 ],
+       [1.50302734]]), array([[0.27875088],
+       [0.2748166 ],
+       [1.4872939 ]]), array([[0.30546543],
+       [0.28693742],
+       [1.47996233]]), array([[0.34945339],
+       [0.3046447 ],
+       [1.46590423]]), array([[0.37272236],
+       [0.31327312],
+       [1.45990973]]), array([[0.42645875],
+       [0.29776146],
+       [1.43342361]]), array([[0.43411821],
+       [0.28344391],
+       [1.42384289]]), array([[0.44493935],
+       [0.26308319],
+       [1.40632343]]), array([[0.46025654],
+       [0.25825816],
+       [1.39647952]]), array([[0.47354076],
+       [0.26736843],
+       [1.39008978]]), array([[0.47019382],
+       [0.26460393],
+       [1.38573932]]), array([[0.47679691],
+       [0.26112925],
+       [1.36316082]]), array([[0.48304264],
+       [0.27063684],
+       [1.35221825]]), array([[0.49147779],
+       [0.27346391],
+       [1.34084778]]), array([[0.49323201],
+       [0.27590174],
+       [1.33216264]]), array([[0.51198319],
+       [0.30296891],
+       [1.31232219]]), array([[-0.30321031],
+       [ 0.34597058],
+       [-1.5269834 ]]), array([[-0.30302462],
+       [ 0.34566878],
+       [-1.52706221]]), array([[-0.30307188],
+       [ 0.34579175],
+       [-1.5270468 ]]), array([[-0.30323019],
+       [ 0.34583924],
+       [-1.52707618]]), array([[-0.30308836],
+       [ 0.34563213],
+       [-1.52705819]]), array([[-0.30318714],
+       [ 0.34561027],
+       [-1.52702277]]), array([[-0.30321024],
+       [ 0.34594129],
+       [-1.52700283]]), array([[-0.30317032],
+       [ 0.34600202],
+       [-1.52704868]]), array([[-0.30295977],
+       [ 0.3457266 ],
+       [-1.52709129]]), array([[-0.30351941],
+       [ 0.34594278],
+       [-1.52701307]]), array([[-0.30325646],
+       [ 0.34593721],
+       [-1.52700144]]), array([[-0.30333294],
+       [ 0.34577695],
+       [-1.52697323]]), array([[-0.30314405],
+       [ 0.34597219],
+       [-1.52699326]]), array([[-0.30314762],
+       [ 0.34600074],
+       [-1.52704216]]), array([[-0.3030632 ],
+       [ 0.34577973],
+       [-1.52702875]]), array([[-0.30321181],
+       [ 0.34581164],
+       [-1.52702399]]), array([[-0.30305848],
+       [ 0.34598425],
+       [-1.5269896 ]]), array([[-0.30246579],
+       [ 0.34483944],
+       [-1.52707548]]), array([[-0.30322557],
+       [ 0.34595911],
+       [-1.52702145]]), array([[-0.30315096],
+       [ 0.34596813],
+       [-1.52703921]]), array([[-0.30324478],
+       [ 0.34585773],
+       [-1.52700079]]), array([[-0.30305225],
+       [ 0.34593489],
+       [-1.52701327]])]
+[I 20220109 20:35:10 calibration:82] tvecs : [array([[ 10.11148502],
+       [ -3.30477411],
+       [118.50554555]]), array([[ 10.11169032],
+       [ -3.30393003],
+       [118.50777527]]), array([[ 10.11244069],
+       [ -3.30464431],
+       [118.51409505]]), array([[ 10.11250626],
+       [ -3.30472719],
+       [118.51436728]]), array([[ 10.11289698],
+       [ -3.3044505 ],
+       [118.52149553]]), array([[ 10.11314998],
+       [ -3.30408239],
+       [118.52066183]]), array([[ 10.1122686 ],
+       [ -3.30455406],
+       [118.51371168]]), array([[ 10.11213369],
+       [ -3.30462699],
+       [118.51089373]]), array([[ 10.11166647],
+       [ -3.30447744],
+       [118.50704176]]), array([[ 10.11147165],
+       [ -3.30428065],
+       [118.50523655]]), array([[ 10.11228675],
+       [ -3.30440975],
+       [118.51220896]]), array([[ 10.11141121],
+       [ -3.30437353],
+       [118.50394683]]), array([[ 10.11225936],
+       [ -3.30443081],
+       [118.51261264]]), array([[ 10.11235364],
+       [ -3.30449559],
+       [118.51516077]]), array([[ 10.11194849],
+       [ -3.30460119],
+       [118.50678421]]), array([[ 10.11232556],
+       [ -3.30421285],
+       [118.51248125]]), array([[ 10.11205548],
+       [ -3.30422674],
+       [118.5104119 ]]), array([[ 10.11205204],
+       [ -3.30470164],
+       [118.50920974]]), array([[ 10.11226593],
+       [ -3.30471299],
+       [118.51193313]]), array([[ 10.11213233],
+       [ -3.30427658],
+       [118.51091863]]), array([[ 10.11223508],
+       [ -3.30419286],
+       [118.5106545 ]]), array([[ 10.11218722],
+       [ -3.3047941 ],
+       [118.51209175]]), array([[ 10.11134613],
+       [ -3.30470331],
+       [118.50332868]]), array([[ 10.11164194],
+       [ -3.30433148],
+       [118.50864175]]), array([[ 10.1119669 ],
+       [ -3.30436305],
+       [118.50961731]]), array([[  4.07903705],
+       [  1.71376251],
+       [121.97366781]]), array([[ 10.56676463],
+       [ -3.20929304],
+       [119.16529291]]), array([[ 10.54952794],
+       [ -3.21877343],
+       [119.22452033]]), array([[ 10.49179087],
+       [ -3.21296679],
+       [119.24389953]]), array([[ 10.47225051],
+       [ -3.21719291],
+       [119.26262389]]), array([[ 10.47239683],
+       [ -3.21791268],
+       [119.25737079]]), array([[ 10.48755053],
+       [ -3.21828138],
+       [119.25410398]]), array([[ 10.51362382],
+       [ -3.21965394],
+       [119.25131624]]), array([[ 10.54519308],
+       [ -3.21631504],
+       [119.19828446]]), array([[ 10.54968247],
+       [ -3.20284129],
+       [119.26683216]]), array([[  3.91024357],
+       [  1.68664462],
+       [121.98849955]]), array([[  3.89754853],
+       [  1.68527136],
+       [121.99975374]]), array([[  3.90122536],
+       [  1.68664984],
+       [121.99875205]]), array([[  3.90257976],
+       [  1.69091489],
+       [121.97671966]]), array([[  3.89487043],
+       [  1.69071381],
+       [121.99362434]]), array([[  3.8748913 ],
+       [  1.69071203],
+       [122.04134945]]), array([[  3.87095935],
+       [  1.6955645 ],
+       [122.04838542]]), array([[  3.86777564],
+       [  1.69984745],
+       [122.05519265]]), array([[  3.85872831],
+       [  1.70824279],
+       [122.05904308]]), array([[  3.48777327],
+       [  1.72491784],
+       [121.35331575]]), array([[  3.48258177],
+       [  1.71998381],
+       [121.3389199 ]]), array([[  3.48143301],
+       [  1.72045582],
+       [121.3328417 ]]), array([[  3.47682051],
+       [  1.7245853 ],
+       [121.31563821]]), array([[  3.47259186],
+       [  1.7242061 ],
+       [121.30315869]]), array([[  3.47021714],
+       [  1.72217501],
+       [121.30151607]]), array([[  3.46879588],
+       [  1.72355766],
+       [121.2899762 ]]), array([[  3.46622587],
+       [  1.72515271],
+       [121.28704347]]), array([[  3.46119963],
+       [  1.72462641],
+       [121.27059851]]), array([[  3.44714431],
+       [  1.71956421],
+       [121.24164997]]), array([[  3.4374655 ],
+       [  1.71714047],
+       [121.21426646]]), array([[  3.42830935],
+       [  1.71384669],
+       [121.18585295]]), array([[  3.42320129],
+       [  1.71049216],
+       [121.17200305]]), array([[  3.42185518],
+       [  1.71060899],
+       [121.16247569]]), array([[  3.4213304 ],
+       [  1.7121041 ],
+       [121.16552401]]), array([[  3.41976689],
+       [  1.71265639],
+       [121.15261149]]), array([[  3.41982996],
+       [  1.71203584],
+       [121.16050226]]), array([[  3.41793163],
+       [  1.71010256],
+       [121.14880655]]), array([[  3.41790552],
+       [  1.70922119],
+       [121.14449235]]), array([[  3.41637282],
+       [  1.70485083],
+       [121.122387  ]]), array([[  3.41287186],
+       [  1.69814186],
+       [121.10412321]]), array([[  3.41408414],
+       [  1.69774308],
+       [121.08943771]]), array([[  3.56992201],
+       [  0.86186033],
+       [120.95099939]]), array([[  3.55793111],
+       [  0.96843955],
+       [120.88075263]]), array([[  3.54556902],
+       [  1.03328217],
+       [120.84928541]]), array([[  3.52820381],
+       [  1.12749435],
+       [120.80237589]]), array([[  3.47222849],
+       [  1.24667355],
+       [119.800367  ]]), array([[  3.48918235],
+       [  1.32515224],
+       [120.40793187]]), array([[  3.50275012],
+       [  1.38109698],
+       [120.75018649]]), array([[  3.49479094],
+       [  1.43214588],
+       [120.74882823]]), array([[  3.49775609],
+       [  1.4452322 ],
+       [120.73802849]]), array([[  3.51646667],
+       [  1.45158477],
+       [120.72723843]]), array([[  3.52802634],
+       [  1.46679555],
+       [120.71695091]]), array([[  3.52334127],
+       [  1.5608485 ],
+       [120.6775709 ]]), array([[  3.50505309],
+       [  1.6167985 ],
+       [120.2120489 ]]), array([[  3.5086197 ],
+       [  1.70090911],
+       [120.62264018]]), array([[  3.50527608],
+       [  1.77687284],
+       [120.62109898]]), array([[  3.52075096],
+       [  1.81314592],
+       [120.63769197]]), array([[  3.54280835],
+       [  1.79819502],
+       [120.52522199]]), array([[  3.56586934],
+       [  1.76951172],
+       [120.68686   ]]), array([[  3.60601752],
+       [  1.67790261],
+       [120.74904418]]), array([[  3.62510345],
+       [  1.61274384],
+       [120.79036134]]), array([[  3.67844336],
+       [  1.46720342],
+       [120.89383396]]), array([[  3.7101166 ],
+       [  1.38625363],
+       [120.94153273]]), array([[ 10.3507465 ],
+       [ -3.77567468],
+       [119.35783205]]), array([[ 10.35740674],
+       [ -3.76443424],
+       [119.36053897]]), array([[ 10.36998972],
+       [ -3.75314309],
+       [119.37022211]]), array([[ 10.37700577],
+       [ -3.7481527 ],
+       [119.36462836]]), array([[ 10.37520235],
+       [ -3.75645639],
+       [119.35764126]]), array([[ 10.37094027],
+       [ -3.76972965],
+       [119.36186629]]), array([[ 10.37024781],
+       [ -3.76593954],
+       [119.36011833]]), array([[ 10.37223231],
+       [ -3.74474611],
+       [119.36355959]]), array([[ 10.37344837],
+       [ -3.73935219],
+       [119.36857459]]), array([[ 10.37136333],
+       [ -3.75315253],
+       [119.35551186]]), array([[ 10.36979077],
+       [ -3.76798972],
+       [119.3608856 ]]), array([[ 10.37118823],
+       [ -3.75329088],
+       [119.35986825]]), array([[ 10.37391207],
+       [ -3.74021315],
+       [119.36224407]]), array([[ 10.38784965],
+       [ -3.74742556],
+       [119.52443354]]), array([[ 10.3703258 ],
+       [ -3.76144346],
+       [119.35826298]]), array([[ 10.37092698],
+       [ -3.76143893],
+       [119.36227502]]), array([[ 10.36663166],
+       [ -3.74262381],
+       [119.27781329]]), array([[ 10.37076626],
+       [ -3.75499244],
+       [119.36064511]]), array([[ 10.36992614],
+       [ -3.76156232],
+       [119.35496499]]), array([[ 10.37148301],
+       [ -3.757747  ],
+       [119.35773712]]), array([[ 10.37290339],
+       [ -3.75030691],
+       [119.36399639]]), array([[ 10.3649043 ],
+       [ -3.71101342],
+       [119.3252401 ]]), array([[ 10.35805974],
+       [ -3.6910888 ],
+       [119.29523317]]), array([[ 10.33835945],
+       [ -3.65536782],
+       [119.21147638]]), array([[ 10.30804733],
+       [ -3.61487561],
+       [119.13781488]]), array([[  3.99323927],
+       [  1.31616215],
+       [122.41600309]]), array([[  4.26333557],
+       [  1.84067706],
+       [122.19758851]]), array([[  4.33038122],
+       [  1.77769698],
+       [122.29550852]]), array([[  4.35532646],
+       [  1.74658683],
+       [122.13383235]]), array([[  4.3695767 ],
+       [  1.74114308],
+       [122.14767636]]), array([[  4.39380848],
+       [  1.73093847],
+       [122.1174103 ]]), array([[  4.41902761],
+       [  1.72373245],
+       [122.09042654]]), array([[  4.43499274],
+       [  1.72023797],
+       [122.0756143 ]]), array([[  4.45974645],
+       [  1.70735509],
+       [122.0405458 ]]), array([[  4.49344157],
+       [  1.68736836],
+       [122.02413233]]), array([[  4.47326766],
+       [  1.70244169],
+       [120.9054319 ]]), array([[  4.519748  ],
+       [  1.69692162],
+       [121.95081643]]), array([[  4.53170055],
+       [  1.68167795],
+       [121.43195488]]), array([[  4.57362509],
+       [  1.67587515],
+       [121.92343747]]), array([[  4.5852392 ],
+       [  1.67129269],
+       [121.89960708]]), array([[  4.60841925],
+       [  1.66426553],
+       [121.88284194]]), array([[  4.61879476],
+       [  1.6776994 ],
+       [121.85550721]]), array([[  4.63209161],
+       [  1.75186813],
+       [121.81890863]]), array([[  4.62782534],
+       [  1.85451839],
+       [121.77851095]]), array([[  4.6237588 ],
+       [  1.90585941],
+       [121.74989539]]), array([[  4.59069105],
+       [  2.05254628],
+       [121.70339891]]), array([[  4.56655768],
+       [  2.13821966],
+       [121.67535014]]), array([[  4.5295776 ],
+       [  2.28589002],
+       [121.62333291]]), array([[  4.51489998],
+       [  2.3440336 ],
+       [121.61178093]]), array([[  3.83977044],
+       [  3.65570227],
+       [122.09355643]]), array([[  3.83986954],
+       [  3.65618279],
+       [122.11865048]]), array([[  3.83615175],
+       [  3.61912939],
+       [123.29513171]]), array([[  3.81507832],
+       [  3.592765  ],
+       [122.01236156]]), array([[  3.86765679],
+       [  3.67791092],
+       [122.14873575]]), array([[  3.87948768],
+       [  3.70399339],
+       [122.15273949]]), array([[  3.90149554],
+       [  3.72466064],
+       [122.15542487]]), array([[ 10.4258529 ],
+       [ -1.20508383],
+       [119.42108518]]), array([[ 10.43052105],
+       [ -1.19892841],
+       [119.41761378]]), array([[ 10.43022393],
+       [ -1.19029414],
+       [119.41679521]]), array([[ 10.43171764],
+       [ -1.18446313],
+       [119.41666574]]), array([[ 10.43693669],
+       [ -1.14795329],
+       [119.42366142]]), array([[ 10.44279275],
+       [ -1.11136205],
+       [119.42601492]]), array([[ 10.43620404],
+       [ -1.04876886],
+       [119.43923133]]), array([[ 10.42701943],
+       [ -1.011924  ],
+       [119.46334681]]), array([[ 10.42235736],
+       [ -0.9650032 ],
+       [119.45428116]]), array([[ 10.42377285],
+       [ -0.96007701],
+       [119.45745196]]), array([[ 10.42292997],
+       [ -0.96616264],
+       [119.46020988]]), array([[  3.93013023],
+       [  3.99908462],
+       [122.13557837]]), array([[ 10.41961163],
+       [ -0.97651074],
+       [119.44181564]]), array([[  3.93033758],
+       [  4.00085037],
+       [122.12491314]]), array([[ 10.41704434],
+       [ -0.9642162 ],
+       [119.38443644]]), array([[  3.93085144],
+       [  4.0095158 ],
+       [122.1276993 ]]), array([[  3.92957404],
+       [  3.99728878],
+       [122.12768435]]), array([[  3.93065964],
+       [  3.9978416 ],
+       [122.13198766]]), array([[ 10.42390735],
+       [ -0.96180011],
+       [119.4641013 ]]), array([[  3.93357816],
+       [  4.00983541],
+       [122.22537131]]), array([[  3.92980667],
+       [  4.00084265],
+       [122.1264001 ]]), array([[ 10.42103891],
+       [ -0.97461564],
+       [119.45015918]]), array([[  3.93122981],
+       [  4.0068694 ],
+       [122.12653639]]), array([[  3.93071659],
+       [  4.00875721],
+       [122.1191741 ]]), array([[  3.93041335],
+       [  4.00272321],
+       [122.13109614]]), array([[  3.9306127 ],
+       [  3.99864094],
+       [122.12851566]]), array([[  3.93109574],
+       [  4.00160928],
+       [122.13342526]]), array([[ 10.42232684],
+       [ -0.96536555],
+       [119.45410347]]), array([[  9.10070556],
+       [ -4.80393457],
+       [116.97516179]]), array([[  9.26877479],
+       [ -4.92400244],
+       [117.08073168]]), array([[  9.33119357],
+       [ -4.96144058],
+       [116.96753205]]), array([[  9.38353055],
+       [ -5.0002309 ],
+       [116.73677752]]), array([[  9.38942312],
+       [ -5.01688205],
+       [116.67101761]]), array([[  9.35339475],
+       [ -5.03560876],
+       [116.52624034]]), array([[  9.12613392],
+       [ -5.05161557],
+       [116.17091079]]), array([[  9.07177504],
+       [ -5.05153213],
+       [116.11111386]]), array([[  8.95802211],
+       [ -5.06371825],
+       [116.00148861]]), array([[  8.88731413],
+       [ -5.07383949],
+       [115.94107942]]), array([[  9.02079177],
+       [ -5.10693102],
+       [116.2577    ]]), array([[  9.05433367],
+       [ -5.13469139],
+       [116.38957112]]), array([[  9.03681451],
+       [ -5.17575756],
+       [116.50306782]]), array([[  9.08665228],
+       [ -5.17446138],
+       [116.57274208]]), array([[  8.99844282],
+       [ -5.12365755],
+       [116.40512973]]), array([[  8.90902151],
+       [ -5.11346503],
+       [116.29926706]]), array([[  8.81824253],
+       [ -5.10560573],
+       [116.25083017]]), array([[  8.6896275 ],
+       [ -5.06848094],
+       [116.04441305]]), array([[  8.63747153],
+       [ -5.07245485],
+       [115.84731645]]), array([[  8.63711378],
+       [ -5.07132799],
+       [115.74563237]]), array([[  8.72432824],
+       [ -5.01462028],
+       [115.49031274]]), array([[  4.61683025],
+       [  0.86544016],
+       [121.86395887]]), array([[  4.61694115],
+       [  0.86174878],
+       [121.8735763 ]]), array([[  4.61605429],
+       [  0.85614907],
+       [121.86713921]]), array([[  4.615971  ],
+       [  0.85639974],
+       [121.86449773]]), array([[  4.61658453],
+       [  0.8625873 ],
+       [121.87073483]]), array([[  4.61683806],
+       [  0.8671472 ],
+       [121.86888235]]), array([[  4.61682582],
+       [  0.86680072],
+       [121.86341919]]), array([[  4.61659538],
+       [  0.86443069],
+       [121.86205846]]), array([[  4.61590248],
+       [  0.85843207],
+       [121.86871971]]), array([[  4.61610708],
+       [  0.86004064],
+       [121.85972374]]), array([[  4.6171359 ],
+       [  0.86552693],
+       [121.86783596]]), array([[  4.61685093],
+       [  0.86690108],
+       [121.86623314]]), array([[  4.61642847],
+       [  0.8630935 ],
+       [121.86232761]]), array([[  4.61650154],
+       [  0.8597811 ],
+       [121.86625555]]), array([[  4.61634409],
+       [  0.85889345],
+       [121.86983369]]), array([[  4.61661467],
+       [  0.86070446],
+       [121.86807474]]), array([[  4.61682905],
+       [  0.86537201],
+       [121.86523668]]), array([[  4.61801227],
+       [  0.86277713],
+       [121.91293387]]), array([[  4.6164909 ],
+       [  0.86133772],
+       [121.86640087]]), array([[  4.61656624],
+       [  0.85947709],
+       [121.86689897]]), array([[  4.61646208],
+       [  0.86369883],
+       [121.86344928]]), array([[  4.61693365],
+       [  0.86437047],
+       [121.8714798 ]])]
