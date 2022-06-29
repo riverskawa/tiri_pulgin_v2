@@ -9,4 +9,5 @@ def run(glob_input,destination):
     logging.info('END')
 
 
-# run('./*0_th.txt','./pt_diff_0')
+# run('./*_1_th.txt','./pt_diff_txt_1')
+run('./*_1_th.xlsx','./excel_1')

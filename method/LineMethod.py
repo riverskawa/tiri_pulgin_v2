@@ -3,6 +3,7 @@ import re
 from itertools import combinations
 import math
 import cv2
+import os
 
 
 from openpyxl.drawing.image import Image
@@ -26,6 +27,7 @@ class lineMethod:
         self.list_global = []
         self.list_pts = []
         self.list_pts_comb = []
+        self.switch_lineMethod = int(switch)
 
         if switch == 0:
             self.path_global_frame = './feature_point_0/global_frame_number_0.txt'
@@ -39,9 +41,10 @@ class lineMethod:
 
 
     def run(self):
-        for  comb in self.list_pts_comb: #
 
-            
+        terms_job = 0
+        term_total = str(len(self.list_pts_comb))
+        for  comb in self.list_pts_comb: #
 
             comb_0,comb_1 = comb
             comb_0 = comb_0.replace('\\','/')
@@ -49,6 +52,8 @@ class lineMethod:
             
             print('=========COMB0:',comb_0)
             print('=========COMB1:',comb_1)
+            terms_job+=1
+            print(str(terms_job)+'/'+term_total) # <-- progress bar
 
             list_pt_a = []
             list_pt_b = []
@@ -135,20 +140,20 @@ class lineMethod:
             self.combination_name = './pt_diff_'+str(comb_0_a_naming)+'_'+str(comb_1_b_naming)+'.txt'
             combination_name_no_txt = self.combination_name.replace('.txt','')
 
-            job_excel = writexlsx(combination_name_no_txt)
-            job_excel.add_info(comb_0,comb_1,pt_a_starting_frame,pt_b_starting_frame,common_starting_pt,int(len(list_pt_a)),int(len(list_pt_b)),total_frame) # <--
+            if total_frame > 1000:
+                job_excel = writexlsx(combination_name_no_txt)
+                job_excel.add_info(comb_0,comb_1,pt_a_starting_frame,pt_b_starting_frame,common_starting_pt,int(len(list_pt_a)),int(len(list_pt_b)),total_frame) # <--
 
-            if total_frame > 0:
                 list_pt_diff = self.pt_diff(list_pt_a,list_pt_b,common_diff,flag_starting_frame,total_frame)
 
                 job_excel.add_data(list_pt_a,list_pt_b)
                 job_excel.add_distance(list_pt_diff[0])
                 job_excel.add_plot_graph()
 
-                job_img=commomStartingImg(common_starting_pt,comb_0,comb_1)
-                insert_img=job_img.cam0(list_pt_diff[1],list_pt_diff[2])   #<----need to add  0 or 1
+                job_img=commomStartingImg(self.switch_lineMethod,common_starting_pt,comb_0,comb_1)
+                insert_img=job_img.cam(list_pt_diff[1],list_pt_diff[2])   #<----need to add  0 or 1
                 job_excel.add_img(insert_img,str('./graph/'+str(comb_0_a_naming)+'.png'),str('./graph/'+str(comb_1_b_naming)+'.png'))
-    
+                os.remove(insert_img)
     def pt_diff(self,l_p_a,l_p_b,c_d,f_s_f,t_f): #-->(list_pt_a,list_pt_b,common_starting_pt,flag_starting_frame,total_frame)
         list_diff = []
         if f_s_f == 0 or f_s_f == 2 :
@@ -345,12 +350,13 @@ class writexlsx:
         # s1.marker.graphicalProperties.line.solidFill = "0000FF"  # Marker outline 標記輪廓的顏色
         # s1.graphicalProperties.line.noFill = True  # 關閉連線填充
         # s1.graphicalProperties
-        s1.marker.symbol = "circle"
+
+        # s1.marker.symbol = "circle"
         s1.graphicalProperties.solidFill = "FF0000"
         s1.marker.graphicalProperties.line.solidFill = "FF0000"
         s1.graphicalProperties.dashStyle = "dash"
         s1.smooth = True
-        s1.graphicalProperties.line.width = 1000  # width in EMUs
+        # s1.graphicalProperties.line.width = 1000  # width in EMUs
 
         ws.add_chart(chart, "A10")
         wb.save(self.name)
@@ -383,17 +389,24 @@ class writexlsx:
 #========================================================================
 
 class commomStartingImg:
-    def __init__(self,common_starting_pt,path_pt_a,path_pt_b) -> None:  # <---- comb0 and comb1 = path of pt a and pt b
-
+    def __init__(self,switch,common_starting_pt,path_pt_a,path_pt_b) -> None:  # <---- comb0 and comb1 = path of pt a and pt b
+        
+        self.switch = int(switch)
         self.green_color = (0,255,0)
         self.scaleLine_width = 1
-        self.text_x = 'X(+ve)'
+        self.text_x = 'X(+ve)'+'__'+str(common_starting_pt)
         self.text_y = 'Y(+ve)'
 
-        a_name = path_pt_a.replace('./after_first_filter/feature_point_0/','')
-        self.a_name = a_name.replace('.txt','')
-        b_name = path_pt_b.replace('./after_first_filter/feature_point_0/','')
-        self.b_name = b_name.replace('.txt','')
+        if self.switch == 0:
+            a_name = path_pt_a.replace('./after_first_filter/feature_point_0/','')
+            self.a_name = a_name.replace('.txt','')
+            b_name = path_pt_b.replace('./after_first_filter/feature_point_0/','')
+            self.b_name = b_name.replace('.txt','')
+        if self.switch == 1:
+            a_name = path_pt_a.replace('./after_first_filter/feature_point_1/','')
+            self.a_name = a_name.replace('.txt','')
+            b_name = path_pt_b.replace('./after_first_filter/feature_point_1/','')
+            self.b_name = b_name.replace('.txt','')
 
         self.output = './pt_diff_img_'+str(self.a_name)+'_'+str(self.b_name)+'.bmp'
         
@@ -401,18 +414,32 @@ class commomStartingImg:
         self.path_a = path_pt_a
         self.path_b = path_pt_b
 
-    def cam0(self,coor_a,coor_b):
+    def cam(self,coor_a,coor_b):
+
+        if self.switch == 0:
+            glob_bmp = './temp_img_0/*_0.bmp'
+            eliminate2 = './temp_img_0/'
+            eliminate3 = 'C_0.bmp'
+            folder_temp_img = './temp_img_0/'
+            folder_temp_img2 = 'C_0.bmp'
+        if self.switch == 1:
+            glob_bmp = './temp_img_1/*_1.bmp'
+            eliminate2 = './temp_img_1/'
+            eliminate3 = 'C_1.bmp'
+            folder_temp_img = './temp_img_1/'
+            folder_temp_img2 = 'C_1.bmp'
+
         list_img=[]
-        for img in glob.glob('./temp_img_0/*_0.bmp'):
+        for img in glob.glob(glob_bmp):
             img = str(img).replace('\\','/')
-            img= img.replace('./temp_img_0/','')
-            img=img.replace('C_0.bmp','')
+            img= img.replace(eliminate2,'')
+            img=img.replace(eliminate3,'')
             list_img.append(img)
 
         list_img.sort()
         path_common_img = list_img[self.c_s_p]
         # C_0.bmp
-        path_common_img = './temp_img_0/'+path_common_img+'C_0.bmp'
+        path_common_img = folder_temp_img+path_common_img+folder_temp_img2
 
 
         self.img = cv2.imread(path_common_img)
@@ -465,7 +492,7 @@ class commomStartingImg:
         return self.output
 
 #========================================================================
-job_a = lineMethod(0)
-job_a.globalFrame()
-job_a.getPtsComb()
-job_a.run()
+# job_a = lineMethod(1)
+# job_a.globalFrame()
+# job_a.getPtsComb()
+# job_a.run()

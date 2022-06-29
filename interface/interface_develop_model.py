@@ -330,10 +330,10 @@ def run_test():
     method.initialization.run()
     processA = interfaceCalibration()
     processA.skipCalib()
-    processA.imgProc('C:/Users/user/Desktop/RAW_DONE/005_0.025mg_ml_003')
+    processA.imgProc('C:/Users/user/Documents/RQQ/t_v2/006_0.025mg_ml_001')
     interfaceImgToVid().doTransfer()
     interfaceOpticalFlow().doOpticalFlow()
     interfaceCalulation_for_all().doCal()
     # interfaceFilter().doFilter()
     # period function ADD HERE
-    interfaceLineMethod().run()
+    # interfaceLineMethod().run()

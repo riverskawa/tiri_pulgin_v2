@@ -28,9 +28,6 @@ class firstFilter:
         
     
     def run(self,switch):
-        
-        list_x = []
-        list_y = []
 
         if switch == 0:
             path = glob.glob('./feature_point_0/*_0_th.txt')
@@ -38,7 +35,11 @@ class firstFilter:
         if switch == 1:
             path = glob.glob('./feature_point_1/*_1_th.txt')
             target_path = './after_first_filter/feature_point_1'
+
         for txt_name in path:
+
+            list_x = []
+            list_y = []
             
             txt_name = str(txt_name).replace('\\','/')
 
@@ -56,6 +57,7 @@ class firstFilter:
             min_x = min(list_x)
             max_y = max(list_y)
             min_y = min(list_y)
+
             if float(max_x-min_x) > float(10) or float(max_y-min_y) > float(10):
                 shutil.move(txt_name,target_path)
 
