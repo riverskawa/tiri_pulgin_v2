@@ -65,3 +65,21 @@ def run():
     else:
         shutil.rmtree('./dbscan_output')
         logging.info('folder is deleted: ./dbscan_output')
+
+    if os.path.exists('./after_first_filter') != True:
+        logging.info('folder does not exit: ./after_first_filter')
+    else:
+        shutil.rmtree('./after_first_filter')
+        logging.info('folder is deleted: ./after_first_filter')
+
+    if os.path.exists('./pt_diff_0') != True:
+        logging.info('folder does not exit: ./pt_diff_0')
+    else:
+        shutil.rmtree('./pt_diff_0')
+        logging.info('folder is deleted: ./pt_diff_0')
+
+    if os.path.exists('./pt_diff_1') != True:
+        logging.info('folder does not exit: ./pt_diff_1')
+    else:
+        shutil.rmtree('./pt_diff_1')
+        logging.info('folder is deleted: ./pt_diff_1')

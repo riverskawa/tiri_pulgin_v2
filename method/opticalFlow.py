@@ -14,6 +14,7 @@ ESC - exit
 '''
  
 import logging
+from matplotlib.font_manager import list_fonts
 import numpy as np
 import cv2
 # import shutil
@@ -48,21 +49,28 @@ class App:
             self.list_tr = []
             self.video_src = str(video_src)
             self.switch = int(switch)
+            self.list_global=[]
+            self.list_global_rec=[]
         except Exception as e:
             logging.info(e)
  
     def run(self):#光流运行方法
         try:
             logging.info('START')
+            print('start...')
+
             while True:
                 ret, frame = self.cam.read()#读取视频帧
                 if ret == True:
                     frame_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)#转化为灰度虚图像
                     vis = frame.copy()
         
+                    #print(self.tracks)
                     if len(self.tracks) > 0:#检测到角点后进行光流跟踪
+                        #print(self.tracks)
                         img0, img1 = self.prev_gray, frame_gray
                         p0 = np.float32([tr[-1] for tr in self.tracks]).reshape(-1, 1, 2)
+                        
                         p1, st, err = cv2.calcOpticalFlowPyrLK(img0, img1, p0, None, **lk_params)#前一帧的角点和当前帧的图像作为输入来得到角点在当前帧的位置
                         p0r, st, err = cv2.calcOpticalFlowPyrLK(img1, img0, p1, None, **lk_params)#当前帧跟踪到的角点及图像和前一帧的图像作为输入来找到前一帧的角点位置
 
@@ -85,10 +93,10 @@ class App:
                             cv2.circle(vis, (int(x), int(y)), 2, (0, 255, 0), -1)
                             
                             self.list_tr.append(tr)
-
-                            # print(tr)    # testing
+                            # self.list_global.append()
+                            # print(self.list_tr)    # testing 20220608
                         # logging.info('RUN END')
-
+                        #print(self.list_tr)    # testing 20220608
                         self.tracks = new_tracks
                         cv2.polylines(vis, [np.int32(tr) for tr in self.tracks], False, (0, 255, 0))#以上一振角点为初始点，当前帧跟踪到的点为终点划线
                         
@@ -96,6 +104,7 @@ class App:
                         # draw_str(vis, (20, 20), 'track count: %d' % len(self.tracks))
 
                         # cv2.imwrite(datetime.datetime.now().strftime("%A_%d_%B_%Y_%I_%M_%S%p")+'.png',vis)    # testing
+                        #print(self.frame_idx)
 
                     if self.frame_idx % self.detect_interval == 0:#每5帧检测一次特征点
                         mask = np.zeros_like(frame_gray)#初始化和视频大小相同的图像
@@ -109,10 +118,23 @@ class App:
 
                                 # print(len(self.tracks))    # testing
                                 # print(self.tracks)    # testing
-        
-        
+
+                    #print('TRACKS:')
+                    #print( self.tracks)
+
+                    if len(self.tracks)>0:
+                        for jkl in range (len(self.tracks)):
+                            if self.list_global_rec.count(self.tracks[jkl][0]) == 0:
+                                frame_num_global = (self.tracks[jkl][0][0],self.tracks[jkl][0][1],self.frame_idx)
+                                
+                                self.list_global.append(frame_num_global)
+                                self.list_global_rec.append(self.tracks[jkl][0])
+
+                    #print(self.list_global) #testing
+                    # print('FRAME IDX:',self.frame_idx) # testing only
                     self.frame_idx += 1
                     self.prev_gray = frame_gray
+
                     # cv2.imshow('lk_track', vis)
                     
                     # create video
@@ -158,6 +180,24 @@ class App:
                         # self.list_tr[feature_pt_num][term_num][1]    # y-coordinate
                         line = str(term_num)+'_th_frame [x,y]/[c,r]'+"\t"+str(self.list_tr[feature_pt_num][term_num][0])+"\t"+str(self.list_tr[feature_pt_num][term_num][1])+"\n"
                         f2.write(line)
+
+            if self.switch == 0:
+                global_txt_name = './global_frame_number_0.txt'
+            if self.switch == 1:
+                global_txt_name = './global_frame_number_1.txt'
+
+
+            global_term_num=range(len(self.list_global))
+            with open(global_txt_name, "w", encoding="utf-8") as f3:
+                for g_term_num in global_term_num:
+
+                    # ↓ x,y,global frame number
+                    f3_line = str(self.list_global[g_term_num][0])+"\t"+str(self.list_global[g_term_num][1])+"\t"+str(self.list_global[g_term_num][2])+"\n"
+                    
+                    f3.write(f3_line)
+
+
+            
         except Exception as e:
             logging.error(e)
 
@@ -175,4 +215,4 @@ class App:
 # if __name__ == '__main__':
 #     main()
 '''============================================='''
-# App('./video/cam_0.avi',0).run()
+# App('./cam_0.avi',0).run()

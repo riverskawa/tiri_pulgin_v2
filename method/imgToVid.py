@@ -25,7 +25,7 @@ def cam0():
         
 
 
-        out = cv2.VideoWriter('cam_0.avi',cv2.VideoWriter_fourcc(*'DIVX'), 15, size)
+        out = cv2.VideoWriter('cam_0.avi',cv2.VideoWriter_fourcc(*'DIVX'), 40, size)  # the third param is FPS of videos
         
         for i in range(len(img_array)):
             out.write(img_array[i])
@@ -56,7 +56,7 @@ def cam1():
         
 
 
-        out = cv2.VideoWriter('cam_1.avi',cv2.VideoWriter_fourcc(*'DIVX'), 15, size)
+        out = cv2.VideoWriter('cam_1.avi',cv2.VideoWriter_fourcc(*'DIVX'), 40, size)
         
         for i in range(len(img_array)):
             out.write(img_array[i])

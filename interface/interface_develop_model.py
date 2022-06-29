@@ -2,6 +2,8 @@ import os
 import logging
 import glob
 import threading
+import re
+
 
 import method.calibration
 import method.imageProcessing
@@ -17,9 +19,14 @@ import method.plot
 import method.txtInsert
 import method.dbscan
 import method.moveFolder
+import method.markFeature
 import method.importCalibSetting
 import method.importCalibSettingInput
 import method.calibSettingRefresh
+import method.FirstFilter
+import method.initialization
+import method.LineMethod
+import method.plot_lineMethod
 
 
 class interfaceCalibration:
@@ -101,10 +108,6 @@ class interfaceCalibration:
         method.imageProcessing.remove_distortion(self.path_folder_proc_img,0,self.list_cam0_param[0],self.list_cam0_param[1])
         method.imageProcessing1.remove_distortion(self.path_folder_proc_img,1,self.list_cam1_param[0],self.list_cam1_param[1])
 
-
-
-
-
 class interfaceImgToVid:
 
     def __init__(self) -> None:
@@ -127,8 +130,6 @@ class interfaceImgToVid:
         except Exception as e:
             logging.error(e)
 
-
-
 class interfaceOpticalFlow:
 
     def __init__(self) -> None:
@@ -143,7 +144,10 @@ class interfaceOpticalFlow:
             method.opticalFlow.App('./video/cam_1.avi',1).run() # Folder(./feature_point_1) is created
             
             method.moveObj.run('./*_0_th.txt','./feature_point_0/')
+            method.moveObj.run('./*global_frame_number_0.txt','./feature_point_0/')
             method.moveObj.run('./*_1_th.txt','./feature_point_1/')
+            method.moveObj.run('./*global_frame_number_1.txt','./feature_point_1/')
+            
 
         except Exception as e:
             logging.error(e)
@@ -196,6 +200,17 @@ class interfaceCalulation_for_all:
         except Exception as e:
             logging.error(e)
 
+class interfaceFilter:
+    def __init__(self) -> None:
+        pass
+
+    def doFilter(self):
+        try:
+            method.FirstFilter.firstFilter().run(0)
+            method.FirstFilter.firstFilter().run(1)
+        except Exception as e:
+            logging.error(e)
+
 
 class interfaceDBScan:
 
@@ -213,8 +228,6 @@ class interfaceDBScan:
             method.dbscan.run(0,int(max_frame_0))
             method.dbscan.run(1,int(max_frame_1))
 
-
-        
         except Exception as e:
             logging.error(e)
 
@@ -229,11 +242,98 @@ class interfaceMoveFolder:
         except Exception as e:
             logging.error(e)
         
-#=========================================================================
+class interfaceMakeFeatures:
+    def __init__(self) -> None:
+        pass
+
+    def job_img(self,switch):
+        list_img = []
+        if switch == 1:
+            for img in glob.glob('./temp_img_1/*_1.bmp'):
+                img = str(img).replace('\\','/')
+                img= img.replace('./temp_img_1/','')
+                img=img.replace('C_1.bmp','')
+                list_img.append(img)
+            list_img.sort()
+            target_img = list_img[0]
+            target_img = './temp_img_1/'+str(target_img)+'C_1.bmp'
+            return target_img
+        
+        if switch == 0:
+            for img in glob.glob('./temp_img_0/*_0.bmp'):
+                img = str(img).replace('\\','/')
+                img= img.replace('./temp_img_0/','')
+                img=img.replace('C_0.bmp','')
+                list_img.append(img)
+            list_img.sort()
+            target_img = list_img[0]
+            target_img = './temp_img_0/'+str(target_img)+'C_0.bmp'
+            return target_img
+
+    def run(self):
+
+        img_0=self.job_img(0)
+        img_1=self.job_img(1)
+
+        for  txt_name in glob.glob('./feature_point_0/*.txt'):
+            txt_name = txt_name.replace('\\','/')
+            with open(txt_name) as f:
+                data = f.readlines()[0]
+                data_num = re.findall("\d+\.\d+", data)
+                
+                float_c = float(data_num[0])
+                float_r = float(data_num[1])
+            
+                method.markFeature.plot_scale()
+
+class interfaceLineMethod:
+    def __init__(self) -> None:
+        pass
+
+    def run(self):
+        try:
+            job_a = method.LineMethod.lineMethod(0)
+            job_a.globalFrame()
+            job_a.getPtsComb()
+            job_a.run()
+            if os.path.exists('./pt_diff_0'):
+                logging.info('./pt_difff_0 has already exited')
+            else:
+                logging.info('./pt_diff_0 is created')
+                os.mkdir('./pt_diff_0')
+            method.moveObj.run('./*_0_th.txt','./pt_diff_0')
+            
+            job_b = method.LineMethod.lineMethod(1)
+            job_b.globalFrame()
+            job_b.getPtsComb()
+            job_b.run()
+            if os.path.exists('./pt_diff_1'):
+                logging.info('./pt_difff_1 has already exited')
+            else:
+                logging.info('./pt_diff_1 is created')
+                os.mkdir('./pt_diff_1')
+            method.moveObj.run('./*_1_th.txt','./pt_diff_1')
+
+            # plot graph
+            if os.path.exists('./graph_pt_diff_0'):
+                logging.info('./graph_pt_difff_0 has already exited')
+            else:
+                logging.info('./graph_pt_diff_0 is created')
+                os.mkdir('./graph_pt_diff_0')
+            # method.plot_lineMethod.plot()
+
+
+        except Exception as e:
+            logging.debug(e)
+    #=========================================================================
 def run_test():
+    method.initialization.run()
     processA = interfaceCalibration()
     processA.skipCalib()
-    processA.imgProc('./005heart')
+    processA.imgProc('C:/Users/user/Desktop/RAW_DONE/005_0.025mg_ml_003')
     interfaceImgToVid().doTransfer()
     interfaceOpticalFlow().doOpticalFlow()
     interfaceCalulation_for_all().doCal()
+    # interfaceFilter().doFilter()
+    # period function ADD HERE
+    interfaceLineMethod().run()

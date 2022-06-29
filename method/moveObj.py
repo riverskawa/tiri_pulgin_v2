@@ -8,3 +8,5 @@ def run(glob_input,destination):
         shutil.move(i,destination)
     logging.info('END')
 
+
+# run('./*0_th.txt','./pt_diff_0')
