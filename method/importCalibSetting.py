@@ -58,8 +58,11 @@ def convertJobDist(switch):
     if switch == 0:
         with open('./log-camera-calibration-setting/dist_cam0.txt',"r") as f1:
                 orgText = f1.read()
+                # orgText = orgText.replace('][','],[')
                 orgText = orgText.replace('  ',',')
 
+                print(orgText) # <--testing
+                
                 # Convert str to list
                 norList = ast.literal_eval(orgText)
 

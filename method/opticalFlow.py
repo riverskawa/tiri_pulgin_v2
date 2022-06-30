@@ -19,7 +19,6 @@ import numpy as np
 import cv2
 # import shutil
 # import datetime
-from time import clock
 import os
 
 

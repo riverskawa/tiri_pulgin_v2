@@ -26,7 +26,7 @@ import method.calibSettingRefresh
 import method.FirstFilter
 import method.initialization
 import method.LineMethod
-import method.plot_lineMethod
+
 
 
 class interfaceCalibration:
@@ -292,48 +292,63 @@ class interfaceLineMethod:
 
     def run(self):
         try:
-            job_a = method.LineMethod.lineMethod(0)
-            job_a.globalFrame()
-            job_a.getPtsComb()
-            job_a.run()
-            if os.path.exists('./pt_diff_0'):
-                logging.info('./pt_difff_0 has already exited')
+            # pt_diff_txt_0 and pt_diff_txt_1
+            if os.path.exists('./pt_diff_txt_0'):
+                logging.info('./pt_diff_txt_0 has already exited')
             else:
-                logging.info('./pt_diff_0 is created')
-                os.mkdir('./pt_diff_0')
-            method.moveObj.run('./*_0_th.txt','./pt_diff_0')
-            
-            job_b = method.LineMethod.lineMethod(1)
-            job_b.globalFrame()
-            job_b.getPtsComb()
-            job_b.run()
-            if os.path.exists('./pt_diff_1'):
-                logging.info('./pt_difff_1 has already exited')
-            else:
-                logging.info('./pt_diff_1 is created')
-                os.mkdir('./pt_diff_1')
-            method.moveObj.run('./*_1_th.txt','./pt_diff_1')
+                logging.info('./pt_diff_txt_0 is created')
+                os.mkdir('./pt_diff_txt_0')
 
-            # plot graph
-            if os.path.exists('./graph_pt_diff_0'):
-                logging.info('./graph_pt_difff_0 has already exited')
+            if os.path.exists('./pt_diff_txt_1'):
+                logging.info('./pt_diff_txt_1 has already exited')
             else:
-                logging.info('./graph_pt_diff_0 is created')
-                os.mkdir('./graph_pt_diff_0')
-            # method.plot_lineMethod.plot()
+                logging.info('./pt_diff_txt_1 is created')
+                os.mkdir('./pt_diff_txt_1')
+
+            # excel_0 and excel_1
+            if os.path.exists('./excel_0'):
+                logging.info('./excel_0 has already exited')
+            else:
+                logging.info('./excel_0 is created')
+                os.mkdir('./excel_0')
+
+            if os.path.exists('./excel_1'):
+                logging.info('./excel_1 has already exited')
+            else:
+                logging.info('./excel_1 is created')
+                os.mkdir('./excel_1')
+            
+            # work line method
+            job_0 = method.LineMethod.lineMethod(0)
+            job_0.globalFrame()
+            job_0.getPtsComb()
+            job_0.run()
+            method.moveObj.run('./*_0_th.txt','./pt_diff_txt_0')
+            method.moveObj.run('./*_0_th.xlsx','./excel_0')
+
+            job_1 = method.LineMethod.lineMethod(1)
+            job_1.globalFrame()
+            job_1.getPtsComb()
+            job_1.run()
+            method.moveObj.run('./*_1_th.txt','./pt_diff_txt_1')
+            method.moveObj.run('./*_1_th.xlsx','./excel_1')
+
 
 
         except Exception as e:
             logging.debug(e)
     #=========================================================================
 def run_test():
-    method.initialization.run()
-    processA = interfaceCalibration()
-    processA.skipCalib()
-    processA.imgProc('C:/Users/user/Documents/RQQ/t_v2/006_0.025mg_ml_001')
-    interfaceImgToVid().doTransfer()
-    interfaceOpticalFlow().doOpticalFlow()
-    interfaceCalulation_for_all().doCal()
+    # method.initialization.run()
+    # processA = interfaceCalibration()
+    # processA.skipCalib()
+    # processA.imgProc('C:/Users/user/Documents/RQQ/t_v2/005_0.025mg_ml_001')
+    # interfaceImgToVid().doTransfer()
+    # interfaceOpticalFlow().doOpticalFlow()
+    # interfaceCalulation_for_all().doCal()
     # interfaceFilter().doFilter()
     # period function ADD HERE
-    # interfaceLineMethod().run()
+    interfaceLineMethod().run()
+    # filing
+    os.mkdir('../output_005_0.025mg_ml_001')
+    interfaceMoveFolder.doMoveFolder('../output_005_0.025mg_ml_001')

@@ -43,7 +43,11 @@ class lineMethod:
     def run(self):
 
         terms_job = 0
-        term_total = str(len(self.list_pts_comb))
+        if self.switch_lineMethod ==0:
+            folder_after_folder = './after_first_filter/feature_point_0/*'
+        elif self.switch_lineMethod ==1:
+            folder_after_folder = './after_first_filter/feature_point_1/*'
+
         for  comb in self.list_pts_comb: #
 
             comb_0,comb_1 = comb
@@ -53,7 +57,7 @@ class lineMethod:
             print('=========COMB0:',comb_0)
             print('=========COMB1:',comb_1)
             terms_job+=1
-            print(str(terms_job)+'/'+term_total) # <-- progress bar
+            print(str(terms_job)+'/'+str((math.comb(len(glob.glob(folder_after_folder)),2)))) # <-- progress bar
 
             list_pt_a = []
             list_pt_b = []
@@ -154,6 +158,7 @@ class lineMethod:
                 insert_img=job_img.cam(list_pt_diff[1],list_pt_diff[2])   #<----need to add  0 or 1
                 job_excel.add_img(insert_img,str('./graph/'+str(comb_0_a_naming)+'.png'),str('./graph/'+str(comb_1_b_naming)+'.png'))
                 os.remove(insert_img)
+                
     def pt_diff(self,l_p_a,l_p_b,c_d,f_s_f,t_f): #-->(list_pt_a,list_pt_b,common_starting_pt,flag_starting_frame,total_frame)
         list_diff = []
         if f_s_f == 0 or f_s_f == 2 :
@@ -461,35 +466,35 @@ class commomStartingImg:
         cv2.imwrite(self.output, self.img)
         return self.output
 
-    def cam1(self,coor_a,coor_b):
-        list_img2=[]
-        for img in glob.glob('./temp_img_1/*_1.bmp'):
-            img = str(img).replace('\\','/')
-            img= img.replace('./temp_img_1/','')
-            img=img.replace('C_1.bmp','')
-            list_img2.append(img)
+    # def cam1(self,coor_a,coor_b):
+    #     list_img2=[]
+    #     for img in glob.glob('./temp_img_1/*_1.bmp'):
+    #         img = str(img).replace('\\','/')
+    #         img= img.replace('./temp_img_1/','')
+    #         img=img.replace('C_1.bmp','')
+    #         list_img2.append(img)
 
-        list_img2.sort()
-        path_common_img = list_img2[self.c_s_p]
+    #     list_img2.sort()
+    #     path_common_img = list_img2[self.c_s_p]
 
-        # C_1.bmp
-        path_common_img = './temp_img_1/'+path_common_img+'C_1.bmp'
+    #     # C_1.bmp
+    #     path_common_img = './temp_img_1/'+path_common_img+'C_1.bmp'
 
-        self.img = cv2.imread(path_common_img)
-        cv2.line(self.img,(50,50),(50,100),self.green_color,self.scaleLine_width)
-        cv2.line(self.img,(50,50),(100,50),self.green_color,self.scaleLine_width)
-        cv2.line(self.img,(100,50),(90,40),self.green_color,self.scaleLine_width)
-        cv2.line(self.img,(100,50),(90,60),self.green_color,self.scaleLine_width)
-        cv2.line(self.img,(50,100),(40,90),self.green_color,self.scaleLine_width)
-        cv2.line(self.img,(50,100),(60,90),self.green_color,self.scaleLine_width)
-        cv2.putText(self.img, 'Y(+ve)', (20, 115), cv2.FONT_HERSHEY_PLAIN,1, self.green_color, 1, cv2.LINE_AA)
-        cv2.putText(self.img, 'X(+ve)', (105, 55), cv2.FONT_HERSHEY_PLAIN,1, self.green_color, 1, cv2.LINE_AA)
-        cv2.circle(self.img,(int(float(coor_a[0])), int(float(coor_a[1]))),2,self.green_color, -1)
-        cv2.putText(self.img, self.a_name, (int(float(coor_a[0]))+5, int(float(coor_a[1]))+5), cv2.FONT_HERSHEY_PLAIN,1, self.green_color, 1, cv2.LINE_AA)
-        cv2.circle(self.img,(int(float(coor_b[0])), int(float(coor_b[1]))),2,self.green_color, -1)
-        cv2.putText(self.img, self.b_name, (int(float(coor_b[0]))+5, int(float(coor_a[1]))+5), cv2.FONT_HERSHEY_PLAIN,1, self.green_color, 1, cv2.LINE_AA)
-        cv2.imwrite(self.output, self.img)
-        return self.output
+    #     self.img = cv2.imread(path_common_img)
+    #     cv2.line(self.img,(50,50),(50,100),self.green_color,self.scaleLine_width)
+    #     cv2.line(self.img,(50,50),(100,50),self.green_color,self.scaleLine_width)
+    #     cv2.line(self.img,(100,50),(90,40),self.green_color,self.scaleLine_width)
+    #     cv2.line(self.img,(100,50),(90,60),self.green_color,self.scaleLine_width)
+    #     cv2.line(self.img,(50,100),(40,90),self.green_color,self.scaleLine_width)
+    #     cv2.line(self.img,(50,100),(60,90),self.green_color,self.scaleLine_width)
+    #     cv2.putText(self.img, 'Y(+ve)', (20, 115), cv2.FONT_HERSHEY_PLAIN,1, self.green_color, 1, cv2.LINE_AA)
+    #     cv2.putText(self.img, 'X(+ve)', (105, 55), cv2.FONT_HERSHEY_PLAIN,1, self.green_color, 1, cv2.LINE_AA)
+    #     cv2.circle(self.img,(int(float(coor_a[0])), int(float(coor_a[1]))),2,self.green_color, -1)
+    #     cv2.putText(self.img, self.a_name, (int(float(coor_a[0]))+5, int(float(coor_a[1]))+5), cv2.FONT_HERSHEY_PLAIN,1, self.green_color, 1, cv2.LINE_AA)
+    #     cv2.circle(self.img,(int(float(coor_b[0])), int(float(coor_b[1]))),2,self.green_color, -1)
+    #     cv2.putText(self.img, self.b_name, (int(float(coor_b[0]))+5, int(float(coor_a[1]))+5), cv2.FONT_HERSHEY_PLAIN,1, self.green_color, 1, cv2.LINE_AA)
+    #     cv2.imwrite(self.output, self.img)
+    #     return self.output
 
 #========================================================================
 # job_a = lineMethod(1)
