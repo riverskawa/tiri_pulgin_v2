@@ -1,0 +1,10 @@
+[D 20221121 22:00:48 __init__:281] matplotlib data path: /Users/user/opt/anaconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data
+[D 20221121 22:00:48 __init__:281] CONFIGDIR=/Users/user/.matplotlib
+[D 20221121 22:00:48 __init__:1456] interactive is False
+[D 20221121 22:00:48 __init__:1457] platform is darwin
+[D 20221121 22:00:48 __init__:281] CACHEDIR=/Users/user/.matplotlib
+[D 20221121 22:00:48 font_manager:1087] font search path [PosixPath('/Users/user/opt/anaconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf'), PosixPath('/Users/user/opt/anaconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/afm'), PosixPath('/Users/user/opt/anaconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts')]
+[I 20221121 22:00:48 font_manager:1109] Failed to extract font properties from /System/Library/Fonts/Supplemental/NISC18030.ttf: In FT2Font: Could not set the fontsize (invalid pixel size; error code 0x17)
+[I 20221121 22:00:48 font_manager:1109] Failed to extract font properties from /System/Library/Fonts/Apple Color Emoji.ttc: In FT2Font: Could not set the fontsize (invalid pixel size; error code 0x17)
+[I 20221121 22:00:49 font_manager:1109] Failed to extract font properties from /System/Library/Fonts/LastResort.otf: tuple indices must be integers or slices, not str
+[I 20221121 22:00:49 font_manager:1633] generated new fontManager

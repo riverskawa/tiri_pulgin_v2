@@ -25,6 +25,25 @@
 # print(type(list_pts_comb))
 # for i in list_pts_comb:
 #     print(i)
-import glob
-import math
-print(math.comb(len(glob.glob('./after_first_filter/feature_point_0/*')),2))
+
+#============================================
+
+# import glob
+# import math
+# print(math.comb(len(glob.glob('./after_first_filter/feature_point_0/*')),2))
+
+#============================================
+
+# import glob
+
+# list_root = []
+
+# base = './sdsdsds/dsds'
+
+# for i in glob.glob('./testingBox/*.py'):
+#     list_root.append([base,i])
+
+# print(list_root)
+
+
+

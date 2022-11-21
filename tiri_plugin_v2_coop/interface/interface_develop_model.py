@@ -342,13 +342,13 @@ def run_test():
     method.initialization.run()
     processA = interfaceCalibration()
     processA.skipCalib()
-    processA.imgProc('C:/Users/user/Documents/011_5mg_ml_1CC_001_output_0_20220805/011_5mg_ml_1CC_001_output_0')
+    processA.imgProc('/Users/user/Documents/GitHub/009_001')
     interfaceImgToVid().doTransfer()
     interfaceOpticalFlow().doOpticalFlow()
     interfaceCalulation_for_all().doCal()
     interfaceFilter().doFilter()
     # period function ADD HERE
-    interfaceLineMethod().run()
+    # interfaceLineMethod().run()
     # filing
     # os.mkdir('../output_005_0.025mg_ml_001')
     # interfaceMoveFolder.doMoveFolder('../output_005_0.025mg_ml_001')

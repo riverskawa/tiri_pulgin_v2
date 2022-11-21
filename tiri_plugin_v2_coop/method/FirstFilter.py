@@ -41,7 +41,7 @@ class firstFilter:
             list_x = []
             list_y = []
             
-            txt_name = str(txt_name).replace('\\','/')
+            txt_name = str(txt_name).replace('\\','/') # this line for dos system only
 
             with open(txt_name, "r") as f1:
                 for line in f1.readlines():
