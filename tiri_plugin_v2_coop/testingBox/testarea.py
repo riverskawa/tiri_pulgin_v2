@@ -46,4 +46,42 @@
 # print(list_root)
 
 
+# ds = []
+# for i in range (1,10):
+#     ds.append(i)
 
+# path = 'output.txt'
+# f = open(path, 'w')
+# for i in (ds):
+#     f.write(str(i)+'\n')
+# f.write(str(123))
+# f.write(str(123.45))
+# f.close()
+
+
+# ss = '97_0_th_82_0_th_5'
+
+# print(type(ss.split('_')[6]))
+# import re
+
+# with open('./excel_cam_0/97_0_th_96_0_th_5.txt') as f1:
+#     for line in f1.readlines():
+#         # print(line)    # testing
+#         # number = [int(temp)for temp in line.split() if temp.isdigit()]
+#         disp = re.findall("\d+\.\d+", line)    # format:string    [convect from string with dot to float]
+#         print(float(line))
+#         print(type(float(line)))
+
+# import glob
+
+# ls_base = [] 
+# for base_pt in glob.glob('./excel_cam_0/region_1/*.txt'):
+#     base_pt = base_pt.replace('./excel_cam_0/region_1/','')
+#     base_pt = base_pt.split('_')[0]
+#     if base_pt not in ls_base:
+#         ls_base.append(base_pt)
+
+
+ss = '345_0'
+
+print(ss.find('34_'))

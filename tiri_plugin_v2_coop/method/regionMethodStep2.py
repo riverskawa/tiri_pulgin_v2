@@ -3,7 +3,7 @@ import logging
 import re
 from itertools import combinations
 import math
-import cv2
+import shutil 
 import os
 
 
@@ -17,84 +17,65 @@ from openpyxl.chart import (
     Series,
 )
 
-
-class regMethod:
-    def __init__(self,cam_num) -> None:
-        
-        if cam_num == 0:
-            self.path_folder_coord = './after_first_filter/feature_point_0'
-            self.path_folder_base = './after_first_filter/feature_point_0/region_2'
-            self.path_global_frame = './feature_point_0/global_frame_number_0.txt'
-
-            #create excel folder for cam_0
-            if os.path.exists('./excel_cam_0'):
-                logging.info('./excel_cam_0 has been created')
-            else:
-                os.system('mkdir ./excel_cam_0')
-            self.path_excel = './excel_cam_0'
-
-        if cam_num == 1:
-            self.path_folder_coord = './after_first_filter/feature_point_1'
-            self.path_folder_base = './after_first_filter/feature_point_1/region_2'
-            self.path_global_frame = './feature_point_1/global_frame_number_1.txt'
-
-            #create excel folder for cam_1
-            if os.path.exists('./excel_cam_1'):
-                logging.info('./excel_cam_1 has been created')
-            else:
-                os.system('mkdir ./excel_cam_1')
-            self.path_excel = './excel_cam_1'
+class regionIntegration:
     
-        pass
-
-    def catchR2(self):
-
-        golb_path_coord = self.path_folder_base+'/*.txt'
-
-        self.list_global=[]
-        self.getGlobalFrame()
-
-        for txt in glob.glob(golb_path_coord):
-            path_txt = txt
-            txt_name = str(txt).split('/')[-1]
-            name = txt_name.replace('.txt','')
-            
-            writexlsx(path_txt, self.list_global,name,self.path_excel, self.path_folder_coord).insertR2Data()
-
-
-    def getGlobalFrame(self):
-        with open(self.path_global_frame) as f1:
-            for line in f1.readlines():
-                # print(line)    # testing
-                # number = [int(temp)for temp in line.split() if temp.isdigit()]
-                coor = re.findall("\d+\.\d+", line)    # format:string    [convect from string with dot to float]
-                frame = re.findall('\d+',line)
-                global_info = (float(coor[0]),float(coor[1]),int(frame[len(frame)-1]))
-                self.list_global.append(global_info)
+    def __init__(self) -> None:
+        #create folder region_134
+        if os.path.exists('./excel_cam_0/region_134')==False:
+            os.system('mkdir ./excel_cam_0/region_134')
+        if os.path.exists('./excel_cam_1/region_134')==False:
+            os.system('mkdir ./excel_cam_1/region_134')
+        
+        for cam in (['./excel_cam_0','./excel_cam_1']):
+            for region in (['region_1','region_3','region_4']):
+                src_files = os.listdir(cam+'/'+region)
+                for file_name in src_files:
+                    full_file_name = os.path.join(cam+'/'+region, file_name)
+                    if os.path.isfile(full_file_name):
+                        shutil.copy(full_file_name, cam+'/region_134')
 
 
 class writexlsx:
 
-    def __init__(self,txt_path,global_list,excel_name,path_excel_folder, path_R_folder) -> None:
-
-        self.this_path_txt = txt_path
-        self.this_list_global = global_list
-        self.this_path_R_folder = path_R_folder
-
-        wb = Workbook()
-        ws1 = wb.create_sheet("info")
-        ws1.sheet_properties.tabColor = "1072BA"
-
-        # insert date
-        ws1['A1'] = 'Date:'
-        datetime_dt = datetime.today()# 獲得當地時間
-        datetime_str = datetime_dt.strftime("%Y/%m/%d %H:%M:%S")
-        ws1['B1'] = datetime_str
+    def __init__(self) -> None:
+        # # insert date
+        # ws1['A1'] = 'Date:'
+        # datetime_dt = datetime.today()# 獲得當地時間
+        # datetime_str = datetime_dt.strftime("%Y/%m/%d %H:%M:%S")
+        # ws1['B1'] = datetime_str
         
-        self.name = path_excel_folder+'/'+str(excel_name)+'.xlsx'
-        wb.save(self.name)
+        # self.name = path_excel_folder+'/'+str(excel_name)+'.xlsx'
+        # wb.save(self.name)
+        for cam in (['./excel_cam_0','./excel_cam_1']):
+            for region in (['region_1','region_3','region_4','region_134']):
+                ls_base = [] 
+                for base_pt in glob.glob(cam+'/'+region+'/*.txt'):
+                    base_pt = base_pt.replace(cam+'/'+region+'/','')
+                    base_pt = base_pt.split('_')[0]
+                    if base_pt not in ls_base:
+                        ls_base.append(base_pt)
 
-
+                for pt in ls_base:
+                    wb = Workbook()
+                    ws1 = wb.create_sheet("Data")
+                    ws1.sheet_properties.tabColor = "1072BA"
+                    case_col = 1
+                    for case in glob.glob(cam+'/'+region+'/*.txt'):
+                        if case.find(pt+'_') >= 0:
+                            case_name = str(case).replace(cam+'/'+region+'/','')
+                            case_name = case_name.replace('.txt','')
+                            start_frame = case_name.split('_')[6]
+                            ws1.cell(row=1,column=case_col,value=case_name)
+                            with open(case) as f1:
+                                line_num = 1
+                                for line in f1.readlines():
+                                    # disp = re.findall("\d+\.\d+", line)    # format:string    [convect from string with dot to float]
+                                    ws1.cell(row=int(start_frame)+line_num,column=case_col,value=float(line))
+                                    line_num+=1
+                            case_col+=1
+                
+                    cam_name = cam.replace('./','')
+                    wb.save(cam+'/'+region+'/'+cam_name+'_'+region+'_'+pt+'.xlsx')
 
 
     def insertR2Data(self):
@@ -202,7 +183,7 @@ class writexlsx:
             ws_R3.cell(row=2,column=(4+(R3_count*2)),value='Y')
             # insert R1 data pt
             for coord_term in range (0,len(list_fea_pt_r3)):
-                ws_R3.cell(row=(2+1+R3_starting_frame+coord_term),column=(3+(R3_count*2)),value=list_fea_pt_r3[coord_term][0]) # X
+                ws_R3.cell(row=(2+1+R3_starting_frame+coord_term),column=(3+(R3_count*2)),value=list_fea_pt_r3[coord_term][0]) # X  
                 ws_R3.cell(row=(2+1+R3_starting_frame+coord_term),column=(4+(R3_count*2)),value=list_fea_pt_r3[coord_term][1]) # Y
 
             R3_count+=1
@@ -243,9 +224,6 @@ class writexlsx:
         wb.save(self.name)
 
 
-
-
 #==============================
-job=regMethod(1)
-job.catchR2()
-
+# regionIntegration()
+writexlsx()
