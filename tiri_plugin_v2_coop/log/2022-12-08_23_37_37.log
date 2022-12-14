@@ -1,0 +1,59 @@
+[D 20221208 23:37:38 __init__:281] matplotlib data path: /home/user/anaconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data
+[D 20221208 23:37:38 __init__:281] CONFIGDIR=/home/user/.config/matplotlib
+[D 20221208 23:37:38 __init__:1456] interactive is False
+[D 20221208 23:37:38 __init__:1457] platform is linux
+[D 20221208 23:37:38 __init__:281] CACHEDIR=/home/user/.cache/matplotlib
+[D 20221208 23:37:38 font_manager:1087] font search path [PosixPath('/home/user/anaconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf'), PosixPath('/home/user/anaconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/afm'), PosixPath('/home/user/anaconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/pdfcorefonts')]
+[I 20221208 23:37:41 font_manager:1109] Failed to extract font properties from /usr/share/fonts/truetype/noto/NotoColorEmoji.ttf: In FT2Font: Can not load face (unknown file format; error code 0x2)
+[I 20221208 23:37:42 font_manager:1633] generated new fontManager
+[I 20221208 23:37:44 initialization:10] folder does not exit: ./cali-board-0
+[I 20221208 23:37:44 initialization:16] folder does not exit: ./cali-board-1
+[I 20221208 23:37:44 initialization:22] folder does not exit: ./graph
+[I 20221208 23:37:44 initialization:34] folder does not exit: ./temp_img_0
+[I 20221208 23:37:44 initialization:40] folder does not exit: ./temp_img_1
+[I 20221208 23:37:44 initialization:46] folder does not exit: ./video
+[I 20221208 23:37:44 initialization:52] folder does not exit: ./feature_point_0
+[I 20221208 23:37:44 initialization:58] folder does not exit: ./feature_point_1
+[I 20221208 23:37:44 initialization:64] folder does not exit: ./dbscan_output
+[I 20221208 23:37:44 initialization:70] folder does not exit: ./after_first_filter
+[I 20221208 23:37:44 initialization:76] folder does not exit: ./pt_diff_0
+[I 20221208 23:37:44 initialization:82] folder does not exit: ./pt_diff_1
+[I 20221208 23:37:44 importCalibSetting:7] START
+[I 20221208 23:37:44 importCalibSetting:12] DONE
+[I 20221208 23:37:44 interface_develop_model:93] mkdir ./temp_img_0
+[I 20221208 23:37:44 interface_develop_model:99] mkdir ./temp_img_1
+[I 20221208 23:37:44 imageProcessing:10] START
+[I 20221208 23:37:44 imageProcessing1:10] START
+[I 20221208 23:37:44 interface_develop_model:119] mkdir ./video
+[I 20221208 23:37:44 imgToVid:8] START
+[E 20221208 23:37:44 imgToVid:34] local variable 'size' referenced before assignment
+[I 20221208 23:37:44 imgToVid:39] START
+[E 20221208 23:37:44 imgToVid:65] local variable 'size' referenced before assignment
+[I 20221208 23:37:44 moveObj:6] START
+[I 20221208 23:37:44 moveObj:9] END
+[I 20221208 23:37:44 opticalFlow:39] START
+[I 20221208 23:37:44 opticalFlow:58] START
+[I 20221208 23:37:44 opticalFlow:149] the length of feature points on a frame: 0
+[I 20221208 23:37:44 opticalFlow:155] mkdir ./feature_point_0
+[I 20221208 23:37:44 opticalFlow:161] mkdir ./feature_point_1
+[I 20221208 23:37:44 opticalFlow:39] START
+[I 20221208 23:37:44 opticalFlow:58] START
+[I 20221208 23:37:44 opticalFlow:149] the length of feature points on a frame: 0
+[I 20221208 23:37:44 opticalFlow:157] path already exited: ./feature_point_0
+[I 20221208 23:37:44 opticalFlow:163] path already exited: ./feature_point_1
+[I 20221208 23:37:44 moveObj:6] START
+[I 20221208 23:37:44 moveObj:9] END
+[I 20221208 23:37:44 moveObj:6] START
+[I 20221208 23:37:44 moveObj:9] END
+[I 20221208 23:37:44 moveObj:6] START
+[I 20221208 23:37:44 moveObj:9] END
+[I 20221208 23:37:44 moveObj:6] START
+[I 20221208 23:37:44 moveObj:9] END
+[E 20221208 23:37:44 getImgSize:16] list index out of range
+[E 20221208 23:37:44 interface_develop_model:203] 'NoneType' object is not subscriptable
+[I 20221208 23:37:44 FirstFilter:15] create --> ./after_first_filter
+[I 20221208 23:37:45 FirstFilter:21] create --> ./after_first_filter/feature_point_0
+[I 20221208 23:37:45 FirstFilter:27] create --> ./after_first_filter/feature_point_1
+[I 20221208 23:37:45 FirstFilter:12] ./after_first_filter has already exited
+[I 20221208 23:37:45 FirstFilter:18] ./after_first_filter/feature_point_0 has already exited
+[I 20221208 23:37:45 FirstFilter:24] ./after_first_filter/feature_point_1 has already exited

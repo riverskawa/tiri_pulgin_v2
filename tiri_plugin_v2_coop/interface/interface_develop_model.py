@@ -26,7 +26,10 @@ import method.calibSettingRefresh
 import method.FirstFilter
 import method.initialization
 import method.LineMethod
-
+import method.regionSplit
+import method.regionMethodV2
+import method.regionMethodStep2
+import method.pack
 
 
 class interfaceCalibration:
@@ -338,17 +341,34 @@ class interfaceLineMethod:
         except Exception as e:
             logging.debug(e)
     #=========================================================================
-def run_test():
-    method.initialization.run()
-    processA = interfaceCalibration()
-    processA.skipCalib()
-    processA.imgProc('/Users/user/Documents/GitHub/009_001')
-    interfaceImgToVid().doTransfer()
-    interfaceOpticalFlow().doOpticalFlow()
-    interfaceCalulation_for_all().doCal()
-    interfaceFilter().doFilter()
+def run_test(p,n):
+    # method.initialization.run()
+    # processA = interfaceCalibration()
+    # processA.skipCalib()
+    # processA.imgProc(p)
+    # interfaceImgToVid().doTransfer()
+    # interfaceOpticalFlow().doOpticalFlow()
+    # interfaceCalulation_for_all().doCal()
+    # interfaceFilter().doFilter()
+
+    #=======ver0======================================================
     # period function ADD HERE
     # interfaceLineMethod().run()
     # filing
     # os.mkdir('../output_005_0.025mg_ml_001')
     # interfaceMoveFolder.doMoveFolder('../output_005_0.025mg_ml_001')
+
+    #=======ver1======================================================
+    # job_regionSplit = method.regionSplit.region_split()
+    # job_regionSplit.second_region()
+    # job_regionSplit.data_split()
+
+    job_regionMthodV2=method.regionMethodV2.regMethod(0)
+    job_regionMthodV2.catchR2()
+
+    job_regionMthodV2_2=method.regionMethodV2.regMethod(1)
+    job_regionMthodV2_2.catchR2()
+
+    method.regionMethodStep2.regionIntegration()
+    method.regionMethodStep2.writexlsx()
+    method.pack.run_pack(n)

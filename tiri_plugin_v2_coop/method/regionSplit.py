@@ -129,6 +129,6 @@ class region_split:
         logging.info('data_split is done')     
 
 #=============
-job = region_split()
-job.second_region()
-job.data_split()
+# job = region_split()
+# job.second_region()
+# job.data_split()

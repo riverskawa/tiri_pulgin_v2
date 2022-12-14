@@ -82,6 +82,11 @@
 #         ls_base.append(base_pt)
 
 
-ss = '345_0'
+# ss = '345_0'
 
-print(ss.find('34_'))
+# print(ss.find('34_'))
+
+aa = 22
+bb = 22
+if str(aa) == str(bb):
+    print('work')

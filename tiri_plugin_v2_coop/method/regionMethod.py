@@ -246,6 +246,6 @@ class writexlsx:
 
 
 #==============================
-job=regMethod(1)
-job.catchR2()
+# job=regMethod(1)
+# job.catchR2()
 
