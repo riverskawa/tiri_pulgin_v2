@@ -93,24 +93,8 @@ def debug_mode():
 
     import interface.interface_develop_model
 
-    # interface.interface_develop_model.run_test('/home/user/Documents/006_0.025mg_ml_001','006_0.025mg_ml_001')
-    # interface.interface_develop_model.run_test('/home/user/Documents/006_0.025mg_ml_002','006_0.025mg_ml_002')
-    # interface.interface_develop_model.run_test('/home/user/Documents/006_0.025mg_ml_003','006_0.025mg_ml_003')
-    # interface.interface_develop_model.run_test('/home/user/Documents/007_002','007_002')
-    # interface.interface_develop_model.run_test('/home/user/Documents/007_003','007_003')
-    # interface.interface_develop_model.run_test('/home/user/Documents/007_004','007_004')
-    # interface.interface_develop_model.run_test('/home/user/Documents/008_1mg_ml_001_1CC','008_1mg_ml_001_1CC')
-    # interface.interface_develop_model.run_test('/home/user/Documents/008_1mg_ml_002_2CC','008_1mg_ml_002_2CC')
-    # interface.interface_develop_model.run_test('/home/user/Documents/008_1mg_ml_003_2CC','008_1mg_ml_003_2CC')
-    # interface.interface_develop_model.run_test('/home/user/Documents/009_001_a','009_001_a')
-    interface.interface_develop_model.run_test('/home/user/Documents/009_001_af','009_001_af')
-    # interface.interface_develop_model.run_test('/home/user/Documents/009_001_afr','009_001_afr')
-    # interface.interface_develop_model.run_test('/home/user/Documents/009_002_f','009_002_f')
-    # interface.interface_develop_model.run_test('/home/user/Documents/009_002_ff','009_002_ff')
-    # interface.interface_develop_model.run_test('/home/user/Documents/009_002_ffr','009_002_ffr')
-    # interface.interface_develop_model.run_test('/home/user/Documents/011_5mg_ml_1CC_001','011_5mg_ml_1CC_001')
-    # interface.interface_develop_model.run_test('/home/user/Documents/011_5mg_ml_1CC_002','011_5mg_ml_1CC_002')
-    # interface.interface_develop_model.run_test('/home/user/Documents/011_5mg_ml_1CC_004','011_5mg_ml_1CC_004')
+    # input : (path_raw_data,path_packing_dst_folder)
+    interface.interface_develop_model.run_test('/Users/user/Documents/DATA/RAW/005_0025mg_ml_001','/Users/user/Documents/GitHub/tiri_pulgin_v2/005_0025_001')
 
 if __name__ == '__main__':
     # main()

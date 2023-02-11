@@ -30,6 +30,7 @@ import method.regionSplit
 import method.regionMethodV2
 import method.regionMethodStep2
 import method.pack
+import method.areaMethod
 
 
 class interfaceCalibration:
@@ -340,35 +341,49 @@ class interfaceLineMethod:
 
         except Exception as e:
             logging.debug(e)
-    #=========================================================================
-def run_test(p,n):
-    # method.initialization.run()
-    # processA = interfaceCalibration()
-    # processA.skipCalib()
-    # processA.imgProc(p)
-    # interfaceImgToVid().doTransfer()
-    # interfaceOpticalFlow().doOpticalFlow()
-    # interfaceCalulation_for_all().doCal()
-    # interfaceFilter().doFilter()
 
-    #=======ver0======================================================
-    # period function ADD HERE
+
+#========enable=================================================================
+def run_test(p,n):
+    method.initialization.run()
+    processA = interfaceCalibration()
+    processA.skipCalib()
+    processA.imgProc(p)
+    interfaceImgToVid().doTransfer()
+    interfaceOpticalFlow().doOpticalFlow()
+    interfaceCalulation_for_all().doCal()
+    interfaceFilter().doFilter()  #<-- after_first_filter folder exited
+    # ⬇ To do the data split by region
+    job_regionSplit = method.regionSplit.region_split()
+    job_regionSplit.second_region()
+    job_regionSplit.data_split()
+    # ⬇area method
+    job_areaMethod =method.areaMethod.classAreaMethod() 
+    job_areaMethod.makeFolder()
+    job_areaMethod.copyAll()
+    job_areaMethod.getItemsFromRegion()
+    # ⬇ result packing
+    method.pack.doPack(n)
+
+    #=======ver0======disable================================================
+    ## ⬇period function ADD HERE
+    ## line method ver1
     # interfaceLineMethod().run()
     # filing
     # os.mkdir('../output_005_0.025mg_ml_001')
     # interfaceMoveFolder.doMoveFolder('../output_005_0.025mg_ml_001')
 
-    #=======ver1======================================================
-    # job_regionSplit = method.regionSplit.region_split()
-    # job_regionSplit.second_region()
-    # job_regionSplit.data_split()
+    ## ⬇line method ver 2
+    # job_regionMthodV2=method.regionMethodV2.regMethod(0)
+    # job_regionMthodV2.catchR2()
 
-    job_regionMthodV2=method.regionMethodV2.regMethod(0)
-    job_regionMthodV2.catchR2()
+    # job_regionMthodV2_2=method.regionMethodV2.regMethod(1)
+    # job_regionMthodV2_2.catchR2()
+    ## ⬇ data intergration of line method ver2 (aka sub-method of line method ver2)
+    # method.regionMethodStep2.regionIntegration()
+    # method.regionMethodStep2.writexlsx()
 
-    job_regionMthodV2_2=method.regionMethodV2.regMethod(1)
-    job_regionMthodV2_2.catchR2()
+    #=======ver1==tweak====================================================
+    
 
-    method.regionMethodStep2.regionIntegration()
-    method.regionMethodStep2.writexlsx()
-    method.pack.run_pack(n)
+  

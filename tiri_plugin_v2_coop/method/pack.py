@@ -1,50 +1,34 @@
 import os
 
-def run_pack(case_name):
-    path_data_folder = '../../data'
-    dst = path_data_folder+'/'+case_name
+def doPack(dst_path): #full path
 
-    if os.path.exists(dst) == False:
-        os.system('mkdir '+dst)
+    #check/create the dst path folder
+    if os.path.exists(dst_path)==True:
+        print(str(dst_path)+' exited')
+    else:
+        os.system('mkdir '+str(dst_path))
 
-    if os.path.exists('./temp_img_0') == True:
-        os.system('mv ./temp_img_0 '+dst+'/temp_img_0')
-        print('MOVED temp_img_0')
+    ls_prog = ['ui', 'interface', '.DS_Store', 'testingBox', 
+    '.gitattributes', 'requirement.txt', 'log', 
+    'log-camera-calibration-setting', '.vscode', 
+    '__main__.py', 'method']
+    
+    # following elemets need to be kept
+    # ['ui', 'interface', '.DS_Store', 'testingBox', 
+    # '.gitattributes', 'requirement.txt', 'log', 
+    # 'log-camera-calibration-setting', '.vscode', 
+    # '__main__.py', 'method']
 
-    if os.path.exists('./temp_img_1') == True:
-        os.system('mv ./temp_img_1 '+dst+'/temp_img_1')
-        print('MOVED temp_img_1')
+    ls_element = os.listdir('./')
+    for element in ls_element:
 
-    if os.path.exists('./video') == True:
-        os.system('mv ./video '+dst+'/video')
-        print('MOVED video')
+        if ls_prog.count(str(element)) == 0 :
+            cmd_line = 'mv '+str(element)+' '+str(dst_path)+'/'+str(element)
+            os.system(cmd_line)
+            print(element,' is moved')
+        
+            
 
-    if os.path.exists('./displacementPerFrame') == True:
-        os.system('mv ./displacementPerFrame '+dst+'/displacementPerFrame')
-        print('MOVED displacementPerFrame')
-
-    if os.path.exists('./graph') == True:
-        os.system('mv ./graph '+dst+'/graph')
-        print('MOVED graph')
-
-    if os.path.exists('./after_first_filter') == True:
-        os.system('mv ./after_first_filter '+dst+'/after_first_filter')
-        print('MOVED after_first_filter')
-
-    if os.path.exists('./feature_point_0') == True:
-        os.system('mv ./feature_point_0 '+dst+'/feature_point_0')
-        print('MOVED feature_point_0')
-
-    if os.path.exists('./feature_point_1') == True:
-        os.system('mv ./feature_point_1 '+dst+'/feature_point_1')
-        print('MOVED feature_point_1')
-
-    if os.path.exists('./excel_cam_0') == True:
-        os.system('mv ./excel_cam_0 '+dst+'/excel_cam_0')
-        print('MOVED excel_cam_0')
-
-    if os.path.exists('./excel_cam_1') == True:
-        os.system('mv ./excel_cam_1 '+dst+'/excel_cam_1')
-        print('MOVED excel_cam_1')
 
 #===========================================
+# doPack('./')

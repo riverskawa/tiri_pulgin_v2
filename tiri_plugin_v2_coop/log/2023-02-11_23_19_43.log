@@ -1,0 +1,6 @@
+[D 20230211 23:19:43 __init__:281] matplotlib data path: /Users/user/opt/anaconda3/envs/py38/lib/python3.8/site-packages/matplotlib/mpl-data
+[D 20230211 23:19:43 __init__:281] CONFIGDIR=/Users/user/.matplotlib
+[D 20230211 23:19:43 __init__:1456] interactive is False
+[D 20230211 23:19:43 __init__:1457] platform is darwin
+[D 20230211 23:19:44 __init__:281] CACHEDIR=/Users/user/.matplotlib
+[D 20230211 23:19:44 font_manager:1629] Using fontManager instance from /Users/user/.matplotlib/fontlist-v330.json

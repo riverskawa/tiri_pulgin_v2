@@ -97,6 +97,12 @@ class classAreaMethod:
         #     print('./area_method has already exited') 
 
     # sub folders
+        #create './area_method' folder
+        if os.path.exists('./area_method') == False:
+            os.system('mkdir ./area_method')
+        else:
+            print('./area_method has already exited') 
+
         if os.path.exists('./area_method/1') == False:
             os.system('mkdir ./area_method/1')
         else:
@@ -317,11 +323,8 @@ class classAreaMethod:
             
 
 #==============================
-# makeFolder()
-# copyAll()
-job =classAreaMethod()
+
+# job =classAreaMethod() 
 # job.makeFolder()
 # job.copyAll()
-
-job.getItemsFromRegion()
-# job.calArea()
+# job.getItemsFromRegion() 
