@@ -28,7 +28,7 @@ def data_fill_in(path_xlsx2edit,ls_data):
         case_name = str(term_case[1])
         sheet_editing.cell(row=1,column =all_col,value=case_name)
         for data2fill in range (0,int(len(term_case)-15)):
-            sheet_editing.cell(row=int(data2fill+2+area_start_frame),column =all_col,value=term_case[data2fill+15])    # the actual area common starting frame is excel_row-2
+            sheet_editing.cell(row=int(data2fill+2+area_start_frame),column =all_col,value=float(term_case[data2fill+15]))    # the actual area common starting frame is excel_row-2
         
         all_col+=1
     
